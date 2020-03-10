@@ -1,1 +1,1 @@
-# SipItApp
+# SipIt App
