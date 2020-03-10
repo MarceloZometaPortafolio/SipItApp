@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace SipItApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : ContentPage
+    public partial class SettingsPage : ContentPage
     {
-        public MainPage()
+        public SettingsPage()
         {
             InitializeComponent();
         }
