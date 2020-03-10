@@ -15,6 +15,7 @@ namespace SipItApp.Views
         public HomePage()
         {
             InitializeComponent();
+            MasterBehavior = MasterBehavior.Popover;
         }
     }
 }

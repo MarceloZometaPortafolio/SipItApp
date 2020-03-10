@@ -17,13 +17,22 @@ namespace SipItApp
          */
         public App() : this(null) { }
 
-        public App(IPlatformInitializer initializer) : base(initializer) { }
+        public App(IPlatformInitializer initializer) : base(initializer) 
+        {
+            var menuPage = new HamburgerMenu();
+            NavigationPage navigation = new NavigationPage(new MainPage());
+            var masterPage = new HomePage();
+            masterPage.Master = menuPage;
+            masterPage.Detail = navigation;
+
+            MainPage = masterPage;
+        }
 
         protected override async void OnInitialized()
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("NavigationPage/HomePage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)

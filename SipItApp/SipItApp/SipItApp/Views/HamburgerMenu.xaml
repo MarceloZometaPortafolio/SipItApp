@@ -6,7 +6,9 @@
              xmlns:model="clr-namespace:SipItApp.Model"
              xmlns:views="clr-namespace:SipItApp.Views"
              mc:Ignorable="d"
-             x:Class="SipItApp.Views.HamburgerMenu">
+             x:Class="SipItApp.Views.HamburgerMenu"
+             Title="Menu"
+             IconImageSource="C:\Users\marcelo.zometapaniag\SipItApp\SipItApp\SipItApp\SipItApp\list-512.png">
     <StackLayout>
         <ListView x:Name="NavigationListView"
                   x:FieldModifier="public">

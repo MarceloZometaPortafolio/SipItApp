@@ -7,7 +7,12 @@
              x:Class="SipItApp.Views.HomePage"
              xmlns:views="clr-namespace:SipItApp.Views">
     <MasterDetailPage.Master>
-        <views:HamburgerMenu x:Name="HamburgerMenu"></views:HamburgerMenu>
+        <NavigationPage Title="Required"
+                        IconImageSource="C:\Users\marcelo.zometapaniag\SipItApp\SipItApp\SipItApp\SipItApp\list-512.png">
+            <x:Arguments>
+                <views:HamburgerMenu x:Name="HamburgerMenu"></views:HamburgerMenu>
+            </x:Arguments>
+        </NavigationPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
         <NavigationPage>
