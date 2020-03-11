@@ -5,6 +5,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="SipItApp.Views.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="Login"
+                     Order="Primary"
+                     Text="Login">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"
