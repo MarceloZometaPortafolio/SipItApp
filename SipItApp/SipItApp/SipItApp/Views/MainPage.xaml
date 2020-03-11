@@ -4,12 +4,21 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="SipItApp.Views.MainPage">
+             x:Class="SipItApp.Views.MainPage"
+             Title="{Binding Title}">
     <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="Title"
+                     Order="Primary"
+                     Text="Sip It"
+                     Priority="0">
+        </ToolbarItem>
         <ToolbarItem x:Name="Login"
                      Order="Primary"
-                     Text="Login">
+                     Text="Login"
+                     Priority="1"
+                     >
         </ToolbarItem>
+        
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>

@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="SipItApp.Views.HomePage"
-             xmlns:views="clr-namespace:SipItApp.Views">
+             xmlns:views="clr-namespace:SipItApp.Views"
+                  Title="{Binding Title}">
     <MasterDetailPage.Master>
         <NavigationPage Title="Required"
                         IconImageSource="C:\Users\marcelo.zometapaniag\SipItApp\SipItApp\SipItApp\SipItApp\list-512.png">

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace SipItApp.ViewModels
 {
-    public class MainPageViewModel : ViewModelBase
+    public class HomePageViewModel : ViewModelBase
     {
-        public MainPageViewModel(INavigationService navigationService) : base(navigationService)
+        public HomePageViewModel(INavigationService navigationService) : base(navigationService)
         {
             Title = "Sip It";
         }
