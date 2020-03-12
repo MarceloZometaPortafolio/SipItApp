@@ -15,6 +15,9 @@ namespace SipItApp.Views
         public MainPage()
         {
             InitializeComponent();
+            
         }
+
+        public ImageSource BackgroundImageSource { get; set; }
     }
 }

@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-             mc:Ignorable="d"
+             mc:Ignorable="d"             
+             BackgroundImageSource="SipItApp/Images/SipItLogo.png"
              x:Class="SipItApp.Views.MainPage"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
@@ -22,13 +23,16 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Orientation="Vertical">
+                <!--<Image Source="{Binding BackgroundImage}"
+                       Aspect="AspectFill"
+                       Opacity="0.7" />-->
+
                 <!--Carousel-->
-                <BoxView BackgroundColor="LightBlue"
-                         VerticalOptions="Start"
-                         HorizontalOptions="FillAndExpand"
-                         HeightRequest="250"
-                         Margin="10,10, 10, 0">
-                </BoxView>
+                <CarouselView VerticalOptions="Start"
+                              HorizontalOptions="FillAndExpand"
+                              HeightRequest="250"
+                              Margin="10,10, 10, 0">
+                </CarouselView>
                 
                 <!--The Usual card-->
                 <yummy:PancakeView BackgroundColor="Transparent"
@@ -48,17 +52,20 @@
                             <ColumnDefinition Width="5*"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
                         <Button Text="Get the usual"
+                                FontFamily="{StaticResource Righteous}"
                                 TextColor="White"
                                 FontAttributes="Bold"
-                                BackgroundColor="#F24741"
+                                BackgroundColor="#F25741"
                                 Command="{Binding GetUsual}"
                                 Grid.ColumnSpan="2"
                                 WidthRequest="225"
                                 HeightRequest="40"
                                 Margin="0, 5, 0, 5"
+                                CornerRadius="5"
                                 HorizontalOptions="CenterAndExpand">
                         </Button>
                         <Button Text="Order"
+                                FontFamily="{StaticResource Righteous}"
                                 TextColor="White"
                                 FontAttributes="Bold"
                                 BackgroundColor="#02777C"
@@ -67,10 +74,12 @@
                                 WidthRequest="150"
                                 HeightRequest="40"
                                 Margin="0, 0, 7, 5"
+                                CornerRadius="5"
                                 HorizontalOptions="End">
                         </Button>
                         <Button Text="Menu"
                                 TextColor="White"
+                                FontFamily="{StaticResource Righteous}"
                                 FontAttributes="Bold"
                                 BackgroundColor="#02777C"
                                 Command="{Binding SeeMenu}"
@@ -78,14 +87,51 @@
                                 WidthRequest="150"
                                 HeightRequest="40"
                                 Margin="7, 0, 0, 5"
+                                CornerRadius="5"
                                 Grid.Column="1"
                                 HorizontalOptions="Start">
                         </Button>
                     </Grid>
-
                 </yummy:PancakeView>
                 
                 <!--Menu-->
+                <yummy:PancakeView BackgroundColor="Transparent"
+                                   BorderColor="#F25741"
+                                   BorderThickness="6"
+                                   CornerRadius="5"
+                                   HorizontalOptions="FillAndExpand"
+                                   HeightRequest="200"
+                                   Margin="10, 10, 10, 10">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5*"></ColumnDefinition>
+                            <ColumnDefinition Width="5*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <BoxView BackgroundColor="#F25741"
+                                 HeightRequest="35"
+                                 HorizontalOptions="FillAndExpand"
+                                 Grid.ColumnSpan="2">
+                        </BoxView>
+                        <Label Text="Recommended for you"
+                               FontFamily="{StaticResource Righteous}"
+                               FontSize="Medium"
+                               TextColor="White"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Grid.ColumnSpan="2"
+                               VerticalOptions="Center"
+                               >
+                            
+                        </Label>
+                    </Grid>
+                </yummy:PancakeView>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -4,12 +4,17 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="SipItApp.Views.SettingsPage">
+             xmlns:local="clr-namespace:SipItApp;assembly=SipItApp"
+             x:Class="SipItApp.Views.SettingsPage"
+             BackgroundImageSource="SipItLogo.png">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Settings!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <ImageButton Source="{Binding Images}"
+                         HeightRequest="800">
+            </ImageButton>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

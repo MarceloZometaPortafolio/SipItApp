@@ -35,7 +35,7 @@
                 Accents-->
   <style name="AppToolbarTheme" parent="Theme.AppCompat.NoActionBar">
     <item name="android:textColorPrimary" >#F25741</item>
-    <item name="android:textColorSecondary" >#02777C</item>
+    <item name="android:textColorSecondary" >#02777C</item>    
 
     <!--If you are using revision 22.1 please use just windowNoTitle. Without android:-->
     <item name="windowNoTitle">true</item>

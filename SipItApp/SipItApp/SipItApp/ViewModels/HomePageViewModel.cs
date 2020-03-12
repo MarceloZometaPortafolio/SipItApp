@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Forms;
 
 namespace SipItApp.ViewModels
 {
@@ -11,5 +12,7 @@ namespace SipItApp.ViewModels
         {
             Title = "Sip It";
         }
+
+        public ImageSource BackgroundImage => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
     }
 }

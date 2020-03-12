@@ -12,6 +12,13 @@
                 <Setter Property="BarTextColor"
                         Value="#F25741" />
             </Style>
+            <OnPlatform x:TypeArguments="x:String"
+                        x:Key="Righteous">
+                <On Platform="Android"
+                    Value="Righteous-Regular.ttf#Righteous" />
+                <On Platform="iOS"
+                    Value="Righteous-Regular.ttf" />
+            </OnPlatform>
         </ResourceDictionary>
     </Application.Resources>
 </prism:PrismApplication>
