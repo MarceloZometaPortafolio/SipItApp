@@ -23,21 +23,65 @@
         <ScrollView>
             <StackLayout Orientation="Vertical">
                 <!--Carousel-->
-                <BoxView BackgroundColor="#F24741"
+                <BoxView BackgroundColor="LightBlue"
                          VerticalOptions="Start"
                          HorizontalOptions="FillAndExpand"
-                         HeightRequest="250">
+                         HeightRequest="250"
+                         Margin="10,10, 10, 0">
                 </BoxView>
                 
                 <!--The Usual card-->
                 <yummy:PancakeView BackgroundColor="Transparent"
                                    BorderColor="#02777C"
-                                   BorderThickness="4"
-                                   CornerRadius="5"
-                                   HeightRequest="50"
+                                   BorderThickness="6"
+                                   CornerRadius="5"                                   
                                    HorizontalOptions="FillAndExpand"
-                                   Margin="10, 10, 10, 10">
-                    <Label Text="This will be a grid!!" />
+                                   Margin="10, 10, 10, 10"
+                                   Padding="10">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5*"></ColumnDefinition>
+                            <ColumnDefinition Width="5*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button Text="Get the usual"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                BackgroundColor="#F24741"
+                                Command="{Binding GetUsual}"
+                                Grid.ColumnSpan="2"
+                                WidthRequest="225"
+                                HeightRequest="40"
+                                Margin="0, 5, 0, 5"
+                                HorizontalOptions="CenterAndExpand">
+                        </Button>
+                        <Button Text="Order"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                BackgroundColor="#02777C"
+                                Command="{Binding OrderItem}"
+                                Grid.Row="1"
+                                WidthRequest="150"
+                                HeightRequest="40"
+                                Margin="0, 0, 7, 5"
+                                HorizontalOptions="End">
+                        </Button>
+                        <Button Text="Menu"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                BackgroundColor="#02777C"
+                                Command="{Binding SeeMenu}"
+                                Grid.Row="1"
+                                WidthRequest="150"
+                                HeightRequest="40"
+                                Margin="7, 0, 0, 5"
+                                Grid.Column="1"
+                                HorizontalOptions="Start">
+                        </Button>
+                    </Grid>
 
                 </yummy:PancakeView>
                 
