@@ -12,7 +12,8 @@
             <Label Text="Welcome to Settings!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <ImageButton Source="{Binding Images}"
+            <Label Text="{Binding MySettingsText, FallbackValue='Nothing to see here...'}" />
+            <ImageButton Source="{Binding Images}" Opacity=".7"
                          HeightRequest="800">
             </ImageButton>
         </StackLayout>

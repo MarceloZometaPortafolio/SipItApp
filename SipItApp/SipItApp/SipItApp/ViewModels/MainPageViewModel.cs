@@ -11,10 +11,19 @@ namespace SipItApp.ViewModels
         public MainPageViewModel(INavigationService navigationService) : base(navigationService)
         {
             Title = "Sip It";
+            MyText = "Hi Mom!";
             Images = new List<string>() {
                 "SipItApp/Images/chirs.jpg"
-            };  
+            };
         }
+        private String myText;
+
+        public String MyText
+        {
+            get => myText;
+            set { SetProperty(ref myText, value);  }
+        }
+
 
         private List<string> images;
         public List<string> Images

@@ -1,5 +1,6 @@
 ﻿using Prism;
 using Prism.Ioc;
+using Prism.Navigation;
 using SipItApp.ViewModels;
 using SipItApp.Views;
 using Xamarin.Forms;
@@ -19,22 +20,25 @@ namespace SipItApp
 
         public App(IPlatformInitializer initializer) : base(initializer) 
         {
-            var menuPage = new HamburgerMenu();
-            NavigationPage navigation = new NavigationPage(new MainPage());
-            var masterPage = new HomePage();
-            masterPage.Master = menuPage;
-            masterPage.Detail = navigation;
+            //var menuPage = new HamburgerMenu();
+            //NavigationPage navigation = new NavigationPage(new MainPage());
+            //var masterPage = new HomePage();
+            //masterPage.Master = menuPage;
+            //masterPage.Detail = navigation;
 
-            var settingsPage = new SettingsPage();
+            //var settingsPage = new SettingsPage();
 
-            MainPage = masterPage;
+            //MainPage = masterPage;
         }
 
         protected override async void OnInitialized()
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/HomePage");
+            await NavigationService.NavigateAsync("HomePage/NavigationPage/MainPage");
+
+            //var navigationService = this.Container.Resolve<INavigationService>();
+            //((NavigationPage)MainPage).RootPage.BindingContext = new MainPageViewModel(navigationService);            
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)

@@ -14,6 +14,6 @@ namespace SipItApp.ViewModels
         }
 
         public ImageSource Images => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
-
+        public string MySettingsText => "this is bound!";
     }
 }
