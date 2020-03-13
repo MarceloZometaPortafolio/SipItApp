@@ -27,14 +27,14 @@ namespace SipItApp
 
             var settingsPage = new SettingsPage();
 
-            MainPage = settingsPage;
+            MainPage = masterPage;
         }
 
         protected override async void OnInitialized()
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/SettingsPage");
+            await NavigationService.NavigateAsync("NavigationPage/HomePage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
