@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             mc:Ignorable="d"
+             x:Class="SipItApp.Views.LoginPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Sip It App"
+                       HeightRequest="110"
+                       HorizontalOptions="FillAndExpand"
+                       TextColor="#02777C"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+                
+                <inputLayout:SfTextInputLayout Hint="Username"
+                                               ContainerType="Outlined"
+                                               Margin="20,0,20,0"
+                                               HeightRequest="50"
+                                               FocusedColor="#f25741"
+                                               UnfocusedColor="#02777C"
+                                               LeadingViewPosition="Inside">
+                    <inputLayout:SfTextInputLayout.LeadingView>
+                        <Label>👤</Label>
+                    </inputLayout:SfTextInputLayout.LeadingView>
+
+                    <Entry Text="{Binding UserLogin}" />
+                </inputLayout:SfTextInputLayout>
+                <inputLayout:SfTextInputLayout Hint="Password"
+                                               ContainerType="Outlined"
+                                               Margin="20,20,20,0"
+                                               HeightRequest="50"
+                                               FocusedColor="#f25741"
+                                               UnfocusedColor="#02777C"
+                                               LeadingViewPosition="Inside">
+                    <inputLayout:SfTextInputLayout.LeadingView>
+                        <Label>🔒</Label>
+                    </inputLayout:SfTextInputLayout.LeadingView>
+
+                    <Entry Text="{Binding UserPassword}"
+                           IsPassword="True"/>
+                </inputLayout:SfTextInputLayout>
+
+                <Button Text="Login"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        Margin="30,20,30,0"
+                        TextColor="White"
+                        CornerRadius="5"
+                        BackgroundColor="#02777C"
+                        Command="{Binding Login}" />
+                
+                <Button Text="Create Account"
+                       HorizontalOptions="Center"
+                       FontSize="Subtitle"
+                       TextColor="#f25741" 
+                        BackgroundColor="Transparent"/>
+                <Button Text="Forgot Password?"
+                       HorizontalOptions="Center"
+                       FontSize="Subtitle"
+                       TextColor="#02777C" 
+                       BackgroundColor="Transparent"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

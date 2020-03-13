@@ -25,6 +25,8 @@ namespace SipItApp
             masterPage.Master = menuPage;
             masterPage.Detail = navigation;
 
+            var loginPage = new LoginPage();
+            var registerPage = new RegisterPage();
             MainPage = masterPage;
         }
 
@@ -32,13 +34,15 @@ namespace SipItApp
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/HomePage");
+            await NavigationService.NavigateAsync("NavigationPage/MainPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
+            containerRegistry.RegisterForNavigation<RegisterPage, RegisterPageViewModel>();
         }
     }
 }
