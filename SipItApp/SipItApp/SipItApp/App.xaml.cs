@@ -27,7 +27,7 @@ namespace SipItApp
 
             var loginPage = new LoginPage();
             var registerPage = new RegisterPage();
-            MainPage = masterPage;
+            MainPage = registerPage;
         }
 
         protected override async void OnInitialized()

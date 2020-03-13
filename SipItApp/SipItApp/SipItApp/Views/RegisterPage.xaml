@@ -95,7 +95,7 @@
                         BackgroundColor="#02777C"
                         Command="{Binding CreateAccount}" />
 
-                <Button Text="Already have an accout?"
+                <Button Text="Already have an account?"
                         HorizontalOptions="Center"
                         FontSize="Subtitle"
                         TextColor="#f25741"
