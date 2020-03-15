@@ -23,6 +23,8 @@
         <NavigationPage>
             <x:Arguments>
                 <views:MainPage></views:MainPage>
+                <!--<views:AccountPage></views:AccountPage>-->
+                <!--<views:SettingsPage></views:SettingsPage>-->
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

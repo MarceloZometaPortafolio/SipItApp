@@ -5,21 +5,33 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:model="clr-namespace:SipItApp.Model"
              xmlns:views="clr-namespace:SipItApp.Views"
+             xmlns:c="clr-namespace:SipItApp.Converters"
+             xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
              mc:Ignorable="d"
              x:Class="SipItApp.Views.HamburgerMenu"
              Title="Menu"
              IconImageSource="C:\Users\marcelo.zometapaniag\SipItApp\SipItApp\SipItApp\SipItApp\list-512.png">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <c:ItemTappedEventConverter x:Key="itemTappedEventConverter"></c:ItemTappedEventConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <StackLayout>
         <Button Text="Settings"
                 Command="{Binding NavigateToSettings}" />
         <ListView x:Name="NavigationListView"
                   x:FieldModifier="public">
+            <ListView.Behaviors>
+                <b:EventToCommandBehavior EventName="ItemTapped"
+                                          Command="{Binding NavigateToPage}"
+                                          EventArgsConverter="{StaticResource itemTappedEventConverter}" />
+            </ListView.Behaviors>
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type model:HamburgerNavigationItem}">
                     <model:HamburgerNavigationItem Name="Home"
                                                    Target="{x:Type views:MainPage}" />
-                    <model:HamburgerNavigationItem Name="Settings"
-                                                   Target="{x:Type views:SettingsPage}" />
+                    <model:HamburgerNavigationItem Name="Account"
+                                                   Target="{x:Type views:AccountPage}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
