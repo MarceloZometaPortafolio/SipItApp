@@ -10,6 +10,8 @@
              Title="Menu"
              IconImageSource="C:\Users\marcelo.zometapaniag\SipItApp\SipItApp\SipItApp\SipItApp\list-512.png">
     <StackLayout>
+        <Button Text="Settings"
+                Command="{Binding NavigateToSettings}" />
         <ListView x:Name="NavigationListView"
                   x:FieldModifier="public">
             <ListView.ItemsSource>

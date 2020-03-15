@@ -3,9 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms"
              x:Class="SipItApp.App">
-	<Application.Resources>
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="SipItRed">#F25741</Color>
+            <Color x:Key="SipItGreen">#02777C</Color>
+            <Color x:Key="SipItLightBlue">#C9E9E8</Color>
 
-		<!-- Application resource dictionary -->
-
-	</Application.Resources>
+            <Style TargetType="NavigationPage">
+                <!--<Setter Property="BarBackgroundColor"
+                        Value="#C9E9E8" />-->
+                <Setter Property="BarTextColor"
+                        Value="#F25741" />
+            </Style>
+            <OnPlatform x:TypeArguments="x:String"
+                        x:Key="Righteous">
+                <On Platform="Android"
+                    Value="Righteous-Regular.ttf#Righteous" />
+                <On Platform="iOS"
+                    Value="Righteous-Regular.ttf" />
+            </OnPlatform>
+        </ResourceDictionary>
+    </Application.Resources>
 </prism:PrismApplication>

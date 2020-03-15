@@ -3,7 +3,8 @@
 
   <style name="MainTheme" parent="MainTheme.Base">
   </style>
-  <!-- Base theme applied no matter what API -->
+  <!-- Base theme applied no matter what API 
+       This is being used for the hamburger menu font color-->
   <style name="MainTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
     <!--If you are using revision 22.1 please use just windowNoTitle. Without android:-->
     <item name="windowNoTitle">true</item>
@@ -11,12 +12,12 @@
     <item name="windowActionBar">false</item>
     <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette -->
     <!-- colorPrimary is used for the default action bar background -->
-    <item name="colorPrimary">#2196F3</item>
+    <item name="colorPrimary">#C9E9E8</item>
     <!-- colorPrimaryDark is used for the status bar -->
-    <item name="colorPrimaryDark">#1976D2</item>
+    <item name="colorPrimaryDark">#02777C</item>
     <!-- colorAccent is used as the default value for colorControlActivated
          which is used to tint widgets -->
-    <item name="colorAccent">#FF4081</item>
+    <item name="colorAccent">#F25741</item>
     <!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
     <item name="windowActionModeOverlay">true</item>
@@ -26,5 +27,32 @@
 
   <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
     <item name="colorAccent">#FF4081</item>
+  </style>
+
+  <!-- Customized style
+      We control: Action Bar Background
+                Text color
+                Accents-->
+  <style name="AppToolbarTheme" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:textColorPrimary" >#F25741</item>
+    <item name="android:textColorSecondary" >#02777C</item>    
+
+    <!--If you are using revision 22.1 please use just windowNoTitle. Without android:-->
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
+    <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette -->
+    <!-- colorPrimary is used for the default action bar background -->
+    <item name="colorPrimary">#c9e9e8</item>
+    <!-- colorPrimaryDark is used for the status bar -->
+    <item name="colorPrimaryDark">#F25741</item>
+    <!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+    <item name="colorAccent">#F25741</item>
+    <!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight and colorSwitchThumbNormal. -->
+    <item name="windowActionModeOverlay">true</item>
+
+    <item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>
   </style>
 </resources>
