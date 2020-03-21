@@ -4,11 +4,46 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlfrmats.org/markup-compatibility/2006"
              xmlns:views="clr-namespace:SipItApp.Views"             
-             x:Class="SipItApp.Views.AppShell">
-    <FlyoutItem Title="Home">
+             x:Class="SipItApp.Views.AppShell"
+             Title="{Binding Title}"
+             >
+    <Shell.BackgroundColor>#C9E9E8</Shell.BackgroundColor>
+
+    <FlyoutItem Title="Home"
+                Icon="SipItLogo.png">
         <views:MainPage />
     </FlyoutItem>
     <FlyoutItem Title="Settings">
         <views:SettingsPage />
     </FlyoutItem>
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Color x:Key="NavigationPrimary">#2196F3</Color>
+            <Style x:Key="BaseStyle"
+                   TargetType="Element">
+                <Setter Property="Shell.BackgroundColor"
+                        Value="#ffff00" />
+                <Setter Property="Shell.ForegroundColor"
+                        Value="White" />
+                <Setter Property="Shell.TitleColor"
+                        Value="Red" />
+                <Setter Property="Shell.DisabledColor"
+                        Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor"
+                        Value="#95FFFFFF" />
+                <Setter Property="Shell.TabBarBackgroundColor"
+                        Value="#ffff00" />
+                <Setter Property="Shell.TabBarForegroundColor"
+                        Value="White" />
+                <Setter Property="Shell.TabBarUnselectedColor"
+                        Value="#95FFFFFF" />
+                <Setter Property="Shell.TabBarTitleColor"
+                        Value="Red" />
+            </Style>
+            <Style TargetType="TabBar"
+                   BasedOn="{StaticResource BaseStyle}" />
+            
+        </ResourceDictionary>
+    </Shell.Resources>
 </Shell>

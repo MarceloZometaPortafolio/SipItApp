@@ -23,6 +23,11 @@
                 <On Platform="iOS"
                     Value="Righteous-Regular.ttf" />
             </OnPlatform>
+            <Style x:Key="BackgroundLogo"
+                   TargetType="Image">
+                <Setter Property="Source"
+                        Value="Images.SipItLogo.png" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </prism:PrismApplication>

@@ -22,7 +22,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <views:MainPage></views:MainPage>
+                <!--<views:MainPage></views:MainPage>-->
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

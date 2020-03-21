@@ -7,7 +7,14 @@
              mc:Ignorable="d"                          
              x:Class="SipItApp.Views.MainPage"
              Title="{Binding Title}"
-             BackgroundImageSource="{Binding BackgroundImage}">
+             BackgroundImageSource="{StaticResource BackgroundLogo}">
+    <Shell.TitleView>
+        <Label Text="{Binding Title, FallbackValue='no value chief'}"
+               VerticalOptions="Center"
+               HorizontalOptions="End"
+               FontSize="Large" />
+    </Shell.TitleView>
+
     <ContentPage.ToolbarItems>
         <ToolbarItem x:Name="Title"
                      Order="Primary"
