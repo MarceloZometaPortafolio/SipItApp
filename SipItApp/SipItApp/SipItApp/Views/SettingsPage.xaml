@@ -14,7 +14,7 @@
                 HorizontalOptions="CenterAndExpand" />
             <Label Text="{Binding MySettingsText, FallbackValue='Nothing to see here...'}" />
             <ImageButton Source="{Binding Images}" Opacity=".7"
-                         HeightRequest="800">
+                         HeightRequest="100">
             </ImageButton>
         </StackLayout>
     </ContentPage.Content>

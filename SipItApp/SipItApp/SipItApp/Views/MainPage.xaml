@@ -7,7 +7,7 @@
              mc:Ignorable="d"                          
              x:Class="SipItApp.Views.MainPage"
              Title="{Binding Title}"
-             BackgroundImageSource="{Binding BackgroundLogo}">
+             BackgroundImageSource="{Binding BackgroundImage}">
     <ContentPage.ToolbarItems>
         <ToolbarItem x:Name="Title"
                      Order="Primary"

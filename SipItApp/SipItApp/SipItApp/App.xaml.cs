@@ -29,13 +29,15 @@ namespace SipItApp
             //var settingsPage = new SettingsPage();
 
             //MainPage = masterPage;
+
+            MainPage = new AppShell();
         }
 
         protected override async void OnInitialized()
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("HomePage/NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("NavigationPage/MainPage");
 
             //var navigationService = this.Container.Resolve<INavigationService>();
             //((NavigationPage)MainPage).RootPage.BindingContext = new MainPageViewModel(navigationService);            
@@ -43,7 +45,7 @@ namespace SipItApp
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterForNavigation<NavigationPage>();
+            containerRegistry.RegisterForNavigation<NavigationPage>();            
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
             containerRegistry.RegisterForNavigation<SettingsPage, SettingsPageViewModel>();
