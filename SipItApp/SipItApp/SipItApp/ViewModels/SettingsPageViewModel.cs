@@ -10,7 +10,7 @@ namespace SipItApp.ViewModels
     {
         public SettingsPageViewModel(INavigationService navigationService) : base(navigationService)
         {
-
+            Console.WriteLine("Created new SettingsPage");
         }
 
         public ImageSource Images => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
