@@ -11,7 +11,8 @@
 
     <FlyoutItem Title="Home"
                 Icon="SipItLogo.png">
-        <views:MainPage />
+        <!--<views:MainPage />-->
+        <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Settings">
         <views:SettingsPage />

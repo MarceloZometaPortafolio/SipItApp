@@ -4,16 +4,18 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-             mc:Ignorable="d"                          
+             mc:Ignorable="d"
              x:Class="SipItApp.Views.MainPage"
-             Title="{Binding Title}"
-             BackgroundImageSource="{StaticResource BackgroundLogo}">
-    <Shell.TitleView>
+             Title="{Binding Title}">
+    <!--BackgroundImageSource="{StaticResource BackgroundImage}"-->
+    
+    
+    <!--<Shell.TitleView>
         <Label Text="{Binding Title, FallbackValue='no value chief'}"
                VerticalOptions="Center"
                HorizontalOptions="End"
                FontSize="Large" />
-    </Shell.TitleView>
+    </Shell.TitleView>-->
 
     <ContentPage.ToolbarItems>
         <ToolbarItem x:Name="Title"
@@ -30,11 +32,11 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Orientation="Vertical">
-                <!--<Image Source="{Binding BackgroundLogo}"
+                <Image Source="{Binding BackgroundLogo}"
                        Aspect="AspectFill"
-                       Opacity="0.7" />-->
+                       Opacity="0.7" />
 
-                <!--Carousel-->
+                <!--Carousel-->               
                 <CarouselView VerticalOptions="Start"
                               HorizontalOptions="FillAndExpand"
                               HeightRequest="250"
