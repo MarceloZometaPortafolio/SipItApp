@@ -11,9 +11,11 @@ namespace SipItApp.ViewModels
         public SettingsPageViewModel(INavigationService navigationService) : base(navigationService)
         {
             Console.WriteLine("Created new SettingsPage");
+            Title = "Settings";
         }
 
-        public ImageSource Images => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+        public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+
         public string MySettingsText => "this is bound!";
     }
 }

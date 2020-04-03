@@ -6,7 +6,9 @@
              mc:Ignorable="d"
              xmlns:local="clr-namespace:SipItApp;assembly=SipItApp"
              x:Class="SipItApp.Views.SettingsPage"
-             BackgroundImageSource="SipItLogo.png">
+             Title="{Binding Title}"
+             BackgroundImageSource="{Binding BackgroundLogo}">
+
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Settings!"

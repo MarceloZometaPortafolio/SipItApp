@@ -18,6 +18,7 @@
     <FlyoutItem Title="Settings">
         <views:SettingsPage />
     </FlyoutItem>
+    
 
     <Shell.Resources>
         <ResourceDictionary>
