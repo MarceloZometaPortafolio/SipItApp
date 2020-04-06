@@ -4,33 +4,68 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 using SipItApp.Views;
+using System.ComponentModel;
 
 namespace SipItApp.ViewModels
 {
-    public class MainPageViewModel : ViewModelBase
+    public class MainPageViewModel : INotifyPropertyChanged
     {
         private INavigationService navigationService;
-        public MainPageViewModel(INavigationService navigationService) : base(navigationService)
-        {
-            Console.WriteLine("Created new MainPage");
+        //public MainPageViewModel(INavigationService navigationService) : base(navigationService)
+        //{
+        //    Console.WriteLine("Created new MainPage");
 
-            Title = "Sip It";
-            this.navigationService = navigationService;
+        //    Title = "Sip It";
+        //    this.navigationService = navigationService;
+        //}
+        public MainPageViewModel()
+        {
+            defineTitle();
+            BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
         }
+
+        
+        public string Title { get; set; }
 
         public string MyText => "Hello World!";
 
         //public ImageSource BackgroundImage => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");                
 
-        public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+        public ImageSource BackgroundLogo;
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void defineBackgroundImage()
+        {
+            BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+        }
+
+        private void defineTitle()
+        {
+            Title = "Sip It!";
+        }
 
         private Command getUsual;
-
         public Command GetUsual => getUsual ?? (getUsual = new Command(
             () =>
             {
                 //navigationService.NavigateAsync(nameof(SettingsPage));
                 Console.WriteLine("GetUsual command triggered");
+            }));
+
+        private Command orderItem;
+        public Command OrderItem => orderItem ?? (orderItem = new Command(
+            () =>
+            {
+                Console.WriteLine("OrderItem command triggered");
+            }));
+
+        private Command seeMenu;
+        public Command SeeMenu => seeMenu ?? (seeMenu = new Command(
+            () =>
+            {
+                Console.WriteLine("SeeMenu command triggered");
             }));
     }
 }

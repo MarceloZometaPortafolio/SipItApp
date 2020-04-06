@@ -29,7 +29,8 @@ namespace SipItApp
             //var settingsPage = new SettingsPage();
 
             //MainPage = masterPage;
-
+          
+            //Here, according to Xaminals it needs to go Startup.Init();
             MainPage = new AppShell();
         }
 
@@ -50,6 +51,7 @@ namespace SipItApp
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
             containerRegistry.RegisterForNavigation<SettingsPage, SettingsPageViewModel>();
             containerRegistry.RegisterForNavigation<AppShell, AppShellViewModel>();
+            containerRegistry.RegisterForNavigation<ItemDetailPage, ItemDetailViewModel>();
         }
     }
 }

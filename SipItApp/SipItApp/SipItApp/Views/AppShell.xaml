@@ -6,7 +6,10 @@
              xmlns:views="clr-namespace:SipItApp.Views"             
              x:Class="SipItApp.Views.AppShell"
              Title="{Binding Title}"
-             >
+             Navigating="OnNavigating"
+             Navigated="OnNavigated">
+    
+    <!--Background color of the tabbar-->
     <Shell.BackgroundColor>#C9E9E8</Shell.BackgroundColor>
 
     <FlyoutItem Title="Home"
@@ -16,7 +19,7 @@
     </FlyoutItem>
     
     <FlyoutItem Title="Settings">
-        <views:SettingsPage />
+        <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" />
     </FlyoutItem>
     
 
