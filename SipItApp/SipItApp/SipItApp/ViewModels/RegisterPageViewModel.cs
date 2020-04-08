@@ -7,8 +7,7 @@ namespace SipItApp.ViewModels
 {
     public class RegisterPageViewModel : ViewModelBase
     {
-        public RegisterPageViewModel(INavigationService navigationService) 
-            : base(navigationService)
+        public RegisterPageViewModel() 
         {
 
         }

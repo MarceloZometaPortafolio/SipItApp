@@ -7,7 +7,7 @@ namespace SipItApp.ViewModels
 {
     public class AccountPageViewModel : ViewModelBase
     {
-        public AccountPageViewModel(INavigationService navigationService) : base(navigationService)
+        public AccountPageViewModel()
         {
         }
     }
