@@ -21,9 +21,11 @@ namespace SipItApp.ViewModels
 
             Title = "Sip It";
             this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
+            //BackgroundLogo
+
 
             //Customers = sipItService.GetCustomers();
-            
+
         }
         //public MainPageViewModel()
         //{
@@ -33,13 +35,13 @@ namespace SipItApp.ViewModels
 
         //public IEnumerable<Customer> Customers { get; private set; }
 
-        public string Title { get; set; }
+        //public string Title { get; set; }
 
         public string MyText => "Hello World!";
 
         //public ImageSource BackgroundImage => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");                
 
-        public ImageSource BackgroundLogo;
+        public ImageSource BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
 
 
         public event PropertyChangedEventHandler PropertyChanged;

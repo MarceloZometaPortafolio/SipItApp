@@ -115,7 +115,7 @@
                                BorderThickness="6"
                                CornerRadius="5"
                                HorizontalOptions="FillAndExpand"
-                               HeightRequest="450"
+                               HeightRequest="200"
                                Margin="10, 10, 10, 10">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -143,17 +143,17 @@
                            Grid.ColumnSpan="2"
                            VerticalOptions="Center">
                     </Label>
-                    <!--<Label Text="{Binding MyText, FallbackValue='fallback value'}"
+                    <Label Text="{Binding MyText, FallbackValue='fallback value'}"
                            Margin="5,0"
                            Grid.Row="1">
-                    </Label>-->
+                    </Label>
                     <!--<CollectionView Margin="5, 0"
                                     Grid.Row="1"
                                     ItemsSource="{x:Static data:RecommendedData.Items}"
                                     SelectionMode="Single"
                                     SelectionChanged="OnCollectionViewSelectionChanged">
                     </CollectionView>-->
-                        <CollectionView Margin="10">
+                        <!--<CollectionView Margin="10">
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
                                     <Grid>
@@ -174,7 +174,7 @@
                                     </Grid>
                                 </DataTemplate>
                             </CollectionView.ItemTemplate>
-                        </CollectionView>
+                        </CollectionView>-->
                     </Grid>
             </yummy:PancakeView>
             </StackLayout>            
