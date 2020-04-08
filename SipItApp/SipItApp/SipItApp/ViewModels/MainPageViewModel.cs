@@ -5,26 +5,34 @@ using System.Text;
 using Xamarin.Forms;
 using SipItApp.Views;
 using System.ComponentModel;
+using SipItApp.Services;
+using SipItApp.Model;
+using System.Collections.ObjectModel;
 
 namespace SipItApp.ViewModels
 {
-    public class MainPageViewModel : INotifyPropertyChanged
+    public class MainPageViewModel : ViewModelBase, INotifyPropertyChanged
     {
-        private INavigationService navigationService;
-        //public MainPageViewModel(INavigationService navigationService) : base(navigationService)
-        //{
-        //    Console.WriteLine("Created new MainPage");
+        private readonly ISipItService sipItService;
 
-        //    Title = "Sip It";
-        //    this.navigationService = navigationService;
-        //}
-        public MainPageViewModel()
+        public MainPageViewModel(ISipItService sipItService) 
         {
-            defineTitle();
-            BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
-        }
+            Console.WriteLine("Created new MainPage");
 
-        
+            Title = "Sip It";
+            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
+
+            //Customers = sipItService.GetCustomers();
+            
+        }
+        //public MainPageViewModel()
+        //{
+        //    defineTitle();
+        //    BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+        //}
+
+        //public IEnumerable<Customer> Customers { get; private set; }
+
         public string Title { get; set; }
 
         public string MyText => "Hello World!";

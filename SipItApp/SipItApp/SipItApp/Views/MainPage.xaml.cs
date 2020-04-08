@@ -1,4 +1,5 @@
 ﻿using Prism.Navigation;
+using SipItApp.Services;
 using SipItApp.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -14,15 +15,14 @@ namespace SipItApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
-        //MainPageViewModel viewModel;
-        //private INavigationService navigationService;
+        MainPageViewModel viewModel;      
 
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = new MainPageViewModel();
+            //BindingContext = new MainPageViewModel();
 
-            //BindingContext = viewModel = new MainPageViewModel(navigationService);           
+            BindingContext = Startup.ServiceProvider.GetService<MainPageViewModel>();           
         }
         async void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
         {

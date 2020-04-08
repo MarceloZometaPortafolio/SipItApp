@@ -16,6 +16,7 @@ namespace SipItApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
             
             ResourceManager.Init(GetType().Assembly);
+            Startup.Init();
             
             base.OnCreate(bundle);
 

@@ -53,6 +53,7 @@ namespace SipItApp.UWP
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
                 Xamarin.Forms.Forms.Init(e);
+                Startup.Init();
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

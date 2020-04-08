@@ -1,6 +1,8 @@
 ﻿using Prism;
 using Prism.Ioc;
 using Prism.Navigation;
+using Refit;
+using SipItApp.Services;
 using SipItApp.ViewModels;
 using SipItApp.Views;
 using Xamarin.Forms;
@@ -29,8 +31,9 @@ namespace SipItApp
             //var settingsPage = new SettingsPage();
 
             //MainPage = masterPage;
-          
+
             //Here, according to Xaminals it needs to go Startup.Init();
+            //Startup.Init();
             MainPage = new AppShell();
         }
 
@@ -52,6 +55,10 @@ namespace SipItApp
             containerRegistry.RegisterForNavigation<SettingsPage, SettingsPageViewModel>();
             containerRegistry.RegisterForNavigation<AppShell, AppShellViewModel>();
             containerRegistry.RegisterForNavigation<ItemDetailPage, ItemDetailViewModel>();
+
+           // var sipItService = RestService.For<ISipItService>("https:/localhost:32770");
+           // containerRegistry.RegisterInstance(sipItService);
+
         }
     }
 }
