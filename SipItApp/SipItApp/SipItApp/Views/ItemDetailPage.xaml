@@ -4,20 +4,21 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             xmlns:local="clr-namespace:SipItApp;assembly=SipItApp"
-             x:Class="SipItApp.Views.SettingsPage"
-             Title="{Binding Title}"
-             BackgroundImageSource="{Binding BackgroundLogo}">
-
+             x:Class="SipItApp.Views.ItemDetailPage">
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding BackCommand}"
+                            BindingContext="{Binding Source={x:Reference self}, Path=BindingContext}"
+                            IconOverride="back.png" />
+    </Shell.BackButtonBehavior>
+    
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Settings!"
+            <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Label Text="{Binding MySettingsText, FallbackValue='Nothing to see here...'}" />
-            <ImageButton Source="{Binding Images}" Opacity=".7"
-                         HeightRequest="100">
-            </ImageButton>
+            <Label Text="{Binding Name}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

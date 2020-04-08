@@ -11,13 +11,12 @@ namespace SipItApp.ViewModels
 {
     public class HomePageViewModel : ViewModelBase
     {
-        public HomePageViewModel(INavigationService navigationService) : base(navigationService)
+        public HomePageViewModel()
         {
             Title = "Sip It";
-            this.navigationService = navigationService;            
         }
 
-        public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");        
+        //public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");        
 
         public string MyText => "Hello World!";
 

@@ -3,6 +3,7 @@ using Android.Content.PM;
 using Android.OS;
 using Prism;
 using Prism.Ioc;
+using Xamarin.Forms.Platform.Android;
 
 namespace SipItApp.Droid
 {
@@ -13,7 +14,10 @@ namespace SipItApp.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
-
+            
+            ResourceManager.Init(GetType().Assembly);
+            Startup.Init();
+            
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);

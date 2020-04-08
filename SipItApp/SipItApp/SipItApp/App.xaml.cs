@@ -1,6 +1,8 @@
 ﻿using Prism;
 using Prism.Ioc;
 using Prism.Navigation;
+using Refit;
+using SipItApp.Services;
 using SipItApp.ViewModels;
 using SipItApp.Views;
 using Xamarin.Forms;
@@ -29,13 +31,17 @@ namespace SipItApp
             //var settingsPage = new SettingsPage();
 
             //MainPage = masterPage;
+
+            //Here, according to Xaminals it needs to go Startup.Init();
+            //Startup.Init();
+            MainPage = new AppShell();
         }
 
         protected override async void OnInitialized()
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("HomePage/NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("NavigationPage/MainPage");
 
             //var navigationService = this.Container.Resolve<INavigationService>();
             //((NavigationPage)MainPage).RootPage.BindingContext = new MainPageViewModel(navigationService);            
@@ -43,11 +49,16 @@ namespace SipItApp
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterForNavigation<NavigationPage>();
+            containerRegistry.RegisterForNavigation<NavigationPage>();            
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
             containerRegistry.RegisterForNavigation<SettingsPage, SettingsPageViewModel>();
-            containerRegistry.RegisterForNavigation<AccountPage, AccountPageViewModel>();
+            containerRegistry.RegisterForNavigation<AppShell, AppShellViewModel>();
+            containerRegistry.RegisterForNavigation<ItemDetailPage, ItemDetailViewModel>();
+
+           // var sipItService = RestService.For<ISipItService>("https:/localhost:32770");
+           // containerRegistry.RegisterInstance(sipItService);
+
         }
     }
 }

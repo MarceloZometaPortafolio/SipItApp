@@ -15,7 +15,7 @@ namespace SipItApp.Droid
 {
 	
 	
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
 	public partial class Resource
 	{
 		
@@ -26,2291 +26,188 @@ namespace SipItApp.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Prism.Resource.Animation.abc_fade_in = global::SipItApp.Droid.Resource.Animation.abc_fade_in;
-			global::Prism.Resource.Animation.abc_fade_out = global::SipItApp.Droid.Resource.Animation.abc_fade_out;
-			global::Prism.Resource.Animation.abc_grow_fade_in_from_bottom = global::SipItApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Prism.Resource.Animation.abc_popup_enter = global::SipItApp.Droid.Resource.Animation.abc_popup_enter;
-			global::Prism.Resource.Animation.abc_popup_exit = global::SipItApp.Droid.Resource.Animation.abc_popup_exit;
-			global::Prism.Resource.Animation.abc_shrink_fade_out_from_bottom = global::SipItApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Prism.Resource.Animation.abc_slide_in_bottom = global::SipItApp.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Prism.Resource.Animation.abc_slide_in_top = global::SipItApp.Droid.Resource.Animation.abc_slide_in_top;
-			global::Prism.Resource.Animation.abc_slide_out_bottom = global::SipItApp.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Prism.Resource.Animation.abc_slide_out_top = global::SipItApp.Droid.Resource.Animation.abc_slide_out_top;
-			global::Prism.Resource.Animation.design_bottom_sheet_slide_in = global::SipItApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Prism.Resource.Animation.design_bottom_sheet_slide_out = global::SipItApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Prism.Resource.Animation.design_snackbar_in = global::SipItApp.Droid.Resource.Animation.design_snackbar_in;
-			global::Prism.Resource.Animation.design_snackbar_out = global::SipItApp.Droid.Resource.Animation.design_snackbar_out;
-			global::Prism.Resource.Animation.EnterFromLeft = global::SipItApp.Droid.Resource.Animation.EnterFromLeft;
-			global::Prism.Resource.Animation.EnterFromRight = global::SipItApp.Droid.Resource.Animation.EnterFromRight;
-			global::Prism.Resource.Animation.ExitToLeft = global::SipItApp.Droid.Resource.Animation.ExitToLeft;
-			global::Prism.Resource.Animation.ExitToRight = global::SipItApp.Droid.Resource.Animation.ExitToRight;
-			global::Prism.Resource.Animator.design_appbar_state_list_animator = global::SipItApp.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Prism.Resource.Attribute.actionBarDivider = global::SipItApp.Droid.Resource.Attribute.actionBarDivider;
-			global::Prism.Resource.Attribute.actionBarItemBackground = global::SipItApp.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Prism.Resource.Attribute.actionBarPopupTheme = global::SipItApp.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Prism.Resource.Attribute.actionBarSize = global::SipItApp.Droid.Resource.Attribute.actionBarSize;
-			global::Prism.Resource.Attribute.actionBarSplitStyle = global::SipItApp.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Prism.Resource.Attribute.actionBarStyle = global::SipItApp.Droid.Resource.Attribute.actionBarStyle;
-			global::Prism.Resource.Attribute.actionBarTabBarStyle = global::SipItApp.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Prism.Resource.Attribute.actionBarTabStyle = global::SipItApp.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Prism.Resource.Attribute.actionBarTabTextStyle = global::SipItApp.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Prism.Resource.Attribute.actionBarTheme = global::SipItApp.Droid.Resource.Attribute.actionBarTheme;
-			global::Prism.Resource.Attribute.actionBarWidgetTheme = global::SipItApp.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Prism.Resource.Attribute.actionButtonStyle = global::SipItApp.Droid.Resource.Attribute.actionButtonStyle;
-			global::Prism.Resource.Attribute.actionDropDownStyle = global::SipItApp.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Prism.Resource.Attribute.actionLayout = global::SipItApp.Droid.Resource.Attribute.actionLayout;
-			global::Prism.Resource.Attribute.actionMenuTextAppearance = global::SipItApp.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Prism.Resource.Attribute.actionMenuTextColor = global::SipItApp.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Prism.Resource.Attribute.actionModeBackground = global::SipItApp.Droid.Resource.Attribute.actionModeBackground;
-			global::Prism.Resource.Attribute.actionModeCloseButtonStyle = global::SipItApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Prism.Resource.Attribute.actionModeCloseDrawable = global::SipItApp.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Prism.Resource.Attribute.actionModeCopyDrawable = global::SipItApp.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Prism.Resource.Attribute.actionModeCutDrawable = global::SipItApp.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Prism.Resource.Attribute.actionModeFindDrawable = global::SipItApp.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Prism.Resource.Attribute.actionModePasteDrawable = global::SipItApp.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Prism.Resource.Attribute.actionModePopupWindowStyle = global::SipItApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Prism.Resource.Attribute.actionModeSelectAllDrawable = global::SipItApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Prism.Resource.Attribute.actionModeShareDrawable = global::SipItApp.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Prism.Resource.Attribute.actionModeSplitBackground = global::SipItApp.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Prism.Resource.Attribute.actionModeStyle = global::SipItApp.Droid.Resource.Attribute.actionModeStyle;
-			global::Prism.Resource.Attribute.actionModeWebSearchDrawable = global::SipItApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Prism.Resource.Attribute.actionOverflowButtonStyle = global::SipItApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Prism.Resource.Attribute.actionOverflowMenuStyle = global::SipItApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Prism.Resource.Attribute.actionProviderClass = global::SipItApp.Droid.Resource.Attribute.actionProviderClass;
-			global::Prism.Resource.Attribute.actionViewClass = global::SipItApp.Droid.Resource.Attribute.actionViewClass;
-			global::Prism.Resource.Attribute.activityChooserViewStyle = global::SipItApp.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Prism.Resource.Attribute.alertDialogButtonGroupStyle = global::SipItApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Prism.Resource.Attribute.alertDialogCenterButtons = global::SipItApp.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Prism.Resource.Attribute.alertDialogStyle = global::SipItApp.Droid.Resource.Attribute.alertDialogStyle;
-			global::Prism.Resource.Attribute.alertDialogTheme = global::SipItApp.Droid.Resource.Attribute.alertDialogTheme;
-			global::Prism.Resource.Attribute.allowStacking = global::SipItApp.Droid.Resource.Attribute.allowStacking;
-			global::Prism.Resource.Attribute.alpha = global::SipItApp.Droid.Resource.Attribute.alpha;
-			global::Prism.Resource.Attribute.alphabeticModifiers = global::SipItApp.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Prism.Resource.Attribute.arrowHeadLength = global::SipItApp.Droid.Resource.Attribute.arrowHeadLength;
-			global::Prism.Resource.Attribute.arrowShaftLength = global::SipItApp.Droid.Resource.Attribute.arrowShaftLength;
-			global::Prism.Resource.Attribute.autoCompleteTextViewStyle = global::SipItApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Prism.Resource.Attribute.autoSizeMaxTextSize = global::SipItApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Prism.Resource.Attribute.autoSizeMinTextSize = global::SipItApp.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Prism.Resource.Attribute.autoSizePresetSizes = global::SipItApp.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Prism.Resource.Attribute.autoSizeStepGranularity = global::SipItApp.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Prism.Resource.Attribute.autoSizeTextType = global::SipItApp.Droid.Resource.Attribute.autoSizeTextType;
-			global::Prism.Resource.Attribute.background = global::SipItApp.Droid.Resource.Attribute.background;
-			global::Prism.Resource.Attribute.backgroundSplit = global::SipItApp.Droid.Resource.Attribute.backgroundSplit;
-			global::Prism.Resource.Attribute.backgroundStacked = global::SipItApp.Droid.Resource.Attribute.backgroundStacked;
-			global::Prism.Resource.Attribute.backgroundTint = global::SipItApp.Droid.Resource.Attribute.backgroundTint;
-			global::Prism.Resource.Attribute.backgroundTintMode = global::SipItApp.Droid.Resource.Attribute.backgroundTintMode;
-			global::Prism.Resource.Attribute.barLength = global::SipItApp.Droid.Resource.Attribute.barLength;
-			global::Prism.Resource.Attribute.behavior_autoHide = global::SipItApp.Droid.Resource.Attribute.behavior_autoHide;
-			global::Prism.Resource.Attribute.behavior_hideable = global::SipItApp.Droid.Resource.Attribute.behavior_hideable;
-			global::Prism.Resource.Attribute.behavior_overlapTop = global::SipItApp.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Prism.Resource.Attribute.behavior_peekHeight = global::SipItApp.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Prism.Resource.Attribute.behavior_skipCollapsed = global::SipItApp.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Prism.Resource.Attribute.borderlessButtonStyle = global::SipItApp.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Prism.Resource.Attribute.borderWidth = global::SipItApp.Droid.Resource.Attribute.borderWidth;
-			global::Prism.Resource.Attribute.bottomSheetDialogTheme = global::SipItApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Prism.Resource.Attribute.bottomSheetStyle = global::SipItApp.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Prism.Resource.Attribute.buttonBarButtonStyle = global::SipItApp.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Prism.Resource.Attribute.buttonBarNegativeButtonStyle = global::SipItApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Prism.Resource.Attribute.buttonBarNeutralButtonStyle = global::SipItApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Prism.Resource.Attribute.buttonBarPositiveButtonStyle = global::SipItApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Prism.Resource.Attribute.buttonBarStyle = global::SipItApp.Droid.Resource.Attribute.buttonBarStyle;
-			global::Prism.Resource.Attribute.buttonGravity = global::SipItApp.Droid.Resource.Attribute.buttonGravity;
-			global::Prism.Resource.Attribute.buttonPanelSideLayout = global::SipItApp.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Prism.Resource.Attribute.buttonStyle = global::SipItApp.Droid.Resource.Attribute.buttonStyle;
-			global::Prism.Resource.Attribute.buttonStyleSmall = global::SipItApp.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Prism.Resource.Attribute.buttonTint = global::SipItApp.Droid.Resource.Attribute.buttonTint;
-			global::Prism.Resource.Attribute.buttonTintMode = global::SipItApp.Droid.Resource.Attribute.buttonTintMode;
-			global::Prism.Resource.Attribute.cardBackgroundColor = global::SipItApp.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Prism.Resource.Attribute.cardCornerRadius = global::SipItApp.Droid.Resource.Attribute.cardCornerRadius;
-			global::Prism.Resource.Attribute.cardElevation = global::SipItApp.Droid.Resource.Attribute.cardElevation;
-			global::Prism.Resource.Attribute.cardMaxElevation = global::SipItApp.Droid.Resource.Attribute.cardMaxElevation;
-			global::Prism.Resource.Attribute.cardPreventCornerOverlap = global::SipItApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Prism.Resource.Attribute.cardUseCompatPadding = global::SipItApp.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Prism.Resource.Attribute.checkboxStyle = global::SipItApp.Droid.Resource.Attribute.checkboxStyle;
-			global::Prism.Resource.Attribute.checkedTextViewStyle = global::SipItApp.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Prism.Resource.Attribute.closeIcon = global::SipItApp.Droid.Resource.Attribute.closeIcon;
-			global::Prism.Resource.Attribute.closeItemLayout = global::SipItApp.Droid.Resource.Attribute.closeItemLayout;
-			global::Prism.Resource.Attribute.collapseContentDescription = global::SipItApp.Droid.Resource.Attribute.collapseContentDescription;
-			global::Prism.Resource.Attribute.collapsedTitleGravity = global::SipItApp.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Prism.Resource.Attribute.collapsedTitleTextAppearance = global::SipItApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Prism.Resource.Attribute.collapseIcon = global::SipItApp.Droid.Resource.Attribute.collapseIcon;
-			global::Prism.Resource.Attribute.color = global::SipItApp.Droid.Resource.Attribute.color;
-			global::Prism.Resource.Attribute.colorAccent = global::SipItApp.Droid.Resource.Attribute.colorAccent;
-			global::Prism.Resource.Attribute.colorBackgroundFloating = global::SipItApp.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Prism.Resource.Attribute.colorButtonNormal = global::SipItApp.Droid.Resource.Attribute.colorButtonNormal;
-			global::Prism.Resource.Attribute.colorControlActivated = global::SipItApp.Droid.Resource.Attribute.colorControlActivated;
-			global::Prism.Resource.Attribute.colorControlHighlight = global::SipItApp.Droid.Resource.Attribute.colorControlHighlight;
-			global::Prism.Resource.Attribute.colorControlNormal = global::SipItApp.Droid.Resource.Attribute.colorControlNormal;
-			global::Prism.Resource.Attribute.colorError = global::SipItApp.Droid.Resource.Attribute.colorError;
-			global::Prism.Resource.Attribute.colorPrimary = global::SipItApp.Droid.Resource.Attribute.colorPrimary;
-			global::Prism.Resource.Attribute.colorPrimaryDark = global::SipItApp.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Prism.Resource.Attribute.colorSwitchThumbNormal = global::SipItApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Prism.Resource.Attribute.commitIcon = global::SipItApp.Droid.Resource.Attribute.commitIcon;
-			global::Prism.Resource.Attribute.contentDescription = global::SipItApp.Droid.Resource.Attribute.contentDescription;
-			global::Prism.Resource.Attribute.contentInsetEnd = global::SipItApp.Droid.Resource.Attribute.contentInsetEnd;
-			global::Prism.Resource.Attribute.contentInsetEndWithActions = global::SipItApp.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Prism.Resource.Attribute.contentInsetLeft = global::SipItApp.Droid.Resource.Attribute.contentInsetLeft;
-			global::Prism.Resource.Attribute.contentInsetRight = global::SipItApp.Droid.Resource.Attribute.contentInsetRight;
-			global::Prism.Resource.Attribute.contentInsetStart = global::SipItApp.Droid.Resource.Attribute.contentInsetStart;
-			global::Prism.Resource.Attribute.contentInsetStartWithNavigation = global::SipItApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Prism.Resource.Attribute.contentPadding = global::SipItApp.Droid.Resource.Attribute.contentPadding;
-			global::Prism.Resource.Attribute.contentPaddingBottom = global::SipItApp.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Prism.Resource.Attribute.contentPaddingLeft = global::SipItApp.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Prism.Resource.Attribute.contentPaddingRight = global::SipItApp.Droid.Resource.Attribute.contentPaddingRight;
-			global::Prism.Resource.Attribute.contentPaddingTop = global::SipItApp.Droid.Resource.Attribute.contentPaddingTop;
-			global::Prism.Resource.Attribute.contentScrim = global::SipItApp.Droid.Resource.Attribute.contentScrim;
-			global::Prism.Resource.Attribute.controlBackground = global::SipItApp.Droid.Resource.Attribute.controlBackground;
-			global::Prism.Resource.Attribute.counterEnabled = global::SipItApp.Droid.Resource.Attribute.counterEnabled;
-			global::Prism.Resource.Attribute.counterMaxLength = global::SipItApp.Droid.Resource.Attribute.counterMaxLength;
-			global::Prism.Resource.Attribute.counterOverflowTextAppearance = global::SipItApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Prism.Resource.Attribute.counterTextAppearance = global::SipItApp.Droid.Resource.Attribute.counterTextAppearance;
-			global::Prism.Resource.Attribute.customNavigationLayout = global::SipItApp.Droid.Resource.Attribute.customNavigationLayout;
-			global::Prism.Resource.Attribute.defaultQueryHint = global::SipItApp.Droid.Resource.Attribute.defaultQueryHint;
-			global::Prism.Resource.Attribute.dialogPreferredPadding = global::SipItApp.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Prism.Resource.Attribute.dialogTheme = global::SipItApp.Droid.Resource.Attribute.dialogTheme;
-			global::Prism.Resource.Attribute.displayOptions = global::SipItApp.Droid.Resource.Attribute.displayOptions;
-			global::Prism.Resource.Attribute.divider = global::SipItApp.Droid.Resource.Attribute.divider;
-			global::Prism.Resource.Attribute.dividerHorizontal = global::SipItApp.Droid.Resource.Attribute.dividerHorizontal;
-			global::Prism.Resource.Attribute.dividerPadding = global::SipItApp.Droid.Resource.Attribute.dividerPadding;
-			global::Prism.Resource.Attribute.dividerVertical = global::SipItApp.Droid.Resource.Attribute.dividerVertical;
-			global::Prism.Resource.Attribute.drawableSize = global::SipItApp.Droid.Resource.Attribute.drawableSize;
-			global::Prism.Resource.Attribute.drawerArrowStyle = global::SipItApp.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Prism.Resource.Attribute.dropdownListPreferredItemHeight = global::SipItApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Prism.Resource.Attribute.dropDownListViewStyle = global::SipItApp.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Prism.Resource.Attribute.editTextBackground = global::SipItApp.Droid.Resource.Attribute.editTextBackground;
-			global::Prism.Resource.Attribute.editTextColor = global::SipItApp.Droid.Resource.Attribute.editTextColor;
-			global::Prism.Resource.Attribute.editTextStyle = global::SipItApp.Droid.Resource.Attribute.editTextStyle;
-			global::Prism.Resource.Attribute.elevation = global::SipItApp.Droid.Resource.Attribute.elevation;
-			global::Prism.Resource.Attribute.errorEnabled = global::SipItApp.Droid.Resource.Attribute.errorEnabled;
-			global::Prism.Resource.Attribute.errorTextAppearance = global::SipItApp.Droid.Resource.Attribute.errorTextAppearance;
-			global::Prism.Resource.Attribute.expandActivityOverflowButtonDrawable = global::SipItApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Prism.Resource.Attribute.expanded = global::SipItApp.Droid.Resource.Attribute.expanded;
-			global::Prism.Resource.Attribute.expandedTitleGravity = global::SipItApp.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Prism.Resource.Attribute.expandedTitleMargin = global::SipItApp.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Prism.Resource.Attribute.expandedTitleMarginBottom = global::SipItApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Prism.Resource.Attribute.expandedTitleMarginEnd = global::SipItApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Prism.Resource.Attribute.expandedTitleMarginStart = global::SipItApp.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Prism.Resource.Attribute.expandedTitleMarginTop = global::SipItApp.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Prism.Resource.Attribute.expandedTitleTextAppearance = global::SipItApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Prism.Resource.Attribute.externalRouteEnabledDrawable = global::SipItApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::Prism.Resource.Attribute.fabSize = global::SipItApp.Droid.Resource.Attribute.fabSize;
-			global::Prism.Resource.Attribute.fastScrollEnabled = global::SipItApp.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Prism.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::SipItApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Prism.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::SipItApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Prism.Resource.Attribute.fastScrollVerticalThumbDrawable = global::SipItApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Prism.Resource.Attribute.fastScrollVerticalTrackDrawable = global::SipItApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Prism.Resource.Attribute.font = global::SipItApp.Droid.Resource.Attribute.font;
-			global::Prism.Resource.Attribute.fontFamily = global::SipItApp.Droid.Resource.Attribute.fontFamily;
-			global::Prism.Resource.Attribute.fontProviderAuthority = global::SipItApp.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Prism.Resource.Attribute.fontProviderCerts = global::SipItApp.Droid.Resource.Attribute.fontProviderCerts;
-			global::Prism.Resource.Attribute.fontProviderFetchStrategy = global::SipItApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Prism.Resource.Attribute.fontProviderFetchTimeout = global::SipItApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Prism.Resource.Attribute.fontProviderPackage = global::SipItApp.Droid.Resource.Attribute.fontProviderPackage;
-			global::Prism.Resource.Attribute.fontProviderQuery = global::SipItApp.Droid.Resource.Attribute.fontProviderQuery;
-			global::Prism.Resource.Attribute.fontStyle = global::SipItApp.Droid.Resource.Attribute.fontStyle;
-			global::Prism.Resource.Attribute.fontWeight = global::SipItApp.Droid.Resource.Attribute.fontWeight;
-			global::Prism.Resource.Attribute.foregroundInsidePadding = global::SipItApp.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Prism.Resource.Attribute.gapBetweenBars = global::SipItApp.Droid.Resource.Attribute.gapBetweenBars;
-			global::Prism.Resource.Attribute.goIcon = global::SipItApp.Droid.Resource.Attribute.goIcon;
-			global::Prism.Resource.Attribute.headerLayout = global::SipItApp.Droid.Resource.Attribute.headerLayout;
-			global::Prism.Resource.Attribute.height = global::SipItApp.Droid.Resource.Attribute.height;
-			global::Prism.Resource.Attribute.hideOnContentScroll = global::SipItApp.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Prism.Resource.Attribute.hintAnimationEnabled = global::SipItApp.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Prism.Resource.Attribute.hintEnabled = global::SipItApp.Droid.Resource.Attribute.hintEnabled;
-			global::Prism.Resource.Attribute.hintTextAppearance = global::SipItApp.Droid.Resource.Attribute.hintTextAppearance;
-			global::Prism.Resource.Attribute.homeAsUpIndicator = global::SipItApp.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Prism.Resource.Attribute.homeLayout = global::SipItApp.Droid.Resource.Attribute.homeLayout;
-			global::Prism.Resource.Attribute.icon = global::SipItApp.Droid.Resource.Attribute.icon;
-			global::Prism.Resource.Attribute.iconifiedByDefault = global::SipItApp.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Prism.Resource.Attribute.iconTint = global::SipItApp.Droid.Resource.Attribute.iconTint;
-			global::Prism.Resource.Attribute.iconTintMode = global::SipItApp.Droid.Resource.Attribute.iconTintMode;
-			global::Prism.Resource.Attribute.imageButtonStyle = global::SipItApp.Droid.Resource.Attribute.imageButtonStyle;
-			global::Prism.Resource.Attribute.indeterminateProgressStyle = global::SipItApp.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Prism.Resource.Attribute.initialActivityCount = global::SipItApp.Droid.Resource.Attribute.initialActivityCount;
-			global::Prism.Resource.Attribute.insetForeground = global::SipItApp.Droid.Resource.Attribute.insetForeground;
-			global::Prism.Resource.Attribute.isLightTheme = global::SipItApp.Droid.Resource.Attribute.isLightTheme;
-			global::Prism.Resource.Attribute.itemBackground = global::SipItApp.Droid.Resource.Attribute.itemBackground;
-			global::Prism.Resource.Attribute.itemIconTint = global::SipItApp.Droid.Resource.Attribute.itemIconTint;
-			global::Prism.Resource.Attribute.itemPadding = global::SipItApp.Droid.Resource.Attribute.itemPadding;
-			global::Prism.Resource.Attribute.itemTextAppearance = global::SipItApp.Droid.Resource.Attribute.itemTextAppearance;
-			global::Prism.Resource.Attribute.itemTextColor = global::SipItApp.Droid.Resource.Attribute.itemTextColor;
-			global::Prism.Resource.Attribute.keylines = global::SipItApp.Droid.Resource.Attribute.keylines;
-			global::Prism.Resource.Attribute.layout = global::SipItApp.Droid.Resource.Attribute.layout;
-			global::Prism.Resource.Attribute.layoutManager = global::SipItApp.Droid.Resource.Attribute.layoutManager;
-			global::Prism.Resource.Attribute.layout_anchor = global::SipItApp.Droid.Resource.Attribute.layout_anchor;
-			global::Prism.Resource.Attribute.layout_anchorGravity = global::SipItApp.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Prism.Resource.Attribute.layout_behavior = global::SipItApp.Droid.Resource.Attribute.layout_behavior;
-			global::Prism.Resource.Attribute.layout_collapseMode = global::SipItApp.Droid.Resource.Attribute.layout_collapseMode;
-			global::Prism.Resource.Attribute.layout_collapseParallaxMultiplier = global::SipItApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Prism.Resource.Attribute.layout_dodgeInsetEdges = global::SipItApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Prism.Resource.Attribute.layout_insetEdge = global::SipItApp.Droid.Resource.Attribute.layout_insetEdge;
-			global::Prism.Resource.Attribute.layout_keyline = global::SipItApp.Droid.Resource.Attribute.layout_keyline;
-			global::Prism.Resource.Attribute.layout_scrollFlags = global::SipItApp.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Prism.Resource.Attribute.layout_scrollInterpolator = global::SipItApp.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Prism.Resource.Attribute.listChoiceBackgroundIndicator = global::SipItApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Prism.Resource.Attribute.listDividerAlertDialog = global::SipItApp.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Prism.Resource.Attribute.listItemLayout = global::SipItApp.Droid.Resource.Attribute.listItemLayout;
-			global::Prism.Resource.Attribute.listLayout = global::SipItApp.Droid.Resource.Attribute.listLayout;
-			global::Prism.Resource.Attribute.listMenuViewStyle = global::SipItApp.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Prism.Resource.Attribute.listPopupWindowStyle = global::SipItApp.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Prism.Resource.Attribute.listPreferredItemHeight = global::SipItApp.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Prism.Resource.Attribute.listPreferredItemHeightLarge = global::SipItApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Prism.Resource.Attribute.listPreferredItemHeightSmall = global::SipItApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Prism.Resource.Attribute.listPreferredItemPaddingLeft = global::SipItApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Prism.Resource.Attribute.listPreferredItemPaddingRight = global::SipItApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Prism.Resource.Attribute.logo = global::SipItApp.Droid.Resource.Attribute.logo;
-			global::Prism.Resource.Attribute.logoDescription = global::SipItApp.Droid.Resource.Attribute.logoDescription;
-			global::Prism.Resource.Attribute.maxActionInlineWidth = global::SipItApp.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Prism.Resource.Attribute.maxButtonHeight = global::SipItApp.Droid.Resource.Attribute.maxButtonHeight;
-			global::Prism.Resource.Attribute.measureWithLargestChild = global::SipItApp.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Prism.Resource.Attribute.mediaRouteAudioTrackDrawable = global::SipItApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::Prism.Resource.Attribute.mediaRouteButtonStyle = global::SipItApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::Prism.Resource.Attribute.mediaRouteButtonTint = global::SipItApp.Droid.Resource.Attribute.mediaRouteButtonTint;
-			global::Prism.Resource.Attribute.mediaRouteCloseDrawable = global::SipItApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::Prism.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::SipItApp.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::Prism.Resource.Attribute.mediaRouteDefaultIconDrawable = global::SipItApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::Prism.Resource.Attribute.mediaRoutePauseDrawable = global::SipItApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::Prism.Resource.Attribute.mediaRoutePlayDrawable = global::SipItApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::Prism.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::SipItApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::Prism.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::SipItApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::Prism.Resource.Attribute.mediaRouteStopDrawable = global::SipItApp.Droid.Resource.Attribute.mediaRouteStopDrawable;
-			global::Prism.Resource.Attribute.mediaRouteTheme = global::SipItApp.Droid.Resource.Attribute.mediaRouteTheme;
-			global::Prism.Resource.Attribute.mediaRouteTvIconDrawable = global::SipItApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::Prism.Resource.Attribute.menu = global::SipItApp.Droid.Resource.Attribute.menu;
-			global::Prism.Resource.Attribute.multiChoiceItemLayout = global::SipItApp.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Prism.Resource.Attribute.navigationContentDescription = global::SipItApp.Droid.Resource.Attribute.navigationContentDescription;
-			global::Prism.Resource.Attribute.navigationIcon = global::SipItApp.Droid.Resource.Attribute.navigationIcon;
-			global::Prism.Resource.Attribute.navigationMode = global::SipItApp.Droid.Resource.Attribute.navigationMode;
-			global::Prism.Resource.Attribute.numericModifiers = global::SipItApp.Droid.Resource.Attribute.numericModifiers;
-			global::Prism.Resource.Attribute.overlapAnchor = global::SipItApp.Droid.Resource.Attribute.overlapAnchor;
-			global::Prism.Resource.Attribute.paddingBottomNoButtons = global::SipItApp.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Prism.Resource.Attribute.paddingEnd = global::SipItApp.Droid.Resource.Attribute.paddingEnd;
-			global::Prism.Resource.Attribute.paddingStart = global::SipItApp.Droid.Resource.Attribute.paddingStart;
-			global::Prism.Resource.Attribute.paddingTopNoTitle = global::SipItApp.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Prism.Resource.Attribute.panelBackground = global::SipItApp.Droid.Resource.Attribute.panelBackground;
-			global::Prism.Resource.Attribute.panelMenuListTheme = global::SipItApp.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Prism.Resource.Attribute.panelMenuListWidth = global::SipItApp.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Prism.Resource.Attribute.passwordToggleContentDescription = global::SipItApp.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Prism.Resource.Attribute.passwordToggleDrawable = global::SipItApp.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Prism.Resource.Attribute.passwordToggleEnabled = global::SipItApp.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Prism.Resource.Attribute.passwordToggleTint = global::SipItApp.Droid.Resource.Attribute.passwordToggleTint;
-			global::Prism.Resource.Attribute.passwordToggleTintMode = global::SipItApp.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Prism.Resource.Attribute.popupMenuStyle = global::SipItApp.Droid.Resource.Attribute.popupMenuStyle;
-			global::Prism.Resource.Attribute.popupTheme = global::SipItApp.Droid.Resource.Attribute.popupTheme;
-			global::Prism.Resource.Attribute.popupWindowStyle = global::SipItApp.Droid.Resource.Attribute.popupWindowStyle;
-			global::Prism.Resource.Attribute.preserveIconSpacing = global::SipItApp.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Prism.Resource.Attribute.pressedTranslationZ = global::SipItApp.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Prism.Resource.Attribute.progressBarPadding = global::SipItApp.Droid.Resource.Attribute.progressBarPadding;
-			global::Prism.Resource.Attribute.progressBarStyle = global::SipItApp.Droid.Resource.Attribute.progressBarStyle;
-			global::Prism.Resource.Attribute.queryBackground = global::SipItApp.Droid.Resource.Attribute.queryBackground;
-			global::Prism.Resource.Attribute.queryHint = global::SipItApp.Droid.Resource.Attribute.queryHint;
-			global::Prism.Resource.Attribute.radioButtonStyle = global::SipItApp.Droid.Resource.Attribute.radioButtonStyle;
-			global::Prism.Resource.Attribute.ratingBarStyle = global::SipItApp.Droid.Resource.Attribute.ratingBarStyle;
-			global::Prism.Resource.Attribute.ratingBarStyleIndicator = global::SipItApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Prism.Resource.Attribute.ratingBarStyleSmall = global::SipItApp.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Prism.Resource.Attribute.reverseLayout = global::SipItApp.Droid.Resource.Attribute.reverseLayout;
-			global::Prism.Resource.Attribute.rippleColor = global::SipItApp.Droid.Resource.Attribute.rippleColor;
-			global::Prism.Resource.Attribute.scrimAnimationDuration = global::SipItApp.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Prism.Resource.Attribute.scrimVisibleHeightTrigger = global::SipItApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Prism.Resource.Attribute.searchHintIcon = global::SipItApp.Droid.Resource.Attribute.searchHintIcon;
-			global::Prism.Resource.Attribute.searchIcon = global::SipItApp.Droid.Resource.Attribute.searchIcon;
-			global::Prism.Resource.Attribute.searchViewStyle = global::SipItApp.Droid.Resource.Attribute.searchViewStyle;
-			global::Prism.Resource.Attribute.seekBarStyle = global::SipItApp.Droid.Resource.Attribute.seekBarStyle;
-			global::Prism.Resource.Attribute.selectableItemBackground = global::SipItApp.Droid.Resource.Attribute.selectableItemBackground;
-			global::Prism.Resource.Attribute.selectableItemBackgroundBorderless = global::SipItApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Prism.Resource.Attribute.showAsAction = global::SipItApp.Droid.Resource.Attribute.showAsAction;
-			global::Prism.Resource.Attribute.showDividers = global::SipItApp.Droid.Resource.Attribute.showDividers;
-			global::Prism.Resource.Attribute.showText = global::SipItApp.Droid.Resource.Attribute.showText;
-			global::Prism.Resource.Attribute.showTitle = global::SipItApp.Droid.Resource.Attribute.showTitle;
-			global::Prism.Resource.Attribute.singleChoiceItemLayout = global::SipItApp.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Prism.Resource.Attribute.spanCount = global::SipItApp.Droid.Resource.Attribute.spanCount;
-			global::Prism.Resource.Attribute.spinBars = global::SipItApp.Droid.Resource.Attribute.spinBars;
-			global::Prism.Resource.Attribute.spinnerDropDownItemStyle = global::SipItApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Prism.Resource.Attribute.spinnerStyle = global::SipItApp.Droid.Resource.Attribute.spinnerStyle;
-			global::Prism.Resource.Attribute.splitTrack = global::SipItApp.Droid.Resource.Attribute.splitTrack;
-			global::Prism.Resource.Attribute.srcCompat = global::SipItApp.Droid.Resource.Attribute.srcCompat;
-			global::Prism.Resource.Attribute.stackFromEnd = global::SipItApp.Droid.Resource.Attribute.stackFromEnd;
-			global::Prism.Resource.Attribute.state_above_anchor = global::SipItApp.Droid.Resource.Attribute.state_above_anchor;
-			global::Prism.Resource.Attribute.state_collapsed = global::SipItApp.Droid.Resource.Attribute.state_collapsed;
-			global::Prism.Resource.Attribute.state_collapsible = global::SipItApp.Droid.Resource.Attribute.state_collapsible;
-			global::Prism.Resource.Attribute.statusBarBackground = global::SipItApp.Droid.Resource.Attribute.statusBarBackground;
-			global::Prism.Resource.Attribute.statusBarScrim = global::SipItApp.Droid.Resource.Attribute.statusBarScrim;
-			global::Prism.Resource.Attribute.subMenuArrow = global::SipItApp.Droid.Resource.Attribute.subMenuArrow;
-			global::Prism.Resource.Attribute.submitBackground = global::SipItApp.Droid.Resource.Attribute.submitBackground;
-			global::Prism.Resource.Attribute.subtitle = global::SipItApp.Droid.Resource.Attribute.subtitle;
-			global::Prism.Resource.Attribute.subtitleTextAppearance = global::SipItApp.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Prism.Resource.Attribute.subtitleTextColor = global::SipItApp.Droid.Resource.Attribute.subtitleTextColor;
-			global::Prism.Resource.Attribute.subtitleTextStyle = global::SipItApp.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Prism.Resource.Attribute.suggestionRowLayout = global::SipItApp.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Prism.Resource.Attribute.switchMinWidth = global::SipItApp.Droid.Resource.Attribute.switchMinWidth;
-			global::Prism.Resource.Attribute.switchPadding = global::SipItApp.Droid.Resource.Attribute.switchPadding;
-			global::Prism.Resource.Attribute.switchStyle = global::SipItApp.Droid.Resource.Attribute.switchStyle;
-			global::Prism.Resource.Attribute.switchTextAppearance = global::SipItApp.Droid.Resource.Attribute.switchTextAppearance;
-			global::Prism.Resource.Attribute.tabBackground = global::SipItApp.Droid.Resource.Attribute.tabBackground;
-			global::Prism.Resource.Attribute.tabContentStart = global::SipItApp.Droid.Resource.Attribute.tabContentStart;
-			global::Prism.Resource.Attribute.tabGravity = global::SipItApp.Droid.Resource.Attribute.tabGravity;
-			global::Prism.Resource.Attribute.tabIndicatorColor = global::SipItApp.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Prism.Resource.Attribute.tabIndicatorHeight = global::SipItApp.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Prism.Resource.Attribute.tabMaxWidth = global::SipItApp.Droid.Resource.Attribute.tabMaxWidth;
-			global::Prism.Resource.Attribute.tabMinWidth = global::SipItApp.Droid.Resource.Attribute.tabMinWidth;
-			global::Prism.Resource.Attribute.tabMode = global::SipItApp.Droid.Resource.Attribute.tabMode;
-			global::Prism.Resource.Attribute.tabPadding = global::SipItApp.Droid.Resource.Attribute.tabPadding;
-			global::Prism.Resource.Attribute.tabPaddingBottom = global::SipItApp.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Prism.Resource.Attribute.tabPaddingEnd = global::SipItApp.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Prism.Resource.Attribute.tabPaddingStart = global::SipItApp.Droid.Resource.Attribute.tabPaddingStart;
-			global::Prism.Resource.Attribute.tabPaddingTop = global::SipItApp.Droid.Resource.Attribute.tabPaddingTop;
-			global::Prism.Resource.Attribute.tabSelectedTextColor = global::SipItApp.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Prism.Resource.Attribute.tabTextAppearance = global::SipItApp.Droid.Resource.Attribute.tabTextAppearance;
-			global::Prism.Resource.Attribute.tabTextColor = global::SipItApp.Droid.Resource.Attribute.tabTextColor;
-			global::Prism.Resource.Attribute.textAllCaps = global::SipItApp.Droid.Resource.Attribute.textAllCaps;
-			global::Prism.Resource.Attribute.textAppearanceLargePopupMenu = global::SipItApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Prism.Resource.Attribute.textAppearanceListItem = global::SipItApp.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Prism.Resource.Attribute.textAppearanceListItemSecondary = global::SipItApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Prism.Resource.Attribute.textAppearanceListItemSmall = global::SipItApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Prism.Resource.Attribute.textAppearancePopupMenuHeader = global::SipItApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Prism.Resource.Attribute.textAppearanceSearchResultSubtitle = global::SipItApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Prism.Resource.Attribute.textAppearanceSearchResultTitle = global::SipItApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Prism.Resource.Attribute.textAppearanceSmallPopupMenu = global::SipItApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Prism.Resource.Attribute.textColorAlertDialogListItem = global::SipItApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Prism.Resource.Attribute.textColorSearchUrl = global::SipItApp.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Prism.Resource.Attribute.theme = global::SipItApp.Droid.Resource.Attribute.theme;
-			global::Prism.Resource.Attribute.thickness = global::SipItApp.Droid.Resource.Attribute.thickness;
-			global::Prism.Resource.Attribute.thumbTextPadding = global::SipItApp.Droid.Resource.Attribute.thumbTextPadding;
-			global::Prism.Resource.Attribute.thumbTint = global::SipItApp.Droid.Resource.Attribute.thumbTint;
-			global::Prism.Resource.Attribute.thumbTintMode = global::SipItApp.Droid.Resource.Attribute.thumbTintMode;
-			global::Prism.Resource.Attribute.tickMark = global::SipItApp.Droid.Resource.Attribute.tickMark;
-			global::Prism.Resource.Attribute.tickMarkTint = global::SipItApp.Droid.Resource.Attribute.tickMarkTint;
-			global::Prism.Resource.Attribute.tickMarkTintMode = global::SipItApp.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Prism.Resource.Attribute.tint = global::SipItApp.Droid.Resource.Attribute.tint;
-			global::Prism.Resource.Attribute.tintMode = global::SipItApp.Droid.Resource.Attribute.tintMode;
-			global::Prism.Resource.Attribute.title = global::SipItApp.Droid.Resource.Attribute.title;
-			global::Prism.Resource.Attribute.titleEnabled = global::SipItApp.Droid.Resource.Attribute.titleEnabled;
-			global::Prism.Resource.Attribute.titleMargin = global::SipItApp.Droid.Resource.Attribute.titleMargin;
-			global::Prism.Resource.Attribute.titleMarginBottom = global::SipItApp.Droid.Resource.Attribute.titleMarginBottom;
-			global::Prism.Resource.Attribute.titleMarginEnd = global::SipItApp.Droid.Resource.Attribute.titleMarginEnd;
-			global::Prism.Resource.Attribute.titleMargins = global::SipItApp.Droid.Resource.Attribute.titleMargins;
-			global::Prism.Resource.Attribute.titleMarginStart = global::SipItApp.Droid.Resource.Attribute.titleMarginStart;
-			global::Prism.Resource.Attribute.titleMarginTop = global::SipItApp.Droid.Resource.Attribute.titleMarginTop;
-			global::Prism.Resource.Attribute.titleTextAppearance = global::SipItApp.Droid.Resource.Attribute.titleTextAppearance;
-			global::Prism.Resource.Attribute.titleTextColor = global::SipItApp.Droid.Resource.Attribute.titleTextColor;
-			global::Prism.Resource.Attribute.titleTextStyle = global::SipItApp.Droid.Resource.Attribute.titleTextStyle;
-			global::Prism.Resource.Attribute.toolbarId = global::SipItApp.Droid.Resource.Attribute.toolbarId;
-			global::Prism.Resource.Attribute.toolbarNavigationButtonStyle = global::SipItApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Prism.Resource.Attribute.toolbarStyle = global::SipItApp.Droid.Resource.Attribute.toolbarStyle;
-			global::Prism.Resource.Attribute.tooltipForegroundColor = global::SipItApp.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Prism.Resource.Attribute.tooltipFrameBackground = global::SipItApp.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Prism.Resource.Attribute.tooltipText = global::SipItApp.Droid.Resource.Attribute.tooltipText;
-			global::Prism.Resource.Attribute.track = global::SipItApp.Droid.Resource.Attribute.track;
-			global::Prism.Resource.Attribute.trackTint = global::SipItApp.Droid.Resource.Attribute.trackTint;
-			global::Prism.Resource.Attribute.trackTintMode = global::SipItApp.Droid.Resource.Attribute.trackTintMode;
-			global::Prism.Resource.Attribute.useCompatPadding = global::SipItApp.Droid.Resource.Attribute.useCompatPadding;
-			global::Prism.Resource.Attribute.voiceIcon = global::SipItApp.Droid.Resource.Attribute.voiceIcon;
-			global::Prism.Resource.Attribute.windowActionBar = global::SipItApp.Droid.Resource.Attribute.windowActionBar;
-			global::Prism.Resource.Attribute.windowActionBarOverlay = global::SipItApp.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Prism.Resource.Attribute.windowActionModeOverlay = global::SipItApp.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Prism.Resource.Attribute.windowFixedHeightMajor = global::SipItApp.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Prism.Resource.Attribute.windowFixedHeightMinor = global::SipItApp.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Prism.Resource.Attribute.windowFixedWidthMajor = global::SipItApp.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Prism.Resource.Attribute.windowFixedWidthMinor = global::SipItApp.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Prism.Resource.Attribute.windowMinWidthMajor = global::SipItApp.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Prism.Resource.Attribute.windowMinWidthMinor = global::SipItApp.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Prism.Resource.Attribute.windowNoTitle = global::SipItApp.Droid.Resource.Attribute.windowNoTitle;
-			global::Prism.Resource.Boolean.abc_action_bar_embed_tabs = global::SipItApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Prism.Resource.Boolean.abc_allow_stacked_button_bar = global::SipItApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Prism.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::SipItApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Prism.Resource.Color.abc_background_cache_hint_selector_material_dark = global::SipItApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Prism.Resource.Color.abc_background_cache_hint_selector_material_light = global::SipItApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Prism.Resource.Color.abc_btn_colored_borderless_text_material = global::SipItApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Prism.Resource.Color.abc_btn_colored_text_material = global::SipItApp.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Prism.Resource.Color.abc_color_highlight_material = global::SipItApp.Droid.Resource.Color.abc_color_highlight_material;
-			global::Prism.Resource.Color.abc_hint_foreground_material_dark = global::SipItApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Prism.Resource.Color.abc_hint_foreground_material_light = global::SipItApp.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Prism.Resource.Color.abc_input_method_navigation_guard = global::SipItApp.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Prism.Resource.Color.abc_primary_text_disable_only_material_dark = global::SipItApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Prism.Resource.Color.abc_primary_text_disable_only_material_light = global::SipItApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Prism.Resource.Color.abc_primary_text_material_dark = global::SipItApp.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Prism.Resource.Color.abc_primary_text_material_light = global::SipItApp.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Prism.Resource.Color.abc_search_url_text = global::SipItApp.Droid.Resource.Color.abc_search_url_text;
-			global::Prism.Resource.Color.abc_search_url_text_normal = global::SipItApp.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Prism.Resource.Color.abc_search_url_text_pressed = global::SipItApp.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Prism.Resource.Color.abc_search_url_text_selected = global::SipItApp.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Prism.Resource.Color.abc_secondary_text_material_dark = global::SipItApp.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Prism.Resource.Color.abc_secondary_text_material_light = global::SipItApp.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Prism.Resource.Color.abc_tint_btn_checkable = global::SipItApp.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Prism.Resource.Color.abc_tint_default = global::SipItApp.Droid.Resource.Color.abc_tint_default;
-			global::Prism.Resource.Color.abc_tint_edittext = global::SipItApp.Droid.Resource.Color.abc_tint_edittext;
-			global::Prism.Resource.Color.abc_tint_seek_thumb = global::SipItApp.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Prism.Resource.Color.abc_tint_spinner = global::SipItApp.Droid.Resource.Color.abc_tint_spinner;
-			global::Prism.Resource.Color.abc_tint_switch_track = global::SipItApp.Droid.Resource.Color.abc_tint_switch_track;
-			global::Prism.Resource.Color.accent_material_dark = global::SipItApp.Droid.Resource.Color.accent_material_dark;
-			global::Prism.Resource.Color.accent_material_light = global::SipItApp.Droid.Resource.Color.accent_material_light;
-			global::Prism.Resource.Color.background_floating_material_dark = global::SipItApp.Droid.Resource.Color.background_floating_material_dark;
-			global::Prism.Resource.Color.background_floating_material_light = global::SipItApp.Droid.Resource.Color.background_floating_material_light;
-			global::Prism.Resource.Color.background_material_dark = global::SipItApp.Droid.Resource.Color.background_material_dark;
-			global::Prism.Resource.Color.background_material_light = global::SipItApp.Droid.Resource.Color.background_material_light;
-			global::Prism.Resource.Color.bright_foreground_disabled_material_dark = global::SipItApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Prism.Resource.Color.bright_foreground_disabled_material_light = global::SipItApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Prism.Resource.Color.bright_foreground_inverse_material_dark = global::SipItApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Prism.Resource.Color.bright_foreground_inverse_material_light = global::SipItApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Prism.Resource.Color.bright_foreground_material_dark = global::SipItApp.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Prism.Resource.Color.bright_foreground_material_light = global::SipItApp.Droid.Resource.Color.bright_foreground_material_light;
-			global::Prism.Resource.Color.button_material_dark = global::SipItApp.Droid.Resource.Color.button_material_dark;
-			global::Prism.Resource.Color.button_material_light = global::SipItApp.Droid.Resource.Color.button_material_light;
-			global::Prism.Resource.Color.cardview_dark_background = global::SipItApp.Droid.Resource.Color.cardview_dark_background;
-			global::Prism.Resource.Color.cardview_light_background = global::SipItApp.Droid.Resource.Color.cardview_light_background;
-			global::Prism.Resource.Color.cardview_shadow_end_color = global::SipItApp.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Prism.Resource.Color.cardview_shadow_start_color = global::SipItApp.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Prism.Resource.Color.design_bottom_navigation_shadow_color = global::SipItApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Prism.Resource.Color.design_error = global::SipItApp.Droid.Resource.Color.design_error;
-			global::Prism.Resource.Color.design_fab_shadow_end_color = global::SipItApp.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Prism.Resource.Color.design_fab_shadow_mid_color = global::SipItApp.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Prism.Resource.Color.design_fab_shadow_start_color = global::SipItApp.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Prism.Resource.Color.design_fab_stroke_end_inner_color = global::SipItApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Prism.Resource.Color.design_fab_stroke_end_outer_color = global::SipItApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Prism.Resource.Color.design_fab_stroke_top_inner_color = global::SipItApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Prism.Resource.Color.design_fab_stroke_top_outer_color = global::SipItApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Prism.Resource.Color.design_snackbar_background_color = global::SipItApp.Droid.Resource.Color.design_snackbar_background_color;
-			global::Prism.Resource.Color.design_tint_password_toggle = global::SipItApp.Droid.Resource.Color.design_tint_password_toggle;
-			global::Prism.Resource.Color.dim_foreground_disabled_material_dark = global::SipItApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Prism.Resource.Color.dim_foreground_disabled_material_light = global::SipItApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Prism.Resource.Color.dim_foreground_material_dark = global::SipItApp.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Prism.Resource.Color.dim_foreground_material_light = global::SipItApp.Droid.Resource.Color.dim_foreground_material_light;
-			global::Prism.Resource.Color.foreground_material_dark = global::SipItApp.Droid.Resource.Color.foreground_material_dark;
-			global::Prism.Resource.Color.foreground_material_light = global::SipItApp.Droid.Resource.Color.foreground_material_light;
-			global::Prism.Resource.Color.highlighted_text_material_dark = global::SipItApp.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Prism.Resource.Color.highlighted_text_material_light = global::SipItApp.Droid.Resource.Color.highlighted_text_material_light;
-			global::Prism.Resource.Color.material_blue_grey_800 = global::SipItApp.Droid.Resource.Color.material_blue_grey_800;
-			global::Prism.Resource.Color.material_blue_grey_900 = global::SipItApp.Droid.Resource.Color.material_blue_grey_900;
-			global::Prism.Resource.Color.material_blue_grey_950 = global::SipItApp.Droid.Resource.Color.material_blue_grey_950;
-			global::Prism.Resource.Color.material_deep_teal_200 = global::SipItApp.Droid.Resource.Color.material_deep_teal_200;
-			global::Prism.Resource.Color.material_deep_teal_500 = global::SipItApp.Droid.Resource.Color.material_deep_teal_500;
-			global::Prism.Resource.Color.material_grey_100 = global::SipItApp.Droid.Resource.Color.material_grey_100;
-			global::Prism.Resource.Color.material_grey_300 = global::SipItApp.Droid.Resource.Color.material_grey_300;
-			global::Prism.Resource.Color.material_grey_50 = global::SipItApp.Droid.Resource.Color.material_grey_50;
-			global::Prism.Resource.Color.material_grey_600 = global::SipItApp.Droid.Resource.Color.material_grey_600;
-			global::Prism.Resource.Color.material_grey_800 = global::SipItApp.Droid.Resource.Color.material_grey_800;
-			global::Prism.Resource.Color.material_grey_850 = global::SipItApp.Droid.Resource.Color.material_grey_850;
-			global::Prism.Resource.Color.material_grey_900 = global::SipItApp.Droid.Resource.Color.material_grey_900;
-			global::Prism.Resource.Color.notification_action_color_filter = global::SipItApp.Droid.Resource.Color.notification_action_color_filter;
-			global::Prism.Resource.Color.notification_icon_bg_color = global::SipItApp.Droid.Resource.Color.notification_icon_bg_color;
-			global::Prism.Resource.Color.notification_material_background_media_default_color = global::SipItApp.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Prism.Resource.Color.primary_dark_material_dark = global::SipItApp.Droid.Resource.Color.primary_dark_material_dark;
-			global::Prism.Resource.Color.primary_dark_material_light = global::SipItApp.Droid.Resource.Color.primary_dark_material_light;
-			global::Prism.Resource.Color.primary_material_dark = global::SipItApp.Droid.Resource.Color.primary_material_dark;
-			global::Prism.Resource.Color.primary_material_light = global::SipItApp.Droid.Resource.Color.primary_material_light;
-			global::Prism.Resource.Color.primary_text_default_material_dark = global::SipItApp.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Prism.Resource.Color.primary_text_default_material_light = global::SipItApp.Droid.Resource.Color.primary_text_default_material_light;
-			global::Prism.Resource.Color.primary_text_disabled_material_dark = global::SipItApp.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Prism.Resource.Color.primary_text_disabled_material_light = global::SipItApp.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Prism.Resource.Color.ripple_material_dark = global::SipItApp.Droid.Resource.Color.ripple_material_dark;
-			global::Prism.Resource.Color.ripple_material_light = global::SipItApp.Droid.Resource.Color.ripple_material_light;
-			global::Prism.Resource.Color.secondary_text_default_material_dark = global::SipItApp.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Prism.Resource.Color.secondary_text_default_material_light = global::SipItApp.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Prism.Resource.Color.secondary_text_disabled_material_dark = global::SipItApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Prism.Resource.Color.secondary_text_disabled_material_light = global::SipItApp.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Prism.Resource.Color.switch_thumb_disabled_material_dark = global::SipItApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Prism.Resource.Color.switch_thumb_disabled_material_light = global::SipItApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Prism.Resource.Color.switch_thumb_material_dark = global::SipItApp.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Prism.Resource.Color.switch_thumb_material_light = global::SipItApp.Droid.Resource.Color.switch_thumb_material_light;
-			global::Prism.Resource.Color.switch_thumb_normal_material_dark = global::SipItApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Prism.Resource.Color.switch_thumb_normal_material_light = global::SipItApp.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Prism.Resource.Color.tooltip_background_dark = global::SipItApp.Droid.Resource.Color.tooltip_background_dark;
-			global::Prism.Resource.Color.tooltip_background_light = global::SipItApp.Droid.Resource.Color.tooltip_background_light;
-			global::Prism.Resource.Dimension.abc_action_bar_content_inset_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Prism.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Prism.Resource.Dimension.abc_action_bar_default_height_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Prism.Resource.Dimension.abc_action_bar_default_padding_end_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Prism.Resource.Dimension.abc_action_bar_default_padding_start_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Prism.Resource.Dimension.abc_action_bar_elevation_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Prism.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Prism.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Prism.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Prism.Resource.Dimension.abc_action_bar_stacked_max_height = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Prism.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Prism.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Prism.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::SipItApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Prism.Resource.Dimension.abc_action_button_min_height_material = global::SipItApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Prism.Resource.Dimension.abc_action_button_min_width_material = global::SipItApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Prism.Resource.Dimension.abc_action_button_min_width_overflow_material = global::SipItApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Prism.Resource.Dimension.abc_alert_dialog_button_bar_height = global::SipItApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Prism.Resource.Dimension.abc_button_inset_horizontal_material = global::SipItApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Prism.Resource.Dimension.abc_button_inset_vertical_material = global::SipItApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Prism.Resource.Dimension.abc_button_padding_horizontal_material = global::SipItApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Prism.Resource.Dimension.abc_button_padding_vertical_material = global::SipItApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Prism.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::SipItApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Prism.Resource.Dimension.abc_config_prefDialogWidth = global::SipItApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Prism.Resource.Dimension.abc_control_corner_material = global::SipItApp.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Prism.Resource.Dimension.abc_control_inset_material = global::SipItApp.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Prism.Resource.Dimension.abc_control_padding_material = global::SipItApp.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Prism.Resource.Dimension.abc_dialog_fixed_height_major = global::SipItApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Prism.Resource.Dimension.abc_dialog_fixed_height_minor = global::SipItApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Prism.Resource.Dimension.abc_dialog_fixed_width_major = global::SipItApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Prism.Resource.Dimension.abc_dialog_fixed_width_minor = global::SipItApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Prism.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::SipItApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Prism.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::SipItApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Prism.Resource.Dimension.abc_dialog_min_width_major = global::SipItApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Prism.Resource.Dimension.abc_dialog_min_width_minor = global::SipItApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Prism.Resource.Dimension.abc_dialog_padding_material = global::SipItApp.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Prism.Resource.Dimension.abc_dialog_padding_top_material = global::SipItApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Prism.Resource.Dimension.abc_dialog_title_divider_material = global::SipItApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Prism.Resource.Dimension.abc_disabled_alpha_material_dark = global::SipItApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Prism.Resource.Dimension.abc_disabled_alpha_material_light = global::SipItApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Prism.Resource.Dimension.abc_dropdownitem_icon_width = global::SipItApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Prism.Resource.Dimension.abc_dropdownitem_text_padding_left = global::SipItApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Prism.Resource.Dimension.abc_dropdownitem_text_padding_right = global::SipItApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Prism.Resource.Dimension.abc_edit_text_inset_bottom_material = global::SipItApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Prism.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::SipItApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Prism.Resource.Dimension.abc_edit_text_inset_top_material = global::SipItApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Prism.Resource.Dimension.abc_floating_window_z = global::SipItApp.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Prism.Resource.Dimension.abc_list_item_padding_horizontal_material = global::SipItApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Prism.Resource.Dimension.abc_panel_menu_list_width = global::SipItApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Prism.Resource.Dimension.abc_progress_bar_height_material = global::SipItApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Prism.Resource.Dimension.abc_search_view_preferred_height = global::SipItApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Prism.Resource.Dimension.abc_search_view_preferred_width = global::SipItApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Prism.Resource.Dimension.abc_seekbar_track_background_height_material = global::SipItApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Prism.Resource.Dimension.abc_seekbar_track_progress_height_material = global::SipItApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Prism.Resource.Dimension.abc_select_dialog_padding_start_material = global::SipItApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Prism.Resource.Dimension.abc_switch_padding = global::SipItApp.Droid.Resource.Dimension.abc_switch_padding;
-			global::Prism.Resource.Dimension.abc_text_size_body_1_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Prism.Resource.Dimension.abc_text_size_body_2_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Prism.Resource.Dimension.abc_text_size_button_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Prism.Resource.Dimension.abc_text_size_caption_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Prism.Resource.Dimension.abc_text_size_display_1_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Prism.Resource.Dimension.abc_text_size_display_2_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Prism.Resource.Dimension.abc_text_size_display_3_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Prism.Resource.Dimension.abc_text_size_display_4_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Prism.Resource.Dimension.abc_text_size_headline_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Prism.Resource.Dimension.abc_text_size_large_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Prism.Resource.Dimension.abc_text_size_medium_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Prism.Resource.Dimension.abc_text_size_menu_header_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Prism.Resource.Dimension.abc_text_size_menu_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Prism.Resource.Dimension.abc_text_size_small_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Prism.Resource.Dimension.abc_text_size_subhead_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Prism.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::SipItApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Prism.Resource.Dimension.abc_text_size_title_material = global::SipItApp.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Prism.Resource.Dimension.abc_text_size_title_material_toolbar = global::SipItApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Prism.Resource.Dimension.cardview_compat_inset_shadow = global::SipItApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Prism.Resource.Dimension.cardview_default_elevation = global::SipItApp.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Prism.Resource.Dimension.cardview_default_radius = global::SipItApp.Droid.Resource.Dimension.cardview_default_radius;
-			global::Prism.Resource.Dimension.compat_button_inset_horizontal_material = global::SipItApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Prism.Resource.Dimension.compat_button_inset_vertical_material = global::SipItApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Prism.Resource.Dimension.compat_button_padding_horizontal_material = global::SipItApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Prism.Resource.Dimension.compat_button_padding_vertical_material = global::SipItApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Prism.Resource.Dimension.compat_control_corner_material = global::SipItApp.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Prism.Resource.Dimension.design_appbar_elevation = global::SipItApp.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Prism.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::SipItApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Prism.Resource.Dimension.design_bottom_navigation_active_text_size = global::SipItApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Prism.Resource.Dimension.design_bottom_navigation_elevation = global::SipItApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Prism.Resource.Dimension.design_bottom_navigation_height = global::SipItApp.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Prism.Resource.Dimension.design_bottom_navigation_item_max_width = global::SipItApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Prism.Resource.Dimension.design_bottom_navigation_item_min_width = global::SipItApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Prism.Resource.Dimension.design_bottom_navigation_margin = global::SipItApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Prism.Resource.Dimension.design_bottom_navigation_shadow_height = global::SipItApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Prism.Resource.Dimension.design_bottom_navigation_text_size = global::SipItApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Prism.Resource.Dimension.design_bottom_sheet_modal_elevation = global::SipItApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Prism.Resource.Dimension.design_bottom_sheet_peek_height_min = global::SipItApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Prism.Resource.Dimension.design_fab_border_width = global::SipItApp.Droid.Resource.Dimension.design_fab_border_width;
-			global::Prism.Resource.Dimension.design_fab_elevation = global::SipItApp.Droid.Resource.Dimension.design_fab_elevation;
-			global::Prism.Resource.Dimension.design_fab_image_size = global::SipItApp.Droid.Resource.Dimension.design_fab_image_size;
-			global::Prism.Resource.Dimension.design_fab_size_mini = global::SipItApp.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Prism.Resource.Dimension.design_fab_size_normal = global::SipItApp.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Prism.Resource.Dimension.design_fab_translation_z_pressed = global::SipItApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Prism.Resource.Dimension.design_navigation_elevation = global::SipItApp.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Prism.Resource.Dimension.design_navigation_icon_padding = global::SipItApp.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Prism.Resource.Dimension.design_navigation_icon_size = global::SipItApp.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Prism.Resource.Dimension.design_navigation_max_width = global::SipItApp.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Prism.Resource.Dimension.design_navigation_padding_bottom = global::SipItApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Prism.Resource.Dimension.design_navigation_separator_vertical_padding = global::SipItApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Prism.Resource.Dimension.design_snackbar_action_inline_max_width = global::SipItApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Prism.Resource.Dimension.design_snackbar_background_corner_radius = global::SipItApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Prism.Resource.Dimension.design_snackbar_elevation = global::SipItApp.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Prism.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::SipItApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Prism.Resource.Dimension.design_snackbar_max_width = global::SipItApp.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Prism.Resource.Dimension.design_snackbar_min_width = global::SipItApp.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Prism.Resource.Dimension.design_snackbar_padding_horizontal = global::SipItApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Prism.Resource.Dimension.design_snackbar_padding_vertical = global::SipItApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Prism.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::SipItApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Prism.Resource.Dimension.design_snackbar_text_size = global::SipItApp.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Prism.Resource.Dimension.design_tab_max_width = global::SipItApp.Droid.Resource.Dimension.design_tab_max_width;
-			global::Prism.Resource.Dimension.design_tab_scrollable_min_width = global::SipItApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Prism.Resource.Dimension.design_tab_text_size = global::SipItApp.Droid.Resource.Dimension.design_tab_text_size;
-			global::Prism.Resource.Dimension.design_tab_text_size_2line = global::SipItApp.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Prism.Resource.Dimension.disabled_alpha_material_dark = global::SipItApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Prism.Resource.Dimension.disabled_alpha_material_light = global::SipItApp.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Prism.Resource.Dimension.fastscroll_default_thickness = global::SipItApp.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Prism.Resource.Dimension.fastscroll_margin = global::SipItApp.Droid.Resource.Dimension.fastscroll_margin;
-			global::Prism.Resource.Dimension.fastscroll_minimum_range = global::SipItApp.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Prism.Resource.Dimension.highlight_alpha_material_colored = global::SipItApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Prism.Resource.Dimension.highlight_alpha_material_dark = global::SipItApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Prism.Resource.Dimension.highlight_alpha_material_light = global::SipItApp.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Prism.Resource.Dimension.hint_alpha_material_dark = global::SipItApp.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Prism.Resource.Dimension.hint_alpha_material_light = global::SipItApp.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Prism.Resource.Dimension.hint_pressed_alpha_material_dark = global::SipItApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Prism.Resource.Dimension.hint_pressed_alpha_material_light = global::SipItApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Prism.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::SipItApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Prism.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::SipItApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Prism.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::SipItApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Prism.Resource.Dimension.mr_controller_volume_group_list_item_height = global::SipItApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::Prism.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::SipItApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::Prism.Resource.Dimension.mr_controller_volume_group_list_max_height = global::SipItApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::Prism.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::SipItApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::Prism.Resource.Dimension.mr_dialog_fixed_width_major = global::SipItApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::Prism.Resource.Dimension.mr_dialog_fixed_width_minor = global::SipItApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::Prism.Resource.Dimension.notification_action_icon_size = global::SipItApp.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Prism.Resource.Dimension.notification_action_text_size = global::SipItApp.Droid.Resource.Dimension.notification_action_text_size;
-			global::Prism.Resource.Dimension.notification_big_circle_margin = global::SipItApp.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Prism.Resource.Dimension.notification_content_margin_start = global::SipItApp.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Prism.Resource.Dimension.notification_large_icon_height = global::SipItApp.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Prism.Resource.Dimension.notification_large_icon_width = global::SipItApp.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Prism.Resource.Dimension.notification_main_column_padding_top = global::SipItApp.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Prism.Resource.Dimension.notification_media_narrow_margin = global::SipItApp.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Prism.Resource.Dimension.notification_right_icon_size = global::SipItApp.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Prism.Resource.Dimension.notification_right_side_padding_top = global::SipItApp.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Prism.Resource.Dimension.notification_small_icon_background_padding = global::SipItApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Prism.Resource.Dimension.notification_small_icon_size_as_large = global::SipItApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Prism.Resource.Dimension.notification_subtext_size = global::SipItApp.Droid.Resource.Dimension.notification_subtext_size;
-			global::Prism.Resource.Dimension.notification_top_pad = global::SipItApp.Droid.Resource.Dimension.notification_top_pad;
-			global::Prism.Resource.Dimension.notification_top_pad_large_text = global::SipItApp.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Prism.Resource.Dimension.tooltip_corner_radius = global::SipItApp.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Prism.Resource.Dimension.tooltip_horizontal_padding = global::SipItApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Prism.Resource.Dimension.tooltip_margin = global::SipItApp.Droid.Resource.Dimension.tooltip_margin;
-			global::Prism.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::SipItApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Prism.Resource.Dimension.tooltip_precise_anchor_threshold = global::SipItApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Prism.Resource.Dimension.tooltip_vertical_padding = global::SipItApp.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Prism.Resource.Dimension.tooltip_y_offset_non_touch = global::SipItApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Prism.Resource.Dimension.tooltip_y_offset_touch = global::SipItApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Prism.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_action_bar_item_background_material = global::SipItApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Prism.Resource.Drawable.abc_btn_borderless_material = global::SipItApp.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Prism.Resource.Drawable.abc_btn_check_material = global::SipItApp.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Prism.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::SipItApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Prism.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::SipItApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Prism.Resource.Drawable.abc_btn_colored_material = global::SipItApp.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Prism.Resource.Drawable.abc_btn_default_mtrl_shape = global::SipItApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Prism.Resource.Drawable.abc_btn_radio_material = global::SipItApp.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Prism.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::SipItApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Prism.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::SipItApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Prism.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::SipItApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Prism.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::SipItApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Prism.Resource.Drawable.abc_cab_background_internal_bg = global::SipItApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Prism.Resource.Drawable.abc_cab_background_top_material = global::SipItApp.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Prism.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_control_background_material = global::SipItApp.Droid.Resource.Drawable.abc_control_background_material;
-			global::Prism.Resource.Drawable.abc_dialog_material_background = global::SipItApp.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Prism.Resource.Drawable.abc_edit_text_material = global::SipItApp.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Prism.Resource.Drawable.abc_ic_ab_back_material = global::SipItApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Prism.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::SipItApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Prism.Resource.Drawable.abc_ic_clear_material = global::SipItApp.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Prism.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_ic_go_search_api_material = global::SipItApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Prism.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::SipItApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Prism.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_ic_menu_overflow_material = global::SipItApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Prism.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::SipItApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Prism.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_ic_search_api_material = global::SipItApp.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Prism.Resource.Drawable.abc_ic_star_black_16dp = global::SipItApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Prism.Resource.Drawable.abc_ic_star_black_36dp = global::SipItApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Prism.Resource.Drawable.abc_ic_star_black_48dp = global::SipItApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Prism.Resource.Drawable.abc_ic_star_half_black_16dp = global::SipItApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Prism.Resource.Drawable.abc_ic_star_half_black_36dp = global::SipItApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Prism.Resource.Drawable.abc_ic_star_half_black_48dp = global::SipItApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Prism.Resource.Drawable.abc_ic_voice_search_api_material = global::SipItApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Prism.Resource.Drawable.abc_item_background_holo_dark = global::SipItApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Prism.Resource.Drawable.abc_item_background_holo_light = global::SipItApp.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Prism.Resource.Drawable.abc_list_divider_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_list_focused_holo = global::SipItApp.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Prism.Resource.Drawable.abc_list_longpressed_holo = global::SipItApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Prism.Resource.Drawable.abc_list_pressed_holo_dark = global::SipItApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Prism.Resource.Drawable.abc_list_pressed_holo_light = global::SipItApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Prism.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::SipItApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Prism.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::SipItApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Prism.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::SipItApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Prism.Resource.Drawable.abc_list_selector_disabled_holo_light = global::SipItApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Prism.Resource.Drawable.abc_list_selector_holo_dark = global::SipItApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Prism.Resource.Drawable.abc_list_selector_holo_light = global::SipItApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Prism.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::SipItApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Prism.Resource.Drawable.abc_popup_background_mtrl_mult = global::SipItApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Prism.Resource.Drawable.abc_ratingbar_indicator_material = global::SipItApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Prism.Resource.Drawable.abc_ratingbar_material = global::SipItApp.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Prism.Resource.Drawable.abc_ratingbar_small_material = global::SipItApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Prism.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::SipItApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Prism.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::SipItApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Prism.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_seekbar_thumb_material = global::SipItApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Prism.Resource.Drawable.abc_seekbar_tick_mark_material = global::SipItApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Prism.Resource.Drawable.abc_seekbar_track_material = global::SipItApp.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Prism.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::SipItApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Prism.Resource.Drawable.abc_spinner_textfield_background_material = global::SipItApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Prism.Resource.Drawable.abc_switch_thumb_material = global::SipItApp.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Prism.Resource.Drawable.abc_switch_track_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_tab_indicator_material = global::SipItApp.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Prism.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::SipItApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_search_material = global::SipItApp.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Prism.Resource.Drawable.abc_text_cursor_material = global::SipItApp.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Prism.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::SipItApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Prism.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::SipItApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Prism.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::SipItApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Prism.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::SipItApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Prism.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::SipItApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Prism.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::SipItApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Prism.Resource.Drawable.abc_vector_test = global::SipItApp.Droid.Resource.Drawable.abc_vector_test;
-			global::Prism.Resource.Drawable.avd_hide_password = global::SipItApp.Droid.Resource.Drawable.avd_hide_password;
-			global::Prism.Resource.Drawable.avd_show_password = global::SipItApp.Droid.Resource.Drawable.avd_show_password;
-			global::Prism.Resource.Drawable.design_bottom_navigation_item_background = global::SipItApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Prism.Resource.Drawable.design_fab_background = global::SipItApp.Droid.Resource.Drawable.design_fab_background;
-			global::Prism.Resource.Drawable.design_ic_visibility = global::SipItApp.Droid.Resource.Drawable.design_ic_visibility;
-			global::Prism.Resource.Drawable.design_ic_visibility_off = global::SipItApp.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Prism.Resource.Drawable.design_password_eye = global::SipItApp.Droid.Resource.Drawable.design_password_eye;
-			global::Prism.Resource.Drawable.design_snackbar_background = global::SipItApp.Droid.Resource.Drawable.design_snackbar_background;
-			global::Prism.Resource.Drawable.ic_audiotrack_dark = global::SipItApp.Droid.Resource.Drawable.ic_audiotrack_dark;
-			global::Prism.Resource.Drawable.ic_audiotrack_light = global::SipItApp.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::Prism.Resource.Drawable.ic_dialog_close_dark = global::SipItApp.Droid.Resource.Drawable.ic_dialog_close_dark;
-			global::Prism.Resource.Drawable.ic_dialog_close_light = global::SipItApp.Droid.Resource.Drawable.ic_dialog_close_light;
-			global::Prism.Resource.Drawable.ic_group_collapse_00 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_00;
-			global::Prism.Resource.Drawable.ic_group_collapse_01 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_01;
-			global::Prism.Resource.Drawable.ic_group_collapse_02 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_02;
-			global::Prism.Resource.Drawable.ic_group_collapse_03 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_03;
-			global::Prism.Resource.Drawable.ic_group_collapse_04 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_04;
-			global::Prism.Resource.Drawable.ic_group_collapse_05 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_05;
-			global::Prism.Resource.Drawable.ic_group_collapse_06 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_06;
-			global::Prism.Resource.Drawable.ic_group_collapse_07 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_07;
-			global::Prism.Resource.Drawable.ic_group_collapse_08 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_08;
-			global::Prism.Resource.Drawable.ic_group_collapse_09 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_09;
-			global::Prism.Resource.Drawable.ic_group_collapse_10 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_10;
-			global::Prism.Resource.Drawable.ic_group_collapse_11 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_11;
-			global::Prism.Resource.Drawable.ic_group_collapse_12 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_12;
-			global::Prism.Resource.Drawable.ic_group_collapse_13 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_13;
-			global::Prism.Resource.Drawable.ic_group_collapse_14 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_14;
-			global::Prism.Resource.Drawable.ic_group_collapse_15 = global::SipItApp.Droid.Resource.Drawable.ic_group_collapse_15;
-			global::Prism.Resource.Drawable.ic_group_expand_00 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_00;
-			global::Prism.Resource.Drawable.ic_group_expand_01 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_01;
-			global::Prism.Resource.Drawable.ic_group_expand_02 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_02;
-			global::Prism.Resource.Drawable.ic_group_expand_03 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_03;
-			global::Prism.Resource.Drawable.ic_group_expand_04 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_04;
-			global::Prism.Resource.Drawable.ic_group_expand_05 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_05;
-			global::Prism.Resource.Drawable.ic_group_expand_06 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_06;
-			global::Prism.Resource.Drawable.ic_group_expand_07 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_07;
-			global::Prism.Resource.Drawable.ic_group_expand_08 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_08;
-			global::Prism.Resource.Drawable.ic_group_expand_09 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_09;
-			global::Prism.Resource.Drawable.ic_group_expand_10 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_10;
-			global::Prism.Resource.Drawable.ic_group_expand_11 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_11;
-			global::Prism.Resource.Drawable.ic_group_expand_12 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_12;
-			global::Prism.Resource.Drawable.ic_group_expand_13 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_13;
-			global::Prism.Resource.Drawable.ic_group_expand_14 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_14;
-			global::Prism.Resource.Drawable.ic_group_expand_15 = global::SipItApp.Droid.Resource.Drawable.ic_group_expand_15;
-			global::Prism.Resource.Drawable.ic_media_pause_dark = global::SipItApp.Droid.Resource.Drawable.ic_media_pause_dark;
-			global::Prism.Resource.Drawable.ic_media_pause_light = global::SipItApp.Droid.Resource.Drawable.ic_media_pause_light;
-			global::Prism.Resource.Drawable.ic_media_play_dark = global::SipItApp.Droid.Resource.Drawable.ic_media_play_dark;
-			global::Prism.Resource.Drawable.ic_media_play_light = global::SipItApp.Droid.Resource.Drawable.ic_media_play_light;
-			global::Prism.Resource.Drawable.ic_media_stop_dark = global::SipItApp.Droid.Resource.Drawable.ic_media_stop_dark;
-			global::Prism.Resource.Drawable.ic_media_stop_light = global::SipItApp.Droid.Resource.Drawable.ic_media_stop_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_00_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_00_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_01_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_01_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_02_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_02_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_03_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_03_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_04_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_04_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_05_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_05_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_06_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_06_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_07_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_07_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_08_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_08_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_09_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_09_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_10_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_10_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_11_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_11_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_12_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_12_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_13_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_13_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_14_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_14_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_15_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_15_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_16_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_16_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_17_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_17_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_18_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_18_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_19_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_19_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_20_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_20_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_21_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_21_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_22_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_22_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_23_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_23_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_24_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_24_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_25_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_25_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_26_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_26_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_27_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_27_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_28_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_28_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_29_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_29_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_30_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_30_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_00_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_00_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_01_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_01_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_02_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_02_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_03_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_03_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_04_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_04_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_05_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_05_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_06_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_06_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_07_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_07_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_08_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_08_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_09_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_09_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_10_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_10_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_11_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_11_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_12_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_12_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_13_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_13_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_14_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_14_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_15_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_15_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_16_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_16_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_17_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_17_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_18_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_18_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_19_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_19_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_20_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_20_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_21_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_21_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_22_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_22_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_23_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_23_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_24_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_24_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_25_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_25_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_26_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_26_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_27_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_27_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_28_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_28_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_29_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_29_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_30_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_30_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
-			global::Prism.Resource.Drawable.ic_mr_button_disabled_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_disabled_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_disabled_light;
-			global::Prism.Resource.Drawable.ic_mr_button_disconnected_dark = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_disconnected_light = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::Prism.Resource.Drawable.ic_mr_button_grey = global::SipItApp.Droid.Resource.Drawable.ic_mr_button_grey;
-			global::Prism.Resource.Drawable.ic_vol_type_speaker_dark = global::SipItApp.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::Prism.Resource.Drawable.ic_vol_type_speaker_group_dark = global::SipItApp.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::Prism.Resource.Drawable.ic_vol_type_speaker_group_light = global::SipItApp.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::Prism.Resource.Drawable.ic_vol_type_speaker_light = global::SipItApp.Droid.Resource.Drawable.ic_vol_type_speaker_light;
-			global::Prism.Resource.Drawable.ic_vol_type_tv_dark = global::SipItApp.Droid.Resource.Drawable.ic_vol_type_tv_dark;
-			global::Prism.Resource.Drawable.ic_vol_type_tv_light = global::SipItApp.Droid.Resource.Drawable.ic_vol_type_tv_light;
-			global::Prism.Resource.Drawable.mr_button_connected_dark = global::SipItApp.Droid.Resource.Drawable.mr_button_connected_dark;
-			global::Prism.Resource.Drawable.mr_button_connected_light = global::SipItApp.Droid.Resource.Drawable.mr_button_connected_light;
-			global::Prism.Resource.Drawable.mr_button_connecting_dark = global::SipItApp.Droid.Resource.Drawable.mr_button_connecting_dark;
-			global::Prism.Resource.Drawable.mr_button_connecting_light = global::SipItApp.Droid.Resource.Drawable.mr_button_connecting_light;
-			global::Prism.Resource.Drawable.mr_button_dark = global::SipItApp.Droid.Resource.Drawable.mr_button_dark;
-			global::Prism.Resource.Drawable.mr_button_light = global::SipItApp.Droid.Resource.Drawable.mr_button_light;
-			global::Prism.Resource.Drawable.mr_dialog_close_dark = global::SipItApp.Droid.Resource.Drawable.mr_dialog_close_dark;
-			global::Prism.Resource.Drawable.mr_dialog_close_light = global::SipItApp.Droid.Resource.Drawable.mr_dialog_close_light;
-			global::Prism.Resource.Drawable.mr_dialog_material_background_dark = global::SipItApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::Prism.Resource.Drawable.mr_dialog_material_background_light = global::SipItApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::Prism.Resource.Drawable.mr_group_collapse = global::SipItApp.Droid.Resource.Drawable.mr_group_collapse;
-			global::Prism.Resource.Drawable.mr_group_expand = global::SipItApp.Droid.Resource.Drawable.mr_group_expand;
-			global::Prism.Resource.Drawable.mr_media_pause_dark = global::SipItApp.Droid.Resource.Drawable.mr_media_pause_dark;
-			global::Prism.Resource.Drawable.mr_media_pause_light = global::SipItApp.Droid.Resource.Drawable.mr_media_pause_light;
-			global::Prism.Resource.Drawable.mr_media_play_dark = global::SipItApp.Droid.Resource.Drawable.mr_media_play_dark;
-			global::Prism.Resource.Drawable.mr_media_play_light = global::SipItApp.Droid.Resource.Drawable.mr_media_play_light;
-			global::Prism.Resource.Drawable.mr_media_stop_dark = global::SipItApp.Droid.Resource.Drawable.mr_media_stop_dark;
-			global::Prism.Resource.Drawable.mr_media_stop_light = global::SipItApp.Droid.Resource.Drawable.mr_media_stop_light;
-			global::Prism.Resource.Drawable.mr_vol_type_audiotrack_dark = global::SipItApp.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::Prism.Resource.Drawable.mr_vol_type_audiotrack_light = global::SipItApp.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
-			global::Prism.Resource.Drawable.navigation_empty_icon = global::SipItApp.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Prism.Resource.Drawable.notification_action_background = global::SipItApp.Droid.Resource.Drawable.notification_action_background;
-			global::Prism.Resource.Drawable.notification_bg = global::SipItApp.Droid.Resource.Drawable.notification_bg;
-			global::Prism.Resource.Drawable.notification_bg_low = global::SipItApp.Droid.Resource.Drawable.notification_bg_low;
-			global::Prism.Resource.Drawable.notification_bg_low_normal = global::SipItApp.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Prism.Resource.Drawable.notification_bg_low_pressed = global::SipItApp.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Prism.Resource.Drawable.notification_bg_normal = global::SipItApp.Droid.Resource.Drawable.notification_bg_normal;
-			global::Prism.Resource.Drawable.notification_bg_normal_pressed = global::SipItApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Prism.Resource.Drawable.notification_icon_background = global::SipItApp.Droid.Resource.Drawable.notification_icon_background;
-			global::Prism.Resource.Drawable.notification_template_icon_bg = global::SipItApp.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Prism.Resource.Drawable.notification_template_icon_low_bg = global::SipItApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Prism.Resource.Drawable.notification_tile_bg = global::SipItApp.Droid.Resource.Drawable.notification_tile_bg;
-			global::Prism.Resource.Drawable.notify_panel_notification_icon_bg = global::SipItApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Prism.Resource.Drawable.tooltip_frame_dark = global::SipItApp.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Prism.Resource.Drawable.tooltip_frame_light = global::SipItApp.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Prism.Resource.Id.action0 = global::SipItApp.Droid.Resource.Id.action0;
-			global::Prism.Resource.Id.actions = global::SipItApp.Droid.Resource.Id.actions;
-			global::Prism.Resource.Id.action_bar = global::SipItApp.Droid.Resource.Id.action_bar;
-			global::Prism.Resource.Id.action_bar_activity_content = global::SipItApp.Droid.Resource.Id.action_bar_activity_content;
-			global::Prism.Resource.Id.action_bar_container = global::SipItApp.Droid.Resource.Id.action_bar_container;
-			global::Prism.Resource.Id.action_bar_root = global::SipItApp.Droid.Resource.Id.action_bar_root;
-			global::Prism.Resource.Id.action_bar_spinner = global::SipItApp.Droid.Resource.Id.action_bar_spinner;
-			global::Prism.Resource.Id.action_bar_subtitle = global::SipItApp.Droid.Resource.Id.action_bar_subtitle;
-			global::Prism.Resource.Id.action_bar_title = global::SipItApp.Droid.Resource.Id.action_bar_title;
-			global::Prism.Resource.Id.action_container = global::SipItApp.Droid.Resource.Id.action_container;
-			global::Prism.Resource.Id.action_context_bar = global::SipItApp.Droid.Resource.Id.action_context_bar;
-			global::Prism.Resource.Id.action_divider = global::SipItApp.Droid.Resource.Id.action_divider;
-			global::Prism.Resource.Id.action_image = global::SipItApp.Droid.Resource.Id.action_image;
-			global::Prism.Resource.Id.action_menu_divider = global::SipItApp.Droid.Resource.Id.action_menu_divider;
-			global::Prism.Resource.Id.action_menu_presenter = global::SipItApp.Droid.Resource.Id.action_menu_presenter;
-			global::Prism.Resource.Id.action_mode_bar = global::SipItApp.Droid.Resource.Id.action_mode_bar;
-			global::Prism.Resource.Id.action_mode_bar_stub = global::SipItApp.Droid.Resource.Id.action_mode_bar_stub;
-			global::Prism.Resource.Id.action_mode_close_button = global::SipItApp.Droid.Resource.Id.action_mode_close_button;
-			global::Prism.Resource.Id.action_text = global::SipItApp.Droid.Resource.Id.action_text;
-			global::Prism.Resource.Id.activity_chooser_view_content = global::SipItApp.Droid.Resource.Id.activity_chooser_view_content;
-			global::Prism.Resource.Id.add = global::SipItApp.Droid.Resource.Id.add;
-			global::Prism.Resource.Id.alertTitle = global::SipItApp.Droid.Resource.Id.alertTitle;
-			global::Prism.Resource.Id.all = global::SipItApp.Droid.Resource.Id.all;
-			global::Prism.Resource.Id.ALT = global::SipItApp.Droid.Resource.Id.ALT;
-			global::Prism.Resource.Id.always = global::SipItApp.Droid.Resource.Id.always;
-			global::Prism.Resource.Id.async = global::SipItApp.Droid.Resource.Id.async;
-			global::Prism.Resource.Id.auto = global::SipItApp.Droid.Resource.Id.auto;
-			global::Prism.Resource.Id.beginning = global::SipItApp.Droid.Resource.Id.beginning;
-			global::Prism.Resource.Id.blocking = global::SipItApp.Droid.Resource.Id.blocking;
-			global::Prism.Resource.Id.bottom = global::SipItApp.Droid.Resource.Id.bottom;
-			global::Prism.Resource.Id.bottomtab_navarea = global::SipItApp.Droid.Resource.Id.bottomtab_navarea;
-			global::Prism.Resource.Id.bottomtab_tabbar = global::SipItApp.Droid.Resource.Id.bottomtab_tabbar;
-			global::Prism.Resource.Id.buttonPanel = global::SipItApp.Droid.Resource.Id.buttonPanel;
-			global::Prism.Resource.Id.cancel_action = global::SipItApp.Droid.Resource.Id.cancel_action;
-			global::Prism.Resource.Id.center = global::SipItApp.Droid.Resource.Id.center;
-			global::Prism.Resource.Id.center_horizontal = global::SipItApp.Droid.Resource.Id.center_horizontal;
-			global::Prism.Resource.Id.center_vertical = global::SipItApp.Droid.Resource.Id.center_vertical;
-			global::Prism.Resource.Id.checkbox = global::SipItApp.Droid.Resource.Id.checkbox;
-			global::Prism.Resource.Id.chronometer = global::SipItApp.Droid.Resource.Id.chronometer;
-			global::Prism.Resource.Id.clip_horizontal = global::SipItApp.Droid.Resource.Id.clip_horizontal;
-			global::Prism.Resource.Id.clip_vertical = global::SipItApp.Droid.Resource.Id.clip_vertical;
-			global::Prism.Resource.Id.collapseActionView = global::SipItApp.Droid.Resource.Id.collapseActionView;
-			global::Prism.Resource.Id.container = global::SipItApp.Droid.Resource.Id.container;
-			global::Prism.Resource.Id.contentPanel = global::SipItApp.Droid.Resource.Id.contentPanel;
-			global::Prism.Resource.Id.coordinator = global::SipItApp.Droid.Resource.Id.coordinator;
-			global::Prism.Resource.Id.CTRL = global::SipItApp.Droid.Resource.Id.CTRL;
-			global::Prism.Resource.Id.custom = global::SipItApp.Droid.Resource.Id.custom;
-			global::Prism.Resource.Id.customPanel = global::SipItApp.Droid.Resource.Id.customPanel;
-			global::Prism.Resource.Id.decor_content_parent = global::SipItApp.Droid.Resource.Id.decor_content_parent;
-			global::Prism.Resource.Id.default_activity_button = global::SipItApp.Droid.Resource.Id.default_activity_button;
-			global::Prism.Resource.Id.design_bottom_sheet = global::SipItApp.Droid.Resource.Id.design_bottom_sheet;
-			global::Prism.Resource.Id.design_menu_item_action_area = global::SipItApp.Droid.Resource.Id.design_menu_item_action_area;
-			global::Prism.Resource.Id.design_menu_item_action_area_stub = global::SipItApp.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Prism.Resource.Id.design_menu_item_text = global::SipItApp.Droid.Resource.Id.design_menu_item_text;
-			global::Prism.Resource.Id.design_navigation_view = global::SipItApp.Droid.Resource.Id.design_navigation_view;
-			global::Prism.Resource.Id.disableHome = global::SipItApp.Droid.Resource.Id.disableHome;
-			global::Prism.Resource.Id.edit_query = global::SipItApp.Droid.Resource.Id.edit_query;
-			global::Prism.Resource.Id.end = global::SipItApp.Droid.Resource.Id.end;
-			global::Prism.Resource.Id.end_padder = global::SipItApp.Droid.Resource.Id.end_padder;
-			global::Prism.Resource.Id.enterAlways = global::SipItApp.Droid.Resource.Id.enterAlways;
-			global::Prism.Resource.Id.enterAlwaysCollapsed = global::SipItApp.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Prism.Resource.Id.exitUntilCollapsed = global::SipItApp.Droid.Resource.Id.exitUntilCollapsed;
-			global::Prism.Resource.Id.expanded_menu = global::SipItApp.Droid.Resource.Id.expanded_menu;
-			global::Prism.Resource.Id.expand_activities_button = global::SipItApp.Droid.Resource.Id.expand_activities_button;
-			global::Prism.Resource.Id.fill = global::SipItApp.Droid.Resource.Id.fill;
-			global::Prism.Resource.Id.fill_horizontal = global::SipItApp.Droid.Resource.Id.fill_horizontal;
-			global::Prism.Resource.Id.fill_vertical = global::SipItApp.Droid.Resource.Id.fill_vertical;
-			global::Prism.Resource.Id.@fixed = global::SipItApp.Droid.Resource.Id.@fixed;
-			global::Prism.Resource.Id.flyoutcontent_appbar = global::SipItApp.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Prism.Resource.Id.flyoutcontent_recycler = global::SipItApp.Droid.Resource.Id.flyoutcontent_recycler;
-			global::Prism.Resource.Id.forever = global::SipItApp.Droid.Resource.Id.forever;
-			global::Prism.Resource.Id.FUNCTION = global::SipItApp.Droid.Resource.Id.FUNCTION;
-			global::Prism.Resource.Id.ghost_view = global::SipItApp.Droid.Resource.Id.ghost_view;
-			global::Prism.Resource.Id.home = global::SipItApp.Droid.Resource.Id.home;
-			global::Prism.Resource.Id.homeAsUp = global::SipItApp.Droid.Resource.Id.homeAsUp;
-			global::Prism.Resource.Id.icon = global::SipItApp.Droid.Resource.Id.icon;
-			global::Prism.Resource.Id.icon_group = global::SipItApp.Droid.Resource.Id.icon_group;
-			global::Prism.Resource.Id.ifRoom = global::SipItApp.Droid.Resource.Id.ifRoom;
-			global::Prism.Resource.Id.image = global::SipItApp.Droid.Resource.Id.image;
-			global::Prism.Resource.Id.info = global::SipItApp.Droid.Resource.Id.info;
-			global::Prism.Resource.Id.italic = global::SipItApp.Droid.Resource.Id.italic;
-			global::Prism.Resource.Id.item_touch_helper_previous_elevation = global::SipItApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Prism.Resource.Id.largeLabel = global::SipItApp.Droid.Resource.Id.largeLabel;
-			global::Prism.Resource.Id.left = global::SipItApp.Droid.Resource.Id.left;
-			global::Prism.Resource.Id.line1 = global::SipItApp.Droid.Resource.Id.line1;
-			global::Prism.Resource.Id.line3 = global::SipItApp.Droid.Resource.Id.line3;
-			global::Prism.Resource.Id.listMode = global::SipItApp.Droid.Resource.Id.listMode;
-			global::Prism.Resource.Id.list_item = global::SipItApp.Droid.Resource.Id.list_item;
-			global::Prism.Resource.Id.main_appbar = global::SipItApp.Droid.Resource.Id.main_appbar;
-			global::Prism.Resource.Id.main_tablayout = global::SipItApp.Droid.Resource.Id.main_tablayout;
-			global::Prism.Resource.Id.main_toolbar = global::SipItApp.Droid.Resource.Id.main_toolbar;
-			global::Prism.Resource.Id.masked = global::SipItApp.Droid.Resource.Id.masked;
-			global::Prism.Resource.Id.media_actions = global::SipItApp.Droid.Resource.Id.media_actions;
-			global::Prism.Resource.Id.message = global::SipItApp.Droid.Resource.Id.message;
-			global::Prism.Resource.Id.META = global::SipItApp.Droid.Resource.Id.META;
-			global::Prism.Resource.Id.middle = global::SipItApp.Droid.Resource.Id.middle;
-			global::Prism.Resource.Id.mini = global::SipItApp.Droid.Resource.Id.mini;
-			global::Prism.Resource.Id.mr_art = global::SipItApp.Droid.Resource.Id.mr_art;
-			global::Prism.Resource.Id.mr_chooser_list = global::SipItApp.Droid.Resource.Id.mr_chooser_list;
-			global::Prism.Resource.Id.mr_chooser_route_desc = global::SipItApp.Droid.Resource.Id.mr_chooser_route_desc;
-			global::Prism.Resource.Id.mr_chooser_route_icon = global::SipItApp.Droid.Resource.Id.mr_chooser_route_icon;
-			global::Prism.Resource.Id.mr_chooser_route_name = global::SipItApp.Droid.Resource.Id.mr_chooser_route_name;
-			global::Prism.Resource.Id.mr_chooser_title = global::SipItApp.Droid.Resource.Id.mr_chooser_title;
-			global::Prism.Resource.Id.mr_close = global::SipItApp.Droid.Resource.Id.mr_close;
-			global::Prism.Resource.Id.mr_control_divider = global::SipItApp.Droid.Resource.Id.mr_control_divider;
-			global::Prism.Resource.Id.mr_control_playback_ctrl = global::SipItApp.Droid.Resource.Id.mr_control_playback_ctrl;
-			global::Prism.Resource.Id.mr_control_subtitle = global::SipItApp.Droid.Resource.Id.mr_control_subtitle;
-			global::Prism.Resource.Id.mr_control_title = global::SipItApp.Droid.Resource.Id.mr_control_title;
-			global::Prism.Resource.Id.mr_control_title_container = global::SipItApp.Droid.Resource.Id.mr_control_title_container;
-			global::Prism.Resource.Id.mr_custom_control = global::SipItApp.Droid.Resource.Id.mr_custom_control;
-			global::Prism.Resource.Id.mr_default_control = global::SipItApp.Droid.Resource.Id.mr_default_control;
-			global::Prism.Resource.Id.mr_dialog_area = global::SipItApp.Droid.Resource.Id.mr_dialog_area;
-			global::Prism.Resource.Id.mr_expandable_area = global::SipItApp.Droid.Resource.Id.mr_expandable_area;
-			global::Prism.Resource.Id.mr_group_expand_collapse = global::SipItApp.Droid.Resource.Id.mr_group_expand_collapse;
-			global::Prism.Resource.Id.mr_media_main_control = global::SipItApp.Droid.Resource.Id.mr_media_main_control;
-			global::Prism.Resource.Id.mr_name = global::SipItApp.Droid.Resource.Id.mr_name;
-			global::Prism.Resource.Id.mr_playback_control = global::SipItApp.Droid.Resource.Id.mr_playback_control;
-			global::Prism.Resource.Id.mr_title_bar = global::SipItApp.Droid.Resource.Id.mr_title_bar;
-			global::Prism.Resource.Id.mr_volume_control = global::SipItApp.Droid.Resource.Id.mr_volume_control;
-			global::Prism.Resource.Id.mr_volume_group_list = global::SipItApp.Droid.Resource.Id.mr_volume_group_list;
-			global::Prism.Resource.Id.mr_volume_item_icon = global::SipItApp.Droid.Resource.Id.mr_volume_item_icon;
-			global::Prism.Resource.Id.mr_volume_slider = global::SipItApp.Droid.Resource.Id.mr_volume_slider;
-			global::Prism.Resource.Id.multiply = global::SipItApp.Droid.Resource.Id.multiply;
-			global::Prism.Resource.Id.navigation_header_container = global::SipItApp.Droid.Resource.Id.navigation_header_container;
-			global::Prism.Resource.Id.never = global::SipItApp.Droid.Resource.Id.never;
-			global::Prism.Resource.Id.none = global::SipItApp.Droid.Resource.Id.none;
-			global::Prism.Resource.Id.normal = global::SipItApp.Droid.Resource.Id.normal;
-			global::Prism.Resource.Id.notification_background = global::SipItApp.Droid.Resource.Id.notification_background;
-			global::Prism.Resource.Id.notification_main_column = global::SipItApp.Droid.Resource.Id.notification_main_column;
-			global::Prism.Resource.Id.notification_main_column_container = global::SipItApp.Droid.Resource.Id.notification_main_column_container;
-			global::Prism.Resource.Id.parallax = global::SipItApp.Droid.Resource.Id.parallax;
-			global::Prism.Resource.Id.parentPanel = global::SipItApp.Droid.Resource.Id.parentPanel;
-			global::Prism.Resource.Id.parent_matrix = global::SipItApp.Droid.Resource.Id.parent_matrix;
-			global::Prism.Resource.Id.pin = global::SipItApp.Droid.Resource.Id.pin;
-			global::Prism.Resource.Id.progress_circular = global::SipItApp.Droid.Resource.Id.progress_circular;
-			global::Prism.Resource.Id.progress_horizontal = global::SipItApp.Droid.Resource.Id.progress_horizontal;
-			global::Prism.Resource.Id.radio = global::SipItApp.Droid.Resource.Id.radio;
-			global::Prism.Resource.Id.right = global::SipItApp.Droid.Resource.Id.right;
-			global::Prism.Resource.Id.right_icon = global::SipItApp.Droid.Resource.Id.right_icon;
-			global::Prism.Resource.Id.right_side = global::SipItApp.Droid.Resource.Id.right_side;
-			global::Prism.Resource.Id.save_image_matrix = global::SipItApp.Droid.Resource.Id.save_image_matrix;
-			global::Prism.Resource.Id.save_non_transition_alpha = global::SipItApp.Droid.Resource.Id.save_non_transition_alpha;
-			global::Prism.Resource.Id.save_scale_type = global::SipItApp.Droid.Resource.Id.save_scale_type;
-			global::Prism.Resource.Id.screen = global::SipItApp.Droid.Resource.Id.screen;
-			global::Prism.Resource.Id.scroll = global::SipItApp.Droid.Resource.Id.scroll;
-			global::Prism.Resource.Id.scrollable = global::SipItApp.Droid.Resource.Id.scrollable;
-			global::Prism.Resource.Id.scrollIndicatorDown = global::SipItApp.Droid.Resource.Id.scrollIndicatorDown;
-			global::Prism.Resource.Id.scrollIndicatorUp = global::SipItApp.Droid.Resource.Id.scrollIndicatorUp;
-			global::Prism.Resource.Id.scrollView = global::SipItApp.Droid.Resource.Id.scrollView;
-			global::Prism.Resource.Id.search_badge = global::SipItApp.Droid.Resource.Id.search_badge;
-			global::Prism.Resource.Id.search_bar = global::SipItApp.Droid.Resource.Id.search_bar;
-			global::Prism.Resource.Id.search_button = global::SipItApp.Droid.Resource.Id.search_button;
-			global::Prism.Resource.Id.search_close_btn = global::SipItApp.Droid.Resource.Id.search_close_btn;
-			global::Prism.Resource.Id.search_edit_frame = global::SipItApp.Droid.Resource.Id.search_edit_frame;
-			global::Prism.Resource.Id.search_go_btn = global::SipItApp.Droid.Resource.Id.search_go_btn;
-			global::Prism.Resource.Id.search_mag_icon = global::SipItApp.Droid.Resource.Id.search_mag_icon;
-			global::Prism.Resource.Id.search_plate = global::SipItApp.Droid.Resource.Id.search_plate;
-			global::Prism.Resource.Id.search_src_text = global::SipItApp.Droid.Resource.Id.search_src_text;
-			global::Prism.Resource.Id.search_voice_btn = global::SipItApp.Droid.Resource.Id.search_voice_btn;
-			global::Prism.Resource.Id.select_dialog_listview = global::SipItApp.Droid.Resource.Id.select_dialog_listview;
-			global::Prism.Resource.Id.shellcontent_appbar = global::SipItApp.Droid.Resource.Id.shellcontent_appbar;
-			global::Prism.Resource.Id.shellcontent_toolbar = global::SipItApp.Droid.Resource.Id.shellcontent_toolbar;
-			global::Prism.Resource.Id.SHIFT = global::SipItApp.Droid.Resource.Id.SHIFT;
-			global::Prism.Resource.Id.shortcut = global::SipItApp.Droid.Resource.Id.shortcut;
-			global::Prism.Resource.Id.showCustom = global::SipItApp.Droid.Resource.Id.showCustom;
-			global::Prism.Resource.Id.showHome = global::SipItApp.Droid.Resource.Id.showHome;
-			global::Prism.Resource.Id.showTitle = global::SipItApp.Droid.Resource.Id.showTitle;
-			global::Prism.Resource.Id.smallLabel = global::SipItApp.Droid.Resource.Id.smallLabel;
-			global::Prism.Resource.Id.snackbar_action = global::SipItApp.Droid.Resource.Id.snackbar_action;
-			global::Prism.Resource.Id.snackbar_text = global::SipItApp.Droid.Resource.Id.snackbar_text;
-			global::Prism.Resource.Id.snap = global::SipItApp.Droid.Resource.Id.snap;
-			global::Prism.Resource.Id.spacer = global::SipItApp.Droid.Resource.Id.spacer;
-			global::Prism.Resource.Id.split_action_bar = global::SipItApp.Droid.Resource.Id.split_action_bar;
-			global::Prism.Resource.Id.src_atop = global::SipItApp.Droid.Resource.Id.src_atop;
-			global::Prism.Resource.Id.src_in = global::SipItApp.Droid.Resource.Id.src_in;
-			global::Prism.Resource.Id.src_over = global::SipItApp.Droid.Resource.Id.src_over;
-			global::Prism.Resource.Id.start = global::SipItApp.Droid.Resource.Id.start;
-			global::Prism.Resource.Id.status_bar_latest_event_content = global::SipItApp.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Prism.Resource.Id.submenuarrow = global::SipItApp.Droid.Resource.Id.submenuarrow;
-			global::Prism.Resource.Id.submit_area = global::SipItApp.Droid.Resource.Id.submit_area;
-			global::Prism.Resource.Id.SYM = global::SipItApp.Droid.Resource.Id.SYM;
-			global::Prism.Resource.Id.tabMode = global::SipItApp.Droid.Resource.Id.tabMode;
-			global::Prism.Resource.Id.tag_transition_group = global::SipItApp.Droid.Resource.Id.tag_transition_group;
-			global::Prism.Resource.Id.text = global::SipItApp.Droid.Resource.Id.text;
-			global::Prism.Resource.Id.text2 = global::SipItApp.Droid.Resource.Id.text2;
-			global::Prism.Resource.Id.textinput_counter = global::SipItApp.Droid.Resource.Id.textinput_counter;
-			global::Prism.Resource.Id.textinput_error = global::SipItApp.Droid.Resource.Id.textinput_error;
-			global::Prism.Resource.Id.textSpacerNoButtons = global::SipItApp.Droid.Resource.Id.textSpacerNoButtons;
-			global::Prism.Resource.Id.textSpacerNoTitle = global::SipItApp.Droid.Resource.Id.textSpacerNoTitle;
-			global::Prism.Resource.Id.text_input_password_toggle = global::SipItApp.Droid.Resource.Id.text_input_password_toggle;
-			global::Prism.Resource.Id.time = global::SipItApp.Droid.Resource.Id.time;
-			global::Prism.Resource.Id.title = global::SipItApp.Droid.Resource.Id.title;
-			global::Prism.Resource.Id.titleDividerNoCustom = global::SipItApp.Droid.Resource.Id.titleDividerNoCustom;
-			global::Prism.Resource.Id.title_template = global::SipItApp.Droid.Resource.Id.title_template;
-			global::Prism.Resource.Id.top = global::SipItApp.Droid.Resource.Id.top;
-			global::Prism.Resource.Id.topPanel = global::SipItApp.Droid.Resource.Id.topPanel;
-			global::Prism.Resource.Id.touch_outside = global::SipItApp.Droid.Resource.Id.touch_outside;
-			global::Prism.Resource.Id.transition_current_scene = global::SipItApp.Droid.Resource.Id.transition_current_scene;
-			global::Prism.Resource.Id.transition_layout_save = global::SipItApp.Droid.Resource.Id.transition_layout_save;
-			global::Prism.Resource.Id.transition_position = global::SipItApp.Droid.Resource.Id.transition_position;
-			global::Prism.Resource.Id.transition_scene_layoutid_cache = global::SipItApp.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Prism.Resource.Id.transition_transform = global::SipItApp.Droid.Resource.Id.transition_transform;
-			global::Prism.Resource.Id.uniform = global::SipItApp.Droid.Resource.Id.uniform;
-			global::Prism.Resource.Id.up = global::SipItApp.Droid.Resource.Id.up;
-			global::Prism.Resource.Id.useLogo = global::SipItApp.Droid.Resource.Id.useLogo;
-			global::Prism.Resource.Id.view_offset_helper = global::SipItApp.Droid.Resource.Id.view_offset_helper;
-			global::Prism.Resource.Id.visible = global::SipItApp.Droid.Resource.Id.visible;
-			global::Prism.Resource.Id.volume_item_container = global::SipItApp.Droid.Resource.Id.volume_item_container;
-			global::Prism.Resource.Id.withText = global::SipItApp.Droid.Resource.Id.withText;
-			global::Prism.Resource.Id.wrap_content = global::SipItApp.Droid.Resource.Id.wrap_content;
-			global::Prism.Resource.Integer.abc_config_activityDefaultDur = global::SipItApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Prism.Resource.Integer.abc_config_activityShortDur = global::SipItApp.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Prism.Resource.Integer.app_bar_elevation_anim_duration = global::SipItApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Prism.Resource.Integer.bottom_sheet_slide_duration = global::SipItApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Prism.Resource.Integer.cancel_button_image_alpha = global::SipItApp.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Prism.Resource.Integer.config_tooltipAnimTime = global::SipItApp.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Prism.Resource.Integer.design_snackbar_text_max_lines = global::SipItApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Prism.Resource.Integer.hide_password_duration = global::SipItApp.Droid.Resource.Integer.hide_password_duration;
-			global::Prism.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::SipItApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::Prism.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::SipItApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::Prism.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::SipItApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::Prism.Resource.Integer.show_password_duration = global::SipItApp.Droid.Resource.Integer.show_password_duration;
-			global::Prism.Resource.Integer.status_bar_notification_info_maxnum = global::SipItApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Prism.Resource.Interpolator.mr_fast_out_slow_in = global::SipItApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::Prism.Resource.Interpolator.mr_linear_out_slow_in = global::SipItApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::Prism.Resource.Layout.abc_action_bar_title_item = global::SipItApp.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Prism.Resource.Layout.abc_action_bar_up_container = global::SipItApp.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Prism.Resource.Layout.abc_action_menu_item_layout = global::SipItApp.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Prism.Resource.Layout.abc_action_menu_layout = global::SipItApp.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Prism.Resource.Layout.abc_action_mode_bar = global::SipItApp.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Prism.Resource.Layout.abc_action_mode_close_item_material = global::SipItApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Prism.Resource.Layout.abc_activity_chooser_view = global::SipItApp.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Prism.Resource.Layout.abc_activity_chooser_view_list_item = global::SipItApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Prism.Resource.Layout.abc_alert_dialog_button_bar_material = global::SipItApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Prism.Resource.Layout.abc_alert_dialog_material = global::SipItApp.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Prism.Resource.Layout.abc_alert_dialog_title_material = global::SipItApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Prism.Resource.Layout.abc_dialog_title_material = global::SipItApp.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Prism.Resource.Layout.abc_expanded_menu_layout = global::SipItApp.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Prism.Resource.Layout.abc_list_menu_item_checkbox = global::SipItApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Prism.Resource.Layout.abc_list_menu_item_icon = global::SipItApp.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Prism.Resource.Layout.abc_list_menu_item_layout = global::SipItApp.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Prism.Resource.Layout.abc_list_menu_item_radio = global::SipItApp.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Prism.Resource.Layout.abc_popup_menu_header_item_layout = global::SipItApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Prism.Resource.Layout.abc_popup_menu_item_layout = global::SipItApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Prism.Resource.Layout.abc_screen_content_include = global::SipItApp.Droid.Resource.Layout.abc_screen_content_include;
-			global::Prism.Resource.Layout.abc_screen_simple = global::SipItApp.Droid.Resource.Layout.abc_screen_simple;
-			global::Prism.Resource.Layout.abc_screen_simple_overlay_action_mode = global::SipItApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Prism.Resource.Layout.abc_screen_toolbar = global::SipItApp.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Prism.Resource.Layout.abc_search_dropdown_item_icons_2line = global::SipItApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Prism.Resource.Layout.abc_search_view = global::SipItApp.Droid.Resource.Layout.abc_search_view;
-			global::Prism.Resource.Layout.abc_select_dialog_material = global::SipItApp.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Prism.Resource.Layout.BottomTabLayout = global::SipItApp.Droid.Resource.Layout.BottomTabLayout;
-			global::Prism.Resource.Layout.design_bottom_navigation_item = global::SipItApp.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Prism.Resource.Layout.design_bottom_sheet_dialog = global::SipItApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Prism.Resource.Layout.design_layout_snackbar = global::SipItApp.Droid.Resource.Layout.design_layout_snackbar;
-			global::Prism.Resource.Layout.design_layout_snackbar_include = global::SipItApp.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Prism.Resource.Layout.design_layout_tab_icon = global::SipItApp.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Prism.Resource.Layout.design_layout_tab_text = global::SipItApp.Droid.Resource.Layout.design_layout_tab_text;
-			global::Prism.Resource.Layout.design_menu_item_action_area = global::SipItApp.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Prism.Resource.Layout.design_navigation_item = global::SipItApp.Droid.Resource.Layout.design_navigation_item;
-			global::Prism.Resource.Layout.design_navigation_item_header = global::SipItApp.Droid.Resource.Layout.design_navigation_item_header;
-			global::Prism.Resource.Layout.design_navigation_item_separator = global::SipItApp.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Prism.Resource.Layout.design_navigation_item_subheader = global::SipItApp.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Prism.Resource.Layout.design_navigation_menu = global::SipItApp.Droid.Resource.Layout.design_navigation_menu;
-			global::Prism.Resource.Layout.design_navigation_menu_item = global::SipItApp.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Prism.Resource.Layout.design_text_input_password_icon = global::SipItApp.Droid.Resource.Layout.design_text_input_password_icon;
-			global::Prism.Resource.Layout.FlyoutContent = global::SipItApp.Droid.Resource.Layout.FlyoutContent;
-			global::Prism.Resource.Layout.mr_chooser_dialog = global::SipItApp.Droid.Resource.Layout.mr_chooser_dialog;
-			global::Prism.Resource.Layout.mr_chooser_list_item = global::SipItApp.Droid.Resource.Layout.mr_chooser_list_item;
-			global::Prism.Resource.Layout.mr_controller_material_dialog_b = global::SipItApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::Prism.Resource.Layout.mr_controller_volume_item = global::SipItApp.Droid.Resource.Layout.mr_controller_volume_item;
-			global::Prism.Resource.Layout.mr_playback_control = global::SipItApp.Droid.Resource.Layout.mr_playback_control;
-			global::Prism.Resource.Layout.mr_volume_control = global::SipItApp.Droid.Resource.Layout.mr_volume_control;
-			global::Prism.Resource.Layout.notification_action = global::SipItApp.Droid.Resource.Layout.notification_action;
-			global::Prism.Resource.Layout.notification_action_tombstone = global::SipItApp.Droid.Resource.Layout.notification_action_tombstone;
-			global::Prism.Resource.Layout.notification_media_action = global::SipItApp.Droid.Resource.Layout.notification_media_action;
-			global::Prism.Resource.Layout.notification_media_cancel_action = global::SipItApp.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Prism.Resource.Layout.notification_template_big_media = global::SipItApp.Droid.Resource.Layout.notification_template_big_media;
-			global::Prism.Resource.Layout.notification_template_big_media_custom = global::SipItApp.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Prism.Resource.Layout.notification_template_big_media_narrow = global::SipItApp.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Prism.Resource.Layout.notification_template_big_media_narrow_custom = global::SipItApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Prism.Resource.Layout.notification_template_custom_big = global::SipItApp.Droid.Resource.Layout.notification_template_custom_big;
-			global::Prism.Resource.Layout.notification_template_icon_group = global::SipItApp.Droid.Resource.Layout.notification_template_icon_group;
-			global::Prism.Resource.Layout.notification_template_lines_media = global::SipItApp.Droid.Resource.Layout.notification_template_lines_media;
-			global::Prism.Resource.Layout.notification_template_media = global::SipItApp.Droid.Resource.Layout.notification_template_media;
-			global::Prism.Resource.Layout.notification_template_media_custom = global::SipItApp.Droid.Resource.Layout.notification_template_media_custom;
-			global::Prism.Resource.Layout.notification_template_part_chronometer = global::SipItApp.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Prism.Resource.Layout.notification_template_part_time = global::SipItApp.Droid.Resource.Layout.notification_template_part_time;
-			global::Prism.Resource.Layout.RootLayout = global::SipItApp.Droid.Resource.Layout.RootLayout;
-			global::Prism.Resource.Layout.select_dialog_item_material = global::SipItApp.Droid.Resource.Layout.select_dialog_item_material;
-			global::Prism.Resource.Layout.select_dialog_multichoice_material = global::SipItApp.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Prism.Resource.Layout.select_dialog_singlechoice_material = global::SipItApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Prism.Resource.Layout.ShellContent = global::SipItApp.Droid.Resource.Layout.ShellContent;
-			global::Prism.Resource.Layout.support_simple_spinner_dropdown_item = global::SipItApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Prism.Resource.String.abc_action_bar_home_description = global::SipItApp.Droid.Resource.String.abc_action_bar_home_description;
-			global::Prism.Resource.String.abc_action_bar_up_description = global::SipItApp.Droid.Resource.String.abc_action_bar_up_description;
-			global::Prism.Resource.String.abc_action_menu_overflow_description = global::SipItApp.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Prism.Resource.String.abc_action_mode_done = global::SipItApp.Droid.Resource.String.abc_action_mode_done;
-			global::Prism.Resource.String.abc_activitychooserview_choose_application = global::SipItApp.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Prism.Resource.String.abc_activity_chooser_view_see_all = global::SipItApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Prism.Resource.String.abc_capital_off = global::SipItApp.Droid.Resource.String.abc_capital_off;
-			global::Prism.Resource.String.abc_capital_on = global::SipItApp.Droid.Resource.String.abc_capital_on;
-			global::Prism.Resource.String.abc_font_family_body_1_material = global::SipItApp.Droid.Resource.String.abc_font_family_body_1_material;
-			global::Prism.Resource.String.abc_font_family_body_2_material = global::SipItApp.Droid.Resource.String.abc_font_family_body_2_material;
-			global::Prism.Resource.String.abc_font_family_button_material = global::SipItApp.Droid.Resource.String.abc_font_family_button_material;
-			global::Prism.Resource.String.abc_font_family_caption_material = global::SipItApp.Droid.Resource.String.abc_font_family_caption_material;
-			global::Prism.Resource.String.abc_font_family_display_1_material = global::SipItApp.Droid.Resource.String.abc_font_family_display_1_material;
-			global::Prism.Resource.String.abc_font_family_display_2_material = global::SipItApp.Droid.Resource.String.abc_font_family_display_2_material;
-			global::Prism.Resource.String.abc_font_family_display_3_material = global::SipItApp.Droid.Resource.String.abc_font_family_display_3_material;
-			global::Prism.Resource.String.abc_font_family_display_4_material = global::SipItApp.Droid.Resource.String.abc_font_family_display_4_material;
-			global::Prism.Resource.String.abc_font_family_headline_material = global::SipItApp.Droid.Resource.String.abc_font_family_headline_material;
-			global::Prism.Resource.String.abc_font_family_menu_material = global::SipItApp.Droid.Resource.String.abc_font_family_menu_material;
-			global::Prism.Resource.String.abc_font_family_subhead_material = global::SipItApp.Droid.Resource.String.abc_font_family_subhead_material;
-			global::Prism.Resource.String.abc_font_family_title_material = global::SipItApp.Droid.Resource.String.abc_font_family_title_material;
-			global::Prism.Resource.String.abc_searchview_description_clear = global::SipItApp.Droid.Resource.String.abc_searchview_description_clear;
-			global::Prism.Resource.String.abc_searchview_description_query = global::SipItApp.Droid.Resource.String.abc_searchview_description_query;
-			global::Prism.Resource.String.abc_searchview_description_search = global::SipItApp.Droid.Resource.String.abc_searchview_description_search;
-			global::Prism.Resource.String.abc_searchview_description_submit = global::SipItApp.Droid.Resource.String.abc_searchview_description_submit;
-			global::Prism.Resource.String.abc_searchview_description_voice = global::SipItApp.Droid.Resource.String.abc_searchview_description_voice;
-			global::Prism.Resource.String.abc_search_hint = global::SipItApp.Droid.Resource.String.abc_search_hint;
-			global::Prism.Resource.String.abc_shareactionprovider_share_with = global::SipItApp.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Prism.Resource.String.abc_shareactionprovider_share_with_application = global::SipItApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Prism.Resource.String.abc_toolbar_collapse_description = global::SipItApp.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Prism.Resource.String.appbar_scrolling_view_behavior = global::SipItApp.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Prism.Resource.String.bottom_sheet_behavior = global::SipItApp.Droid.Resource.String.bottom_sheet_behavior;
-			global::Prism.Resource.String.character_counter_pattern = global::SipItApp.Droid.Resource.String.character_counter_pattern;
-			global::Prism.Resource.String.mr_button_content_description = global::SipItApp.Droid.Resource.String.mr_button_content_description;
-			global::Prism.Resource.String.mr_cast_button_connected = global::SipItApp.Droid.Resource.String.mr_cast_button_connected;
-			global::Prism.Resource.String.mr_cast_button_connecting = global::SipItApp.Droid.Resource.String.mr_cast_button_connecting;
-			global::Prism.Resource.String.mr_cast_button_disconnected = global::SipItApp.Droid.Resource.String.mr_cast_button_disconnected;
-			global::Prism.Resource.String.mr_chooser_searching = global::SipItApp.Droid.Resource.String.mr_chooser_searching;
-			global::Prism.Resource.String.mr_chooser_title = global::SipItApp.Droid.Resource.String.mr_chooser_title;
-			global::Prism.Resource.String.mr_controller_album_art = global::SipItApp.Droid.Resource.String.mr_controller_album_art;
-			global::Prism.Resource.String.mr_controller_casting_screen = global::SipItApp.Droid.Resource.String.mr_controller_casting_screen;
-			global::Prism.Resource.String.mr_controller_close_description = global::SipItApp.Droid.Resource.String.mr_controller_close_description;
-			global::Prism.Resource.String.mr_controller_collapse_group = global::SipItApp.Droid.Resource.String.mr_controller_collapse_group;
-			global::Prism.Resource.String.mr_controller_disconnect = global::SipItApp.Droid.Resource.String.mr_controller_disconnect;
-			global::Prism.Resource.String.mr_controller_expand_group = global::SipItApp.Droid.Resource.String.mr_controller_expand_group;
-			global::Prism.Resource.String.mr_controller_no_info_available = global::SipItApp.Droid.Resource.String.mr_controller_no_info_available;
-			global::Prism.Resource.String.mr_controller_no_media_selected = global::SipItApp.Droid.Resource.String.mr_controller_no_media_selected;
-			global::Prism.Resource.String.mr_controller_pause = global::SipItApp.Droid.Resource.String.mr_controller_pause;
-			global::Prism.Resource.String.mr_controller_play = global::SipItApp.Droid.Resource.String.mr_controller_play;
-			global::Prism.Resource.String.mr_controller_stop = global::SipItApp.Droid.Resource.String.mr_controller_stop;
-			global::Prism.Resource.String.mr_controller_stop_casting = global::SipItApp.Droid.Resource.String.mr_controller_stop_casting;
-			global::Prism.Resource.String.mr_controller_volume_slider = global::SipItApp.Droid.Resource.String.mr_controller_volume_slider;
-			global::Prism.Resource.String.mr_system_route_name = global::SipItApp.Droid.Resource.String.mr_system_route_name;
-			global::Prism.Resource.String.mr_user_route_category_name = global::SipItApp.Droid.Resource.String.mr_user_route_category_name;
-			global::Prism.Resource.String.password_toggle_content_description = global::SipItApp.Droid.Resource.String.password_toggle_content_description;
-			global::Prism.Resource.String.path_password_eye = global::SipItApp.Droid.Resource.String.path_password_eye;
-			global::Prism.Resource.String.path_password_eye_mask_strike_through = global::SipItApp.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Prism.Resource.String.path_password_eye_mask_visible = global::SipItApp.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Prism.Resource.String.path_password_strike_through = global::SipItApp.Droid.Resource.String.path_password_strike_through;
-			global::Prism.Resource.String.search_menu_title = global::SipItApp.Droid.Resource.String.search_menu_title;
-			global::Prism.Resource.String.status_bar_notification_info_overflow = global::SipItApp.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Prism.Resource.Style.AlertDialog_AppCompat = global::SipItApp.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Prism.Resource.Style.AlertDialog_AppCompat_Light = global::SipItApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Prism.Resource.Style.Animation_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Prism.Resource.Style.Animation_AppCompat_DropDownUp = global::SipItApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Prism.Resource.Style.Animation_AppCompat_Tooltip = global::SipItApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Prism.Resource.Style.Animation_Design_BottomSheetDialog = global::SipItApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Prism.Resource.Style.Base_AlertDialog_AppCompat = global::SipItApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Prism.Resource.Style.Base_AlertDialog_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Prism.Resource.Style.Base_Animation_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::SipItApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Prism.Resource.Style.Base_Animation_AppCompat_Tooltip = global::SipItApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Prism.Resource.Style.Base_CardView = global::SipItApp.Droid.Resource.Style.Base_CardView;
-			global::Prism.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::SipItApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Prism.Resource.Style.Base_DialogWindowTitle_AppCompat = global::SipItApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Button = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Large = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Small = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Title = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Prism.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Prism.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Prism.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::SipItApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat = global::SipItApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::SipItApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::SipItApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::SipItApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::SipItApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Prism.Resource.Style.Base_Theme_AppCompat = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::SipItApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Prism.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_V21_Theme_AppCompat = global::SipItApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::SipItApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Prism.Resource.Style.Base_V22_Theme_AppCompat = global::SipItApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V22_Theme_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V23_Theme_AppCompat = global::SipItApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V23_Theme_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V26_Theme_AppCompat = global::SipItApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V26_Theme_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::SipItApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Prism.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_V7_Theme_AppCompat = global::SipItApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::SipItApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Prism.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::SipItApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Prism.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::SipItApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Prism.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::SipItApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionButton = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionMode = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Small = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_EditText = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ImageButton = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListView = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_RatingBar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_SearchView = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_SeekBar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Spinner = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Toolbar = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::SipItApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Prism.Resource.Style.Base_Widget_Design_TabLayout = global::SipItApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Prism.Resource.Style.CardView = global::SipItApp.Droid.Resource.Style.CardView;
-			global::Prism.Resource.Style.CardView_Dark = global::SipItApp.Droid.Resource.Style.CardView_Dark;
-			global::Prism.Resource.Style.CardView_Light = global::SipItApp.Droid.Resource.Style.CardView_Light;
-			global::Prism.Resource.Style.Platform_AppCompat = global::SipItApp.Droid.Resource.Style.Platform_AppCompat;
-			global::Prism.Resource.Style.Platform_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat = global::SipItApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::SipItApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Prism.Resource.Style.Platform_V21_AppCompat = global::SipItApp.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Prism.Resource.Style.Platform_V21_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Prism.Resource.Style.Platform_V25_AppCompat = global::SipItApp.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Prism.Resource.Style.Platform_V25_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Prism.Resource.Style.Platform_Widget_AppCompat_Spinner = global::SipItApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Prism.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::SipItApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::SipItApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Prism.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::SipItApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Prism.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::SipItApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Prism.Resource.Style.TextAppearance_AppCompat = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Body1 = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Body2 = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Button = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Caption = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Display1 = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Display2 = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Display3 = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Display4 = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Headline = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Large = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Medium = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Menu = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Small = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Subhead = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Title = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Tooltip = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SipItApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Info = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Media = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Time = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Title = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Prism.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::SipItApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Prism.Resource.Style.TextAppearance_Design_Counter = global::SipItApp.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Prism.Resource.Style.TextAppearance_Design_Counter_Overflow = global::SipItApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Prism.Resource.Style.TextAppearance_Design_Error = global::SipItApp.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Prism.Resource.Style.TextAppearance_Design_Hint = global::SipItApp.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Prism.Resource.Style.TextAppearance_Design_Snackbar_Message = global::SipItApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Prism.Resource.Style.TextAppearance_Design_Tab = global::SipItApp.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Prism.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::SipItApp.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::Prism.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::SipItApp.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::Prism.Resource.Style.TextAppearance_MediaRouter_Title = global::SipItApp.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
-			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SipItApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SipItApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::SipItApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat = global::SipItApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::SipItApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dark = global::SipItApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::SipItApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::SipItApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Light = global::SipItApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Prism.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::SipItApp.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::Prism.Resource.Style.ThemeOverlay_MediaRouter_Light = global::SipItApp.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
-			global::Prism.Resource.Style.Theme_AppCompat = global::SipItApp.Droid.Resource.Style.Theme_AppCompat;
-			global::Prism.Resource.Style.Theme_AppCompat_CompactMenu = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Prism.Resource.Style.Theme_AppCompat_Dialog = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Prism.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Prism.Resource.Style.Theme_AppCompat_Dialog_Alert = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Prism.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Prism.Resource.Style.Theme_AppCompat_Light = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_Dialog = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Prism.Resource.Style.Theme_AppCompat_NoActionBar = global::SipItApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Prism.Resource.Style.Theme_Design = global::SipItApp.Droid.Resource.Style.Theme_Design;
-			global::Prism.Resource.Style.Theme_Design_BottomSheetDialog = global::SipItApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Prism.Resource.Style.Theme_Design_Light = global::SipItApp.Droid.Resource.Style.Theme_Design_Light;
-			global::Prism.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::SipItApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Prism.Resource.Style.Theme_Design_Light_NoActionBar = global::SipItApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Prism.Resource.Style.Theme_Design_NoActionBar = global::SipItApp.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Prism.Resource.Style.Theme_MediaRouter = global::SipItApp.Droid.Resource.Style.Theme_MediaRouter;
-			global::Prism.Resource.Style.Theme_MediaRouter_Light = global::SipItApp.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::Prism.Resource.Style.Theme_MediaRouter_LightControlPanel = global::SipItApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::Prism.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::SipItApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionButton = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionMode = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Prism.Resource.Style.Widget_AppCompat_ActivityChooserView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Prism.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Prism.Resource.Style.Widget_AppCompat_Button = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Prism.Resource.Style.Widget_AppCompat_ButtonBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_Borderless = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_Colored = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_Small = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Prism.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Prism.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Prism.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Prism.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Prism.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Prism.Resource.Style.Widget_AppCompat_EditText = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Prism.Resource.Style.Widget_AppCompat_ImageButton = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionButton = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_SearchView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ListMenuView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Prism.Resource.Style.Widget_AppCompat_ListPopupWindow = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Prism.Resource.Style.Widget_AppCompat_ListView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Prism.Resource.Style.Widget_AppCompat_ListView_DropDown = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Prism.Resource.Style.Widget_AppCompat_ListView_Menu = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Prism.Resource.Style.Widget_AppCompat_PopupMenu = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Prism.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Prism.Resource.Style.Widget_AppCompat_PopupWindow = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Prism.Resource.Style.Widget_AppCompat_ProgressBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Prism.Resource.Style.Widget_AppCompat_RatingBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Prism.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Prism.Resource.Style.Widget_AppCompat_RatingBar_Small = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Prism.Resource.Style.Widget_AppCompat_SearchView = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Prism.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_SeekBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Prism.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Prism.Resource.Style.Widget_AppCompat_Spinner = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Prism.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Prism.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Prism.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Prism.Resource.Style.Widget_AppCompat_Toolbar = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Prism.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::SipItApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Prism.Resource.Style.Widget_Compat_NotificationActionContainer = global::SipItApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Prism.Resource.Style.Widget_Compat_NotificationActionText = global::SipItApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Prism.Resource.Style.Widget_Design_AppBarLayout = global::SipItApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Prism.Resource.Style.Widget_Design_BottomNavigationView = global::SipItApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Prism.Resource.Style.Widget_Design_BottomSheet_Modal = global::SipItApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Prism.Resource.Style.Widget_Design_CollapsingToolbar = global::SipItApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Prism.Resource.Style.Widget_Design_FloatingActionButton = global::SipItApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Prism.Resource.Style.Widget_Design_NavigationView = global::SipItApp.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Prism.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::SipItApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Prism.Resource.Style.Widget_Design_Snackbar = global::SipItApp.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Prism.Resource.Style.Widget_Design_TabLayout = global::SipItApp.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Prism.Resource.Style.Widget_Design_TextInputLayout = global::SipItApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Prism.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::SipItApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::Prism.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::SipItApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::Prism.Resource.Styleable.ActionBar = global::SipItApp.Droid.Resource.Styleable.ActionBar;
-			global::Prism.Resource.Styleable.ActionBarLayout = global::SipItApp.Droid.Resource.Styleable.ActionBarLayout;
-			global::Prism.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::SipItApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Prism.Resource.Styleable.ActionBar_background = global::SipItApp.Droid.Resource.Styleable.ActionBar_background;
-			global::Prism.Resource.Styleable.ActionBar_backgroundSplit = global::SipItApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Prism.Resource.Styleable.ActionBar_backgroundStacked = global::SipItApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetEnd = global::SipItApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::SipItApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetLeft = global::SipItApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetRight = global::SipItApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetStart = global::SipItApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::SipItApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Prism.Resource.Styleable.ActionBar_customNavigationLayout = global::SipItApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Prism.Resource.Styleable.ActionBar_displayOptions = global::SipItApp.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Prism.Resource.Styleable.ActionBar_divider = global::SipItApp.Droid.Resource.Styleable.ActionBar_divider;
-			global::Prism.Resource.Styleable.ActionBar_elevation = global::SipItApp.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Prism.Resource.Styleable.ActionBar_height = global::SipItApp.Droid.Resource.Styleable.ActionBar_height;
-			global::Prism.Resource.Styleable.ActionBar_hideOnContentScroll = global::SipItApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Prism.Resource.Styleable.ActionBar_homeAsUpIndicator = global::SipItApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Prism.Resource.Styleable.ActionBar_homeLayout = global::SipItApp.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Prism.Resource.Styleable.ActionBar_icon = global::SipItApp.Droid.Resource.Styleable.ActionBar_icon;
-			global::Prism.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::SipItApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Prism.Resource.Styleable.ActionBar_itemPadding = global::SipItApp.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Prism.Resource.Styleable.ActionBar_logo = global::SipItApp.Droid.Resource.Styleable.ActionBar_logo;
-			global::Prism.Resource.Styleable.ActionBar_navigationMode = global::SipItApp.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Prism.Resource.Styleable.ActionBar_popupTheme = global::SipItApp.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Prism.Resource.Styleable.ActionBar_progressBarPadding = global::SipItApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Prism.Resource.Styleable.ActionBar_progressBarStyle = global::SipItApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Prism.Resource.Styleable.ActionBar_subtitle = global::SipItApp.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Prism.Resource.Styleable.ActionBar_subtitleTextStyle = global::SipItApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Prism.Resource.Styleable.ActionBar_title = global::SipItApp.Droid.Resource.Styleable.ActionBar_title;
-			global::Prism.Resource.Styleable.ActionBar_titleTextStyle = global::SipItApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Prism.Resource.Styleable.ActionMenuItemView = global::SipItApp.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Prism.Resource.Styleable.ActionMenuItemView_android_minWidth = global::SipItApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Prism.Resource.Styleable.ActionMenuView = global::SipItApp.Droid.Resource.Styleable.ActionMenuView;
-			global::Prism.Resource.Styleable.ActionMode = global::SipItApp.Droid.Resource.Styleable.ActionMode;
-			global::Prism.Resource.Styleable.ActionMode_background = global::SipItApp.Droid.Resource.Styleable.ActionMode_background;
-			global::Prism.Resource.Styleable.ActionMode_backgroundSplit = global::SipItApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Prism.Resource.Styleable.ActionMode_closeItemLayout = global::SipItApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Prism.Resource.Styleable.ActionMode_height = global::SipItApp.Droid.Resource.Styleable.ActionMode_height;
-			global::Prism.Resource.Styleable.ActionMode_subtitleTextStyle = global::SipItApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Prism.Resource.Styleable.ActionMode_titleTextStyle = global::SipItApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Prism.Resource.Styleable.ActivityChooserView = global::SipItApp.Droid.Resource.Styleable.ActivityChooserView;
-			global::Prism.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::SipItApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Prism.Resource.Styleable.ActivityChooserView_initialActivityCount = global::SipItApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Prism.Resource.Styleable.AlertDialog = global::SipItApp.Droid.Resource.Styleable.AlertDialog;
-			global::Prism.Resource.Styleable.AlertDialog_android_layout = global::SipItApp.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Prism.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::SipItApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Prism.Resource.Styleable.AlertDialog_listItemLayout = global::SipItApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Prism.Resource.Styleable.AlertDialog_listLayout = global::SipItApp.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Prism.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::SipItApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Prism.Resource.Styleable.AlertDialog_showTitle = global::SipItApp.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Prism.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::SipItApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Prism.Resource.Styleable.AppBarLayout = global::SipItApp.Droid.Resource.Styleable.AppBarLayout;
-			global::Prism.Resource.Styleable.AppBarLayoutStates = global::SipItApp.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Prism.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::SipItApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Prism.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::SipItApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Prism.Resource.Styleable.AppBarLayout_android_background = global::SipItApp.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Prism.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::SipItApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Prism.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::SipItApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Prism.Resource.Styleable.AppBarLayout_elevation = global::SipItApp.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Prism.Resource.Styleable.AppBarLayout_expanded = global::SipItApp.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Prism.Resource.Styleable.AppBarLayout_Layout = global::SipItApp.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Prism.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::SipItApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Prism.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::SipItApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Prism.Resource.Styleable.AppCompatImageView = global::SipItApp.Droid.Resource.Styleable.AppCompatImageView;
-			global::Prism.Resource.Styleable.AppCompatImageView_android_src = global::SipItApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Prism.Resource.Styleable.AppCompatImageView_srcCompat = global::SipItApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Prism.Resource.Styleable.AppCompatImageView_tint = global::SipItApp.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Prism.Resource.Styleable.AppCompatImageView_tintMode = global::SipItApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Prism.Resource.Styleable.AppCompatSeekBar = global::SipItApp.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Prism.Resource.Styleable.AppCompatSeekBar_android_thumb = global::SipItApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Prism.Resource.Styleable.AppCompatSeekBar_tickMark = global::SipItApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Prism.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::SipItApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Prism.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::SipItApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Prism.Resource.Styleable.AppCompatTextHelper = global::SipItApp.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::SipItApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::SipItApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::SipItApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::SipItApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::SipItApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::SipItApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::SipItApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Prism.Resource.Styleable.AppCompatTextView = global::SipItApp.Droid.Resource.Styleable.AppCompatTextView;
-			global::Prism.Resource.Styleable.AppCompatTextView_android_textAppearance = global::SipItApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::SipItApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::SipItApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::SipItApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::SipItApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::SipItApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Prism.Resource.Styleable.AppCompatTextView_fontFamily = global::SipItApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Prism.Resource.Styleable.AppCompatTextView_textAllCaps = global::SipItApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Prism.Resource.Styleable.AppCompatTheme = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarDivider = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarSize = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTheme = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeBackground = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Prism.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Prism.Resource.Styleable.AppCompatTheme_checkboxStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorAccent = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorControlActivated = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorControlNormal = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorError = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorPrimary = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Prism.Resource.Styleable.AppCompatTheme_controlBackground = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Prism.Resource.Styleable.AppCompatTheme_dialogTheme = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Prism.Resource.Styleable.AppCompatTheme_dividerVertical = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Prism.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Prism.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_editTextBackground = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_editTextColor = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Prism.Resource.Styleable.AppCompatTheme_editTextStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Prism.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Prism.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Prism.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Prism.Resource.Styleable.AppCompatTheme_panelBackground = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Prism.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Prism.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Prism.Resource.Styleable.AppCompatTheme_searchViewStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_seekBarStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Prism.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_spinnerStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_switchStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Prism.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Prism.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Prism.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_toolbarStyle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Prism.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowActionBar = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowNoTitle = global::SipItApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Prism.Resource.Styleable.BottomNavigationView = global::SipItApp.Droid.Resource.Styleable.BottomNavigationView;
-			global::Prism.Resource.Styleable.BottomNavigationView_elevation = global::SipItApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Prism.Resource.Styleable.BottomNavigationView_itemBackground = global::SipItApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Prism.Resource.Styleable.BottomNavigationView_itemIconTint = global::SipItApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Prism.Resource.Styleable.BottomNavigationView_itemTextColor = global::SipItApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Prism.Resource.Styleable.BottomNavigationView_menu = global::SipItApp.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout = global::SipItApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::SipItApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::SipItApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::SipItApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Prism.Resource.Styleable.ButtonBarLayout = global::SipItApp.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Prism.Resource.Styleable.ButtonBarLayout_allowStacking = global::SipItApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Prism.Resource.Styleable.CardView = global::SipItApp.Droid.Resource.Styleable.CardView;
-			global::Prism.Resource.Styleable.CardView_android_minHeight = global::SipItApp.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Prism.Resource.Styleable.CardView_android_minWidth = global::SipItApp.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Prism.Resource.Styleable.CardView_cardBackgroundColor = global::SipItApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Prism.Resource.Styleable.CardView_cardCornerRadius = global::SipItApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Prism.Resource.Styleable.CardView_cardElevation = global::SipItApp.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Prism.Resource.Styleable.CardView_cardMaxElevation = global::SipItApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Prism.Resource.Styleable.CardView_cardPreventCornerOverlap = global::SipItApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Prism.Resource.Styleable.CardView_cardUseCompatPadding = global::SipItApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Prism.Resource.Styleable.CardView_contentPadding = global::SipItApp.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Prism.Resource.Styleable.CardView_contentPaddingBottom = global::SipItApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Prism.Resource.Styleable.CardView_contentPaddingLeft = global::SipItApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Prism.Resource.Styleable.CardView_contentPaddingRight = global::SipItApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Prism.Resource.Styleable.CardView_contentPaddingTop = global::SipItApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_Layout = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_title = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::SipItApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Prism.Resource.Styleable.ColorStateListItem = global::SipItApp.Droid.Resource.Styleable.ColorStateListItem;
-			global::Prism.Resource.Styleable.ColorStateListItem_alpha = global::SipItApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Prism.Resource.Styleable.ColorStateListItem_android_alpha = global::SipItApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Prism.Resource.Styleable.ColorStateListItem_android_color = global::SipItApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Prism.Resource.Styleable.CompoundButton = global::SipItApp.Droid.Resource.Styleable.CompoundButton;
-			global::Prism.Resource.Styleable.CompoundButton_android_button = global::SipItApp.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Prism.Resource.Styleable.CompoundButton_buttonTint = global::SipItApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Prism.Resource.Styleable.CompoundButton_buttonTintMode = global::SipItApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Prism.Resource.Styleable.CoordinatorLayout = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Prism.Resource.Styleable.CoordinatorLayout_keylines = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Prism.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Prism.Resource.Styleable.DesignTheme = global::SipItApp.Droid.Resource.Styleable.DesignTheme;
-			global::Prism.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::SipItApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Prism.Resource.Styleable.DesignTheme_bottomSheetStyle = global::SipItApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Prism.Resource.Styleable.DrawerArrowToggle = global::SipItApp.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::SipItApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::SipItApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_barLength = global::SipItApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_color = global::SipItApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_drawableSize = global::SipItApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::SipItApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_spinBars = global::SipItApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_thickness = global::SipItApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Prism.Resource.Styleable.FloatingActionButton = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton;
-			global::Prism.Resource.Styleable.FloatingActionButton_backgroundTint = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Prism.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Prism.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Prism.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Prism.Resource.Styleable.FloatingActionButton_borderWidth = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Prism.Resource.Styleable.FloatingActionButton_elevation = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Prism.Resource.Styleable.FloatingActionButton_fabSize = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Prism.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Prism.Resource.Styleable.FloatingActionButton_rippleColor = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Prism.Resource.Styleable.FloatingActionButton_useCompatPadding = global::SipItApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Prism.Resource.Styleable.FontFamily = global::SipItApp.Droid.Resource.Styleable.FontFamily;
-			global::Prism.Resource.Styleable.FontFamilyFont = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont;
-			global::Prism.Resource.Styleable.FontFamilyFont_android_font = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Prism.Resource.Styleable.FontFamilyFont_android_fontStyle = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Prism.Resource.Styleable.FontFamilyFont_android_fontWeight = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Prism.Resource.Styleable.FontFamilyFont_font = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Prism.Resource.Styleable.FontFamilyFont_fontStyle = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Prism.Resource.Styleable.FontFamilyFont_fontWeight = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderAuthority = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderCerts = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderPackage = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderQuery = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Prism.Resource.Styleable.ForegroundLinearLayout = global::SipItApp.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Prism.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::SipItApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Prism.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::SipItApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Prism.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::SipItApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Prism.Resource.Styleable.LinearLayoutCompat = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_gravity = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_orientation = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_divider = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_showDividers = global::SipItApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Prism.Resource.Styleable.ListPopupWindow = global::SipItApp.Droid.Resource.Styleable.ListPopupWindow;
-			global::Prism.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::SipItApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Prism.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::SipItApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Prism.Resource.Styleable.MediaRouteButton = global::SipItApp.Droid.Resource.Styleable.MediaRouteButton;
-			global::Prism.Resource.Styleable.MediaRouteButton_android_minHeight = global::SipItApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::Prism.Resource.Styleable.MediaRouteButton_android_minWidth = global::SipItApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::Prism.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::SipItApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::Prism.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::SipItApp.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
-			global::Prism.Resource.Styleable.MenuGroup = global::SipItApp.Droid.Resource.Styleable.MenuGroup;
-			global::Prism.Resource.Styleable.MenuGroup_android_checkableBehavior = global::SipItApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Prism.Resource.Styleable.MenuGroup_android_enabled = global::SipItApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Prism.Resource.Styleable.MenuGroup_android_id = global::SipItApp.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Prism.Resource.Styleable.MenuGroup_android_menuCategory = global::SipItApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Prism.Resource.Styleable.MenuGroup_android_orderInCategory = global::SipItApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Prism.Resource.Styleable.MenuGroup_android_visible = global::SipItApp.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Prism.Resource.Styleable.MenuItem = global::SipItApp.Droid.Resource.Styleable.MenuItem;
-			global::Prism.Resource.Styleable.MenuItem_actionLayout = global::SipItApp.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Prism.Resource.Styleable.MenuItem_actionProviderClass = global::SipItApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Prism.Resource.Styleable.MenuItem_actionViewClass = global::SipItApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Prism.Resource.Styleable.MenuItem_alphabeticModifiers = global::SipItApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Prism.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Prism.Resource.Styleable.MenuItem_android_checkable = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Prism.Resource.Styleable.MenuItem_android_checked = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Prism.Resource.Styleable.MenuItem_android_enabled = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Prism.Resource.Styleable.MenuItem_android_icon = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Prism.Resource.Styleable.MenuItem_android_id = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Prism.Resource.Styleable.MenuItem_android_menuCategory = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Prism.Resource.Styleable.MenuItem_android_numericShortcut = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Prism.Resource.Styleable.MenuItem_android_onClick = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Prism.Resource.Styleable.MenuItem_android_orderInCategory = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Prism.Resource.Styleable.MenuItem_android_title = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Prism.Resource.Styleable.MenuItem_android_titleCondensed = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Prism.Resource.Styleable.MenuItem_android_visible = global::SipItApp.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Prism.Resource.Styleable.MenuItem_contentDescription = global::SipItApp.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Prism.Resource.Styleable.MenuItem_iconTint = global::SipItApp.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Prism.Resource.Styleable.MenuItem_iconTintMode = global::SipItApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Prism.Resource.Styleable.MenuItem_numericModifiers = global::SipItApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Prism.Resource.Styleable.MenuItem_showAsAction = global::SipItApp.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Prism.Resource.Styleable.MenuItem_tooltipText = global::SipItApp.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Prism.Resource.Styleable.MenuView = global::SipItApp.Droid.Resource.Styleable.MenuView;
-			global::Prism.Resource.Styleable.MenuView_android_headerBackground = global::SipItApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Prism.Resource.Styleable.MenuView_android_horizontalDivider = global::SipItApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Prism.Resource.Styleable.MenuView_android_itemBackground = global::SipItApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Prism.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::SipItApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Prism.Resource.Styleable.MenuView_android_itemTextAppearance = global::SipItApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Prism.Resource.Styleable.MenuView_android_verticalDivider = global::SipItApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Prism.Resource.Styleable.MenuView_android_windowAnimationStyle = global::SipItApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Prism.Resource.Styleable.MenuView_preserveIconSpacing = global::SipItApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Prism.Resource.Styleable.MenuView_subMenuArrow = global::SipItApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Prism.Resource.Styleable.NavigationView = global::SipItApp.Droid.Resource.Styleable.NavigationView;
-			global::Prism.Resource.Styleable.NavigationView_android_background = global::SipItApp.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Prism.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::SipItApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Prism.Resource.Styleable.NavigationView_android_maxWidth = global::SipItApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Prism.Resource.Styleable.NavigationView_elevation = global::SipItApp.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Prism.Resource.Styleable.NavigationView_headerLayout = global::SipItApp.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Prism.Resource.Styleable.NavigationView_itemBackground = global::SipItApp.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Prism.Resource.Styleable.NavigationView_itemIconTint = global::SipItApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Prism.Resource.Styleable.NavigationView_itemTextAppearance = global::SipItApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Prism.Resource.Styleable.NavigationView_itemTextColor = global::SipItApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Prism.Resource.Styleable.NavigationView_menu = global::SipItApp.Droid.Resource.Styleable.NavigationView_menu;
-			global::Prism.Resource.Styleable.PopupWindow = global::SipItApp.Droid.Resource.Styleable.PopupWindow;
-			global::Prism.Resource.Styleable.PopupWindowBackgroundState = global::SipItApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Prism.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::SipItApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Prism.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::SipItApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Prism.Resource.Styleable.PopupWindow_android_popupBackground = global::SipItApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Prism.Resource.Styleable.PopupWindow_overlapAnchor = global::SipItApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Prism.Resource.Styleable.RecycleListView = global::SipItApp.Droid.Resource.Styleable.RecycleListView;
-			global::Prism.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::SipItApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Prism.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::SipItApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Prism.Resource.Styleable.RecyclerView = global::SipItApp.Droid.Resource.Styleable.RecyclerView;
-			global::Prism.Resource.Styleable.RecyclerView_android_descendantFocusability = global::SipItApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Prism.Resource.Styleable.RecyclerView_android_orientation = global::SipItApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollEnabled = global::SipItApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::SipItApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::SipItApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::SipItApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::SipItApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Prism.Resource.Styleable.RecyclerView_layoutManager = global::SipItApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Prism.Resource.Styleable.RecyclerView_reverseLayout = global::SipItApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Prism.Resource.Styleable.RecyclerView_spanCount = global::SipItApp.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Prism.Resource.Styleable.RecyclerView_stackFromEnd = global::SipItApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Prism.Resource.Styleable.ScrimInsetsFrameLayout = global::SipItApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Prism.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::SipItApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Prism.Resource.Styleable.ScrollingViewBehavior_Layout = global::SipItApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Prism.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::SipItApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Prism.Resource.Styleable.SearchView = global::SipItApp.Droid.Resource.Styleable.SearchView;
-			global::Prism.Resource.Styleable.SearchView_android_focusable = global::SipItApp.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Prism.Resource.Styleable.SearchView_android_imeOptions = global::SipItApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Prism.Resource.Styleable.SearchView_android_inputType = global::SipItApp.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Prism.Resource.Styleable.SearchView_android_maxWidth = global::SipItApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Prism.Resource.Styleable.SearchView_closeIcon = global::SipItApp.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Prism.Resource.Styleable.SearchView_commitIcon = global::SipItApp.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Prism.Resource.Styleable.SearchView_defaultQueryHint = global::SipItApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Prism.Resource.Styleable.SearchView_goIcon = global::SipItApp.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Prism.Resource.Styleable.SearchView_iconifiedByDefault = global::SipItApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Prism.Resource.Styleable.SearchView_layout = global::SipItApp.Droid.Resource.Styleable.SearchView_layout;
-			global::Prism.Resource.Styleable.SearchView_queryBackground = global::SipItApp.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Prism.Resource.Styleable.SearchView_queryHint = global::SipItApp.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Prism.Resource.Styleable.SearchView_searchHintIcon = global::SipItApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Prism.Resource.Styleable.SearchView_searchIcon = global::SipItApp.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Prism.Resource.Styleable.SearchView_submitBackground = global::SipItApp.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Prism.Resource.Styleable.SearchView_suggestionRowLayout = global::SipItApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Prism.Resource.Styleable.SearchView_voiceIcon = global::SipItApp.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Prism.Resource.Styleable.SnackbarLayout = global::SipItApp.Droid.Resource.Styleable.SnackbarLayout;
-			global::Prism.Resource.Styleable.SnackbarLayout_android_maxWidth = global::SipItApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Prism.Resource.Styleable.SnackbarLayout_elevation = global::SipItApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Prism.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::SipItApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Prism.Resource.Styleable.Spinner = global::SipItApp.Droid.Resource.Styleable.Spinner;
-			global::Prism.Resource.Styleable.Spinner_android_dropDownWidth = global::SipItApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Prism.Resource.Styleable.Spinner_android_entries = global::SipItApp.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Prism.Resource.Styleable.Spinner_android_popupBackground = global::SipItApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Prism.Resource.Styleable.Spinner_android_prompt = global::SipItApp.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Prism.Resource.Styleable.Spinner_popupTheme = global::SipItApp.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Prism.Resource.Styleable.SwitchCompat = global::SipItApp.Droid.Resource.Styleable.SwitchCompat;
-			global::Prism.Resource.Styleable.SwitchCompat_android_textOff = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Prism.Resource.Styleable.SwitchCompat_android_textOn = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Prism.Resource.Styleable.SwitchCompat_android_thumb = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Prism.Resource.Styleable.SwitchCompat_showText = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Prism.Resource.Styleable.SwitchCompat_splitTrack = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Prism.Resource.Styleable.SwitchCompat_switchMinWidth = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Prism.Resource.Styleable.SwitchCompat_switchPadding = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Prism.Resource.Styleable.SwitchCompat_switchTextAppearance = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Prism.Resource.Styleable.SwitchCompat_thumbTextPadding = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Prism.Resource.Styleable.SwitchCompat_thumbTint = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Prism.Resource.Styleable.SwitchCompat_thumbTintMode = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Prism.Resource.Styleable.SwitchCompat_track = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Prism.Resource.Styleable.SwitchCompat_trackTint = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Prism.Resource.Styleable.SwitchCompat_trackTintMode = global::SipItApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Prism.Resource.Styleable.TabItem = global::SipItApp.Droid.Resource.Styleable.TabItem;
-			global::Prism.Resource.Styleable.TabItem_android_icon = global::SipItApp.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Prism.Resource.Styleable.TabItem_android_layout = global::SipItApp.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Prism.Resource.Styleable.TabItem_android_text = global::SipItApp.Droid.Resource.Styleable.TabItem_android_text;
-			global::Prism.Resource.Styleable.TabLayout = global::SipItApp.Droid.Resource.Styleable.TabLayout;
-			global::Prism.Resource.Styleable.TabLayout_tabBackground = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Prism.Resource.Styleable.TabLayout_tabContentStart = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Prism.Resource.Styleable.TabLayout_tabGravity = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Prism.Resource.Styleable.TabLayout_tabIndicatorColor = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Prism.Resource.Styleable.TabLayout_tabIndicatorHeight = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Prism.Resource.Styleable.TabLayout_tabMaxWidth = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Prism.Resource.Styleable.TabLayout_tabMinWidth = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Prism.Resource.Styleable.TabLayout_tabMode = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Prism.Resource.Styleable.TabLayout_tabPadding = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Prism.Resource.Styleable.TabLayout_tabPaddingBottom = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Prism.Resource.Styleable.TabLayout_tabPaddingEnd = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Prism.Resource.Styleable.TabLayout_tabPaddingStart = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Prism.Resource.Styleable.TabLayout_tabPaddingTop = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Prism.Resource.Styleable.TabLayout_tabSelectedTextColor = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Prism.Resource.Styleable.TabLayout_tabTextAppearance = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Prism.Resource.Styleable.TabLayout_tabTextColor = global::SipItApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Prism.Resource.Styleable.TextAppearance = global::SipItApp.Droid.Resource.Styleable.TextAppearance;
-			global::Prism.Resource.Styleable.TextAppearance_android_fontFamily = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Prism.Resource.Styleable.TextAppearance_android_shadowColor = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Prism.Resource.Styleable.TextAppearance_android_shadowDx = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Prism.Resource.Styleable.TextAppearance_android_shadowDy = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Prism.Resource.Styleable.TextAppearance_android_shadowRadius = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Prism.Resource.Styleable.TextAppearance_android_textColor = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Prism.Resource.Styleable.TextAppearance_android_textColorHint = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Prism.Resource.Styleable.TextAppearance_android_textColorLink = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Prism.Resource.Styleable.TextAppearance_android_textSize = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Prism.Resource.Styleable.TextAppearance_android_textStyle = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Prism.Resource.Styleable.TextAppearance_android_typeface = global::SipItApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Prism.Resource.Styleable.TextAppearance_fontFamily = global::SipItApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Prism.Resource.Styleable.TextAppearance_textAllCaps = global::SipItApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Prism.Resource.Styleable.TextInputLayout = global::SipItApp.Droid.Resource.Styleable.TextInputLayout;
-			global::Prism.Resource.Styleable.TextInputLayout_android_hint = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Prism.Resource.Styleable.TextInputLayout_android_textColorHint = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Prism.Resource.Styleable.TextInputLayout_counterEnabled = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_counterMaxLength = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Prism.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Prism.Resource.Styleable.TextInputLayout_counterTextAppearance = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Prism.Resource.Styleable.TextInputLayout_errorEnabled = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_errorTextAppearance = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Prism.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_hintEnabled = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_hintTextAppearance = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleTint = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::SipItApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Prism.Resource.Styleable.Toolbar = global::SipItApp.Droid.Resource.Styleable.Toolbar;
-			global::Prism.Resource.Styleable.Toolbar_android_gravity = global::SipItApp.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Prism.Resource.Styleable.Toolbar_android_minHeight = global::SipItApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Prism.Resource.Styleable.Toolbar_buttonGravity = global::SipItApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Prism.Resource.Styleable.Toolbar_collapseContentDescription = global::SipItApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Prism.Resource.Styleable.Toolbar_collapseIcon = global::SipItApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetEnd = global::SipItApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::SipItApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetLeft = global::SipItApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetRight = global::SipItApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetStart = global::SipItApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::SipItApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Prism.Resource.Styleable.Toolbar_logo = global::SipItApp.Droid.Resource.Styleable.Toolbar_logo;
-			global::Prism.Resource.Styleable.Toolbar_logoDescription = global::SipItApp.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Prism.Resource.Styleable.Toolbar_maxButtonHeight = global::SipItApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Prism.Resource.Styleable.Toolbar_navigationContentDescription = global::SipItApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Prism.Resource.Styleable.Toolbar_navigationIcon = global::SipItApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Prism.Resource.Styleable.Toolbar_popupTheme = global::SipItApp.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Prism.Resource.Styleable.Toolbar_subtitle = global::SipItApp.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Prism.Resource.Styleable.Toolbar_subtitleTextAppearance = global::SipItApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Prism.Resource.Styleable.Toolbar_subtitleTextColor = global::SipItApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Prism.Resource.Styleable.Toolbar_title = global::SipItApp.Droid.Resource.Styleable.Toolbar_title;
-			global::Prism.Resource.Styleable.Toolbar_titleMargin = global::SipItApp.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Prism.Resource.Styleable.Toolbar_titleMarginBottom = global::SipItApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Prism.Resource.Styleable.Toolbar_titleMarginEnd = global::SipItApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Prism.Resource.Styleable.Toolbar_titleMargins = global::SipItApp.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Prism.Resource.Styleable.Toolbar_titleMarginStart = global::SipItApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Prism.Resource.Styleable.Toolbar_titleMarginTop = global::SipItApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Prism.Resource.Styleable.Toolbar_titleTextAppearance = global::SipItApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Prism.Resource.Styleable.Toolbar_titleTextColor = global::SipItApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Prism.Resource.Styleable.View = global::SipItApp.Droid.Resource.Styleable.View;
-			global::Prism.Resource.Styleable.ViewBackgroundHelper = global::SipItApp.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Prism.Resource.Styleable.ViewBackgroundHelper_android_background = global::SipItApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Prism.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::SipItApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Prism.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::SipItApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Prism.Resource.Styleable.ViewStubCompat = global::SipItApp.Droid.Resource.Styleable.ViewStubCompat;
-			global::Prism.Resource.Styleable.ViewStubCompat_android_id = global::SipItApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Prism.Resource.Styleable.ViewStubCompat_android_inflatedId = global::SipItApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Prism.Resource.Styleable.ViewStubCompat_android_layout = global::SipItApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Prism.Resource.Styleable.View_android_focusable = global::SipItApp.Droid.Resource.Styleable.View_android_focusable;
-			global::Prism.Resource.Styleable.View_android_theme = global::SipItApp.Droid.Resource.Styleable.View_android_theme;
-			global::Prism.Resource.Styleable.View_paddingEnd = global::SipItApp.Droid.Resource.Styleable.View_paddingEnd;
-			global::Prism.Resource.Styleable.View_paddingStart = global::SipItApp.Droid.Resource.Styleable.View_paddingStart;
-			global::Prism.Resource.Styleable.View_theme = global::SipItApp.Droid.Resource.Styleable.View_theme;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::SipItApp.Droid.Resource.Drawable.Avatar1;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::SipItApp.Droid.Resource.Drawable.Avatar10;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::SipItApp.Droid.Resource.Drawable.Avatar11;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::SipItApp.Droid.Resource.Drawable.Avatar12;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::SipItApp.Droid.Resource.Drawable.Avatar13;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::SipItApp.Droid.Resource.Drawable.Avatar14;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::SipItApp.Droid.Resource.Drawable.Avatar15;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::SipItApp.Droid.Resource.Drawable.Avatar16;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::SipItApp.Droid.Resource.Drawable.Avatar17;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::SipItApp.Droid.Resource.Drawable.Avatar18;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::SipItApp.Droid.Resource.Drawable.Avatar19;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::SipItApp.Droid.Resource.Drawable.Avatar2;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::SipItApp.Droid.Resource.Drawable.Avatar20;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::SipItApp.Droid.Resource.Drawable.Avatar21;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::SipItApp.Droid.Resource.Drawable.Avatar22;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::SipItApp.Droid.Resource.Drawable.Avatar23;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::SipItApp.Droid.Resource.Drawable.Avatar24;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::SipItApp.Droid.Resource.Drawable.Avatar25;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::SipItApp.Droid.Resource.Drawable.Avatar26;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::SipItApp.Droid.Resource.Drawable.Avatar27;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::SipItApp.Droid.Resource.Drawable.Avatar28;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::SipItApp.Droid.Resource.Drawable.Avatar29;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::SipItApp.Droid.Resource.Drawable.Avatar3;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::SipItApp.Droid.Resource.Drawable.Avatar30;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::SipItApp.Droid.Resource.Drawable.Avatar4;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::SipItApp.Droid.Resource.Drawable.Avatar5;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::SipItApp.Droid.Resource.Drawable.Avatar6;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::SipItApp.Droid.Resource.Drawable.Avatar7;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::SipItApp.Droid.Resource.Drawable.Avatar8;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::SipItApp.Droid.Resource.Drawable.Avatar9;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::SipItApp.Droid.Resource.Drawable.input_layout_drop_down_icon;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::SipItApp.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::SipItApp.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Xamarin.Essentials.Resource.Attribute.alpha = global::SipItApp.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::SipItApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Essentials.Resource.Attribute.font = global::SipItApp.Droid.Resource.Attribute.font;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::SipItApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::SipItApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::SipItApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::SipItApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::SipItApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::SipItApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::SipItApp.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::SipItApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::SipItApp.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Essentials.Resource.Attribute.keylines = global::SipItApp.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Essentials.Resource.Attribute.layout_anchor = global::SipItApp.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Essentials.Resource.Attribute.layout_anchorGravity = global::SipItApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Essentials.Resource.Attribute.layout_behavior = global::SipItApp.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Essentials.Resource.Attribute.layout_dodgeInsetEdges = global::SipItApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Essentials.Resource.Attribute.layout_insetEdge = global::SipItApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Essentials.Resource.Attribute.layout_keyline = global::SipItApp.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Essentials.Resource.Attribute.statusBarBackground = global::SipItApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::SipItApp.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::SipItApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::SipItApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::SipItApp.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::SipItApp.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::SipItApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::SipItApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::SipItApp.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::SipItApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::SipItApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::SipItApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::SipItApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::SipItApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::SipItApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::SipItApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::SipItApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_height = global::SipItApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_width = global::SipItApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::SipItApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::SipItApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::SipItApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::SipItApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::SipItApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::SipItApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::SipItApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::SipItApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::SipItApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::SipItApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::SipItApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::SipItApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::SipItApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::SipItApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::SipItApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::SipItApp.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::SipItApp.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::SipItApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::SipItApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::SipItApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::SipItApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::SipItApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::SipItApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::SipItApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::SipItApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::SipItApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::SipItApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.actions = global::SipItApp.Droid.Resource.Id.actions;
+			global::Xamarin.Essentials.Resource.Id.action_container = global::SipItApp.Droid.Resource.Id.action_container;
+			global::Xamarin.Essentials.Resource.Id.action_divider = global::SipItApp.Droid.Resource.Id.action_divider;
+			global::Xamarin.Essentials.Resource.Id.action_image = global::SipItApp.Droid.Resource.Id.action_image;
+			global::Xamarin.Essentials.Resource.Id.action_text = global::SipItApp.Droid.Resource.Id.action_text;
+			global::Xamarin.Essentials.Resource.Id.all = global::SipItApp.Droid.Resource.Id.all;
+			global::Xamarin.Essentials.Resource.Id.async = global::SipItApp.Droid.Resource.Id.async;
+			global::Xamarin.Essentials.Resource.Id.blocking = global::SipItApp.Droid.Resource.Id.blocking;
+			global::Xamarin.Essentials.Resource.Id.bottom = global::SipItApp.Droid.Resource.Id.bottom;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::SipItApp.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::SipItApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::SipItApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::SipItApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::SipItApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Essentials.Resource.Id.center = global::SipItApp.Droid.Resource.Id.center;
+			global::Xamarin.Essentials.Resource.Id.center_horizontal = global::SipItApp.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Essentials.Resource.Id.center_vertical = global::SipItApp.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Essentials.Resource.Id.chronometer = global::SipItApp.Droid.Resource.Id.chronometer;
+			global::Xamarin.Essentials.Resource.Id.clip_horizontal = global::SipItApp.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Essentials.Resource.Id.clip_vertical = global::SipItApp.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Essentials.Resource.Id.end = global::SipItApp.Droid.Resource.Id.end;
+			global::Xamarin.Essentials.Resource.Id.fill = global::SipItApp.Droid.Resource.Id.fill;
+			global::Xamarin.Essentials.Resource.Id.fill_horizontal = global::SipItApp.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Essentials.Resource.Id.fill_vertical = global::SipItApp.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Essentials.Resource.Id.forever = global::SipItApp.Droid.Resource.Id.forever;
+			global::Xamarin.Essentials.Resource.Id.icon = global::SipItApp.Droid.Resource.Id.icon;
+			global::Xamarin.Essentials.Resource.Id.icon_group = global::SipItApp.Droid.Resource.Id.icon_group;
+			global::Xamarin.Essentials.Resource.Id.info = global::SipItApp.Droid.Resource.Id.info;
+			global::Xamarin.Essentials.Resource.Id.italic = global::SipItApp.Droid.Resource.Id.italic;
+			global::Xamarin.Essentials.Resource.Id.left = global::SipItApp.Droid.Resource.Id.left;
+			global::Xamarin.Essentials.Resource.Id.line1 = global::SipItApp.Droid.Resource.Id.line1;
+			global::Xamarin.Essentials.Resource.Id.line3 = global::SipItApp.Droid.Resource.Id.line3;
+			global::Xamarin.Essentials.Resource.Id.none = global::SipItApp.Droid.Resource.Id.none;
+			global::Xamarin.Essentials.Resource.Id.normal = global::SipItApp.Droid.Resource.Id.normal;
+			global::Xamarin.Essentials.Resource.Id.notification_background = global::SipItApp.Droid.Resource.Id.notification_background;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::SipItApp.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::SipItApp.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Essentials.Resource.Id.right = global::SipItApp.Droid.Resource.Id.right;
+			global::Xamarin.Essentials.Resource.Id.right_icon = global::SipItApp.Droid.Resource.Id.right_icon;
+			global::Xamarin.Essentials.Resource.Id.right_side = global::SipItApp.Droid.Resource.Id.right_side;
+			global::Xamarin.Essentials.Resource.Id.start = global::SipItApp.Droid.Resource.Id.start;
+			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::SipItApp.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_event_manager = global::SipItApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_listeners = global::SipItApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Essentials.Resource.Id.text = global::SipItApp.Droid.Resource.Id.text;
+			global::Xamarin.Essentials.Resource.Id.text2 = global::SipItApp.Droid.Resource.Id.text2;
+			global::Xamarin.Essentials.Resource.Id.time = global::SipItApp.Droid.Resource.Id.time;
+			global::Xamarin.Essentials.Resource.Id.title = global::SipItApp.Droid.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Id.top = global::SipItApp.Droid.Resource.Id.top;
+			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::SipItApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::SipItApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::SipItApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Essentials.Resource.Layout.notification_action = global::SipItApp.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::SipItApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::SipItApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::SipItApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::SipItApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::SipItApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::SipItApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::SipItApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::SipItApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::SipItApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::SipItApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::SipItApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::SipItApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::SipItApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::SipItApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::SipItApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::SipItApp.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_ttcIndex = global::SipItApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::SipItApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor = global::SipItApp.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::SipItApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::SipItApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::SipItApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerColor = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerX = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerY = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endColor = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endX = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endY = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_gradientRadius = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startColor = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startX = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::SipItApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::SipItApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::SipItApp.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::SipItApp.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::SipItApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -10425,778 +8322,679 @@ namespace SipItApp.Droid
 			public const int abc_vector_test = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int Avatar1 = 2131165274;
+			public const int avd_hide_password = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int Avatar10 = 2131165275;
+			public const int avd_show_password = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int Avatar11 = 2131165276;
+			public const int design_bottom_navigation_item_background = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int Avatar12 = 2131165277;
+			public const int design_fab_background = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int Avatar13 = 2131165278;
+			public const int design_ic_visibility = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int Avatar14 = 2131165279;
+			public const int design_ic_visibility_off = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int Avatar15 = 2131165280;
+			public const int design_password_eye = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int Avatar16 = 2131165281;
+			public const int design_snackbar_background = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int Avatar17 = 2131165282;
+			public const int ic_audiotrack_dark = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int Avatar18 = 2131165283;
+			public const int ic_audiotrack_light = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int Avatar19 = 2131165284;
+			public const int ic_dialog_close_dark = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int Avatar2 = 2131165285;
+			public const int ic_dialog_close_light = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int Avatar20 = 2131165286;
+			public const int ic_group_collapse_00 = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int Avatar21 = 2131165287;
+			public const int ic_group_collapse_01 = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int Avatar22 = 2131165288;
+			public const int ic_group_collapse_02 = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int Avatar23 = 2131165289;
+			public const int ic_group_collapse_03 = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int Avatar24 = 2131165290;
+			public const int ic_group_collapse_04 = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int Avatar25 = 2131165291;
+			public const int ic_group_collapse_05 = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int Avatar26 = 2131165292;
+			public const int ic_group_collapse_06 = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int Avatar27 = 2131165293;
+			public const int ic_group_collapse_07 = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int Avatar28 = 2131165294;
+			public const int ic_group_collapse_08 = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int Avatar29 = 2131165295;
+			public const int ic_group_collapse_09 = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int Avatar3 = 2131165296;
+			public const int ic_group_collapse_10 = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int Avatar30 = 2131165297;
+			public const int ic_group_collapse_11 = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int Avatar4 = 2131165298;
+			public const int ic_group_collapse_12 = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int Avatar5 = 2131165299;
+			public const int ic_group_collapse_13 = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int Avatar6 = 2131165300;
+			public const int ic_group_collapse_14 = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int Avatar7 = 2131165301;
+			public const int ic_group_collapse_15 = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int Avatar8 = 2131165302;
+			public const int ic_group_expand_00 = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int Avatar9 = 2131165303;
+			public const int ic_group_expand_01 = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int avd_hide_password = 2131165304;
+			public const int ic_group_expand_02 = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int avd_show_password = 2131165305;
+			public const int ic_group_expand_03 = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int design_bottom_navigation_item_background = 2131165306;
+			public const int ic_group_expand_04 = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int design_fab_background = 2131165307;
+			public const int ic_group_expand_05 = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int design_ic_visibility = 2131165308;
+			public const int ic_group_expand_06 = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int design_ic_visibility_off = 2131165309;
+			public const int ic_group_expand_07 = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int design_password_eye = 2131165310;
+			public const int ic_group_expand_08 = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int design_snackbar_background = 2131165311;
+			public const int ic_group_expand_09 = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int ic_audiotrack_dark = 2131165312;
+			public const int ic_group_expand_10 = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int ic_audiotrack_light = 2131165313;
+			public const int ic_group_expand_11 = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int ic_dialog_close_dark = 2131165314;
+			public const int ic_group_expand_12 = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int ic_dialog_close_light = 2131165315;
+			public const int ic_group_expand_13 = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int ic_group_collapse_00 = 2131165316;
+			public const int ic_group_expand_14 = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int ic_group_collapse_01 = 2131165317;
+			public const int ic_group_expand_15 = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int ic_group_collapse_02 = 2131165318;
+			public const int ic_media_pause_dark = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int ic_group_collapse_03 = 2131165319;
+			public const int ic_media_pause_light = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int ic_group_collapse_04 = 2131165320;
+			public const int ic_media_play_dark = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int ic_group_collapse_05 = 2131165321;
+			public const int ic_media_play_light = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ic_group_collapse_06 = 2131165322;
+			public const int ic_media_stop_dark = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int ic_group_collapse_07 = 2131165323;
+			public const int ic_media_stop_light = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int ic_group_collapse_08 = 2131165324;
+			public const int ic_mr_button_connected_00_dark = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int ic_group_collapse_09 = 2131165325;
+			public const int ic_mr_button_connected_00_light = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int ic_group_collapse_10 = 2131165326;
+			public const int ic_mr_button_connected_01_dark = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int ic_group_collapse_11 = 2131165327;
+			public const int ic_mr_button_connected_01_light = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ic_group_collapse_12 = 2131165328;
+			public const int ic_mr_button_connected_02_dark = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int ic_group_collapse_13 = 2131165329;
+			public const int ic_mr_button_connected_02_light = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int ic_group_collapse_14 = 2131165330;
+			public const int ic_mr_button_connected_03_dark = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int ic_group_collapse_15 = 2131165331;
+			public const int ic_mr_button_connected_03_light = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int ic_group_expand_00 = 2131165332;
+			public const int ic_mr_button_connected_04_dark = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int ic_group_expand_01 = 2131165333;
+			public const int ic_mr_button_connected_04_light = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int ic_group_expand_02 = 2131165334;
+			public const int ic_mr_button_connected_05_dark = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int ic_group_expand_03 = 2131165335;
+			public const int ic_mr_button_connected_05_light = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int ic_group_expand_04 = 2131165336;
+			public const int ic_mr_button_connected_06_dark = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int ic_group_expand_05 = 2131165337;
+			public const int ic_mr_button_connected_06_light = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_group_expand_06 = 2131165338;
+			public const int ic_mr_button_connected_07_dark = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ic_group_expand_07 = 2131165339;
+			public const int ic_mr_button_connected_07_light = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int ic_group_expand_08 = 2131165340;
+			public const int ic_mr_button_connected_08_dark = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_group_expand_09 = 2131165341;
+			public const int ic_mr_button_connected_08_light = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_group_expand_10 = 2131165342;
+			public const int ic_mr_button_connected_09_dark = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_group_expand_11 = 2131165343;
+			public const int ic_mr_button_connected_09_light = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_group_expand_12 = 2131165344;
+			public const int ic_mr_button_connected_10_dark = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_group_expand_13 = 2131165345;
+			public const int ic_mr_button_connected_10_light = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_group_expand_14 = 2131165346;
+			public const int ic_mr_button_connected_11_dark = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_group_expand_15 = 2131165347;
+			public const int ic_mr_button_connected_11_light = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_media_pause_dark = 2131165348;
+			public const int ic_mr_button_connected_12_dark = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_media_pause_light = 2131165349;
+			public const int ic_mr_button_connected_12_light = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_media_play_dark = 2131165350;
+			public const int ic_mr_button_connected_13_dark = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_media_play_light = 2131165351;
+			public const int ic_mr_button_connected_13_light = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_media_stop_dark = 2131165352;
+			public const int ic_mr_button_connected_14_dark = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_media_stop_light = 2131165353;
+			public const int ic_mr_button_connected_14_light = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_mr_button_connected_00_dark = 2131165354;
+			public const int ic_mr_button_connected_15_dark = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_00_light = 2131165355;
+			public const int ic_mr_button_connected_15_light = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_01_dark = 2131165356;
+			public const int ic_mr_button_connected_16_dark = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_01_light = 2131165357;
+			public const int ic_mr_button_connected_16_light = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_02_dark = 2131165358;
+			public const int ic_mr_button_connected_17_dark = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_02_light = 2131165359;
+			public const int ic_mr_button_connected_17_light = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_03_dark = 2131165360;
+			public const int ic_mr_button_connected_18_dark = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_03_light = 2131165361;
+			public const int ic_mr_button_connected_18_light = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_04_dark = 2131165362;
+			public const int ic_mr_button_connected_19_dark = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_04_light = 2131165363;
+			public const int ic_mr_button_connected_19_light = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_05_dark = 2131165364;
+			public const int ic_mr_button_connected_20_dark = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_05_light = 2131165365;
+			public const int ic_mr_button_connected_20_light = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_06_dark = 2131165366;
+			public const int ic_mr_button_connected_21_dark = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_06_light = 2131165367;
+			public const int ic_mr_button_connected_21_light = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_07_dark = 2131165368;
+			public const int ic_mr_button_connected_22_dark = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_07_light = 2131165369;
+			public const int ic_mr_button_connected_22_light = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_08_dark = 2131165370;
+			public const int ic_mr_button_connected_23_dark = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_08_light = 2131165371;
+			public const int ic_mr_button_connected_23_light = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_09_dark = 2131165372;
+			public const int ic_mr_button_connected_24_dark = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_09_light = 2131165373;
+			public const int ic_mr_button_connected_24_light = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_10_dark = 2131165374;
+			public const int ic_mr_button_connected_25_dark = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_10_light = 2131165375;
+			public const int ic_mr_button_connected_25_light = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_11_dark = 2131165376;
+			public const int ic_mr_button_connected_26_dark = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_11_light = 2131165377;
+			public const int ic_mr_button_connected_26_light = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_12_dark = 2131165378;
+			public const int ic_mr_button_connected_27_dark = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_12_light = 2131165379;
+			public const int ic_mr_button_connected_27_light = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_13_dark = 2131165380;
+			public const int ic_mr_button_connected_28_dark = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_13_light = 2131165381;
+			public const int ic_mr_button_connected_28_light = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_14_dark = 2131165382;
+			public const int ic_mr_button_connected_29_dark = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_14_light = 2131165383;
+			public const int ic_mr_button_connected_29_light = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_15_dark = 2131165384;
+			public const int ic_mr_button_connected_30_dark = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_15_light = 2131165385;
+			public const int ic_mr_button_connected_30_light = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_16_dark = 2131165386;
+			public const int ic_mr_button_connecting_00_dark = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_16_light = 2131165387;
+			public const int ic_mr_button_connecting_00_light = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_17_dark = 2131165388;
+			public const int ic_mr_button_connecting_01_dark = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_17_light = 2131165389;
+			public const int ic_mr_button_connecting_01_light = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_18_dark = 2131165390;
+			public const int ic_mr_button_connecting_02_dark = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_18_light = 2131165391;
+			public const int ic_mr_button_connecting_02_light = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_19_dark = 2131165392;
+			public const int ic_mr_button_connecting_03_dark = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_19_light = 2131165393;
+			public const int ic_mr_button_connecting_03_light = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_20_dark = 2131165394;
+			public const int ic_mr_button_connecting_04_dark = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_20_light = 2131165395;
+			public const int ic_mr_button_connecting_04_light = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_21_dark = 2131165396;
+			public const int ic_mr_button_connecting_05_dark = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_21_light = 2131165397;
+			public const int ic_mr_button_connecting_05_light = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_22_dark = 2131165398;
+			public const int ic_mr_button_connecting_06_dark = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_22_light = 2131165399;
+			public const int ic_mr_button_connecting_06_light = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_23_dark = 2131165400;
+			public const int ic_mr_button_connecting_07_dark = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_23_light = 2131165401;
+			public const int ic_mr_button_connecting_07_light = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_24_dark = 2131165402;
+			public const int ic_mr_button_connecting_08_dark = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_24_light = 2131165403;
+			public const int ic_mr_button_connecting_08_light = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_25_dark = 2131165404;
+			public const int ic_mr_button_connecting_09_dark = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_25_light = 2131165405;
+			public const int ic_mr_button_connecting_09_light = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_26_dark = 2131165406;
+			public const int ic_mr_button_connecting_10_dark = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_26_light = 2131165407;
+			public const int ic_mr_button_connecting_10_light = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_27_dark = 2131165408;
+			public const int ic_mr_button_connecting_11_dark = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_27_light = 2131165409;
+			public const int ic_mr_button_connecting_11_light = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connected_28_dark = 2131165410;
+			public const int ic_mr_button_connecting_12_dark = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connected_28_light = 2131165411;
+			public const int ic_mr_button_connecting_12_light = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connected_29_dark = 2131165412;
+			public const int ic_mr_button_connecting_13_dark = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connected_29_light = 2131165413;
+			public const int ic_mr_button_connecting_13_light = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connected_30_dark = 2131165414;
+			public const int ic_mr_button_connecting_14_dark = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connected_30_light = 2131165415;
+			public const int ic_mr_button_connecting_14_light = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connecting_00_dark = 2131165416;
+			public const int ic_mr_button_connecting_15_dark = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_00_light = 2131165417;
+			public const int ic_mr_button_connecting_15_light = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_01_dark = 2131165418;
+			public const int ic_mr_button_connecting_16_dark = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_01_light = 2131165419;
+			public const int ic_mr_button_connecting_16_light = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_02_dark = 2131165420;
+			public const int ic_mr_button_connecting_17_dark = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_02_light = 2131165421;
+			public const int ic_mr_button_connecting_17_light = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_03_dark = 2131165422;
+			public const int ic_mr_button_connecting_18_dark = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_03_light = 2131165423;
+			public const int ic_mr_button_connecting_18_light = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_04_dark = 2131165424;
+			public const int ic_mr_button_connecting_19_dark = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_04_light = 2131165425;
+			public const int ic_mr_button_connecting_19_light = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_05_dark = 2131165426;
+			public const int ic_mr_button_connecting_20_dark = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_05_light = 2131165427;
+			public const int ic_mr_button_connecting_20_light = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_06_dark = 2131165428;
+			public const int ic_mr_button_connecting_21_dark = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_06_light = 2131165429;
+			public const int ic_mr_button_connecting_21_light = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_07_dark = 2131165430;
+			public const int ic_mr_button_connecting_22_dark = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_07_light = 2131165431;
+			public const int ic_mr_button_connecting_22_light = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_08_dark = 2131165432;
+			public const int ic_mr_button_connecting_23_dark = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_08_light = 2131165433;
+			public const int ic_mr_button_connecting_23_light = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_09_dark = 2131165434;
+			public const int ic_mr_button_connecting_24_dark = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_09_light = 2131165435;
+			public const int ic_mr_button_connecting_24_light = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_10_dark = 2131165436;
+			public const int ic_mr_button_connecting_25_dark = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_10_light = 2131165437;
+			public const int ic_mr_button_connecting_25_light = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_11_dark = 2131165438;
+			public const int ic_mr_button_connecting_26_dark = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_11_light = 2131165439;
+			public const int ic_mr_button_connecting_26_light = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_12_dark = 2131165440;
+			public const int ic_mr_button_connecting_27_dark = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_12_light = 2131165441;
+			public const int ic_mr_button_connecting_27_light = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_13_dark = 2131165442;
+			public const int ic_mr_button_connecting_28_dark = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_13_light = 2131165443;
+			public const int ic_mr_button_connecting_28_light = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_14_dark = 2131165444;
+			public const int ic_mr_button_connecting_29_dark = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_14_light = 2131165445;
+			public const int ic_mr_button_connecting_29_light = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_15_dark = 2131165446;
+			public const int ic_mr_button_connecting_30_dark = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_15_light = 2131165447;
+			public const int ic_mr_button_connecting_30_light = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_16_dark = 2131165448;
+			public const int ic_mr_button_disabled_dark = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_16_light = 2131165449;
+			public const int ic_mr_button_disabled_light = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_17_dark = 2131165450;
+			public const int ic_mr_button_disconnected_dark = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_17_light = 2131165451;
+			public const int ic_mr_button_disconnected_light = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_18_dark = 2131165452;
+			public const int ic_mr_button_grey = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_18_light = 2131165453;
+			public const int ic_mtrl_chip_checked_black = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_19_dark = 2131165454;
+			public const int ic_mtrl_chip_checked_circle = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_19_light = 2131165455;
+			public const int ic_mtrl_chip_close_circle = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_20_dark = 2131165456;
+			public const int ic_vol_type_speaker_dark = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_20_light = 2131165457;
+			public const int ic_vol_type_speaker_group_dark = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_21_dark = 2131165458;
+			public const int ic_vol_type_speaker_group_light = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_21_light = 2131165459;
+			public const int ic_vol_type_speaker_light = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_22_dark = 2131165460;
+			public const int ic_vol_type_tv_dark = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_22_light = 2131165461;
+			public const int ic_vol_type_tv_light = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_23_dark = 2131165462;
+			public const int mr_button_connected_dark = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_23_light = 2131165463;
+			public const int mr_button_connected_light = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_24_dark = 2131165464;
+			public const int mr_button_connecting_dark = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_24_light = 2131165465;
+			public const int mr_button_connecting_light = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_25_dark = 2131165466;
+			public const int mr_button_dark = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_25_light = 2131165467;
+			public const int mr_button_light = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_26_dark = 2131165468;
+			public const int mr_dialog_close_dark = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_26_light = 2131165469;
+			public const int mr_dialog_close_light = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_27_dark = 2131165470;
+			public const int mr_dialog_material_background_dark = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_27_light = 2131165471;
+			public const int mr_dialog_material_background_light = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_connecting_28_dark = 2131165472;
+			public const int mr_group_collapse = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_connecting_28_light = 2131165473;
+			public const int mr_group_expand = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_connecting_29_dark = 2131165474;
+			public const int mr_media_pause_dark = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_connecting_29_light = 2131165475;
+			public const int mr_media_pause_light = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_connecting_30_dark = 2131165476;
+			public const int mr_media_play_dark = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mr_button_connecting_30_light = 2131165477;
+			public const int mr_media_play_light = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_mr_button_disabled_dark = 2131165478;
+			public const int mr_media_stop_dark = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_mr_button_disabled_light = 2131165479;
+			public const int mr_media_stop_light = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_disconnected_dark = 2131165480;
+			public const int mr_vol_type_audiotrack_dark = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_disconnected_light = 2131165481;
+			public const int mr_vol_type_audiotrack_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_mr_button_grey = 2131165482;
+			public const int mtrl_snackbar_background = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_mtrl_chip_checked_black = 2131165483;
+			public const int mtrl_tabs_default_indicator = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_mtrl_chip_checked_circle = 2131165484;
+			public const int navigation_empty_icon = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_mtrl_chip_close_circle = 2131165485;
+			public const int notification_action_background = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_vol_type_speaker_dark = 2131165486;
+			public const int notification_bg = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_vol_type_speaker_group_dark = 2131165487;
+			public const int notification_bg_low = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int ic_vol_type_speaker_group_light = 2131165488;
+			public const int notification_bg_low_normal = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int ic_vol_type_speaker_light = 2131165489;
+			public const int notification_bg_low_pressed = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int ic_vol_type_tv_dark = 2131165490;
+			public const int notification_bg_normal = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int ic_vol_type_tv_light = 2131165491;
-			
-			// aapt resource value: 0x7F070135
-			public const int inputlayout_togglecollapseicon = 2131165493;
-			
-			// aapt resource value: 0x7F070136
-			public const int inputlayout_togglevisibleicon = 2131165494;
+			public const int notification_bg_normal_pressed = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int input_layout_drop_down_icon = 2131165492;
+			public const int notification_icon_background = 2131165492;
+			
+			// aapt resource value: 0x7F070135
+			public const int notification_template_icon_bg = 2131165493;
+			
+			// aapt resource value: 0x7F070136
+			public const int notification_template_icon_low_bg = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int mr_button_connected_dark = 2131165495;
+			public const int notification_tile_bg = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int mr_button_connected_light = 2131165496;
+			public const int notify_panel_notification_icon_bg = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int mr_button_connecting_dark = 2131165497;
+			public const int tooltip_frame_dark = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int mr_button_connecting_light = 2131165498;
-			
-			// aapt resource value: 0x7F07013B
-			public const int mr_button_dark = 2131165499;
-			
-			// aapt resource value: 0x7F07013C
-			public const int mr_button_light = 2131165500;
-			
-			// aapt resource value: 0x7F07013D
-			public const int mr_dialog_close_dark = 2131165501;
-			
-			// aapt resource value: 0x7F07013E
-			public const int mr_dialog_close_light = 2131165502;
-			
-			// aapt resource value: 0x7F07013F
-			public const int mr_dialog_material_background_dark = 2131165503;
-			
-			// aapt resource value: 0x7F070140
-			public const int mr_dialog_material_background_light = 2131165504;
-			
-			// aapt resource value: 0x7F070141
-			public const int mr_group_collapse = 2131165505;
-			
-			// aapt resource value: 0x7F070142
-			public const int mr_group_expand = 2131165506;
-			
-			// aapt resource value: 0x7F070143
-			public const int mr_media_pause_dark = 2131165507;
-			
-			// aapt resource value: 0x7F070144
-			public const int mr_media_pause_light = 2131165508;
-			
-			// aapt resource value: 0x7F070145
-			public const int mr_media_play_dark = 2131165509;
-			
-			// aapt resource value: 0x7F070146
-			public const int mr_media_play_light = 2131165510;
-			
-			// aapt resource value: 0x7F070147
-			public const int mr_media_stop_dark = 2131165511;
-			
-			// aapt resource value: 0x7F070148
-			public const int mr_media_stop_light = 2131165512;
-			
-			// aapt resource value: 0x7F070149
-			public const int mr_vol_type_audiotrack_dark = 2131165513;
-			
-			// aapt resource value: 0x7F07014A
-			public const int mr_vol_type_audiotrack_light = 2131165514;
-			
-			// aapt resource value: 0x7F07014B
-			public const int mtrl_snackbar_background = 2131165515;
-			
-			// aapt resource value: 0x7F07014C
-			public const int mtrl_tabs_default_indicator = 2131165516;
-			
-			// aapt resource value: 0x7F07014D
-			public const int navigation_empty_icon = 2131165517;
-			
-			// aapt resource value: 0x7F07014E
-			public const int notification_action_background = 2131165518;
-			
-			// aapt resource value: 0x7F07014F
-			public const int notification_bg = 2131165519;
-			
-			// aapt resource value: 0x7F070150
-			public const int notification_bg_low = 2131165520;
-			
-			// aapt resource value: 0x7F070151
-			public const int notification_bg_low_normal = 2131165521;
-			
-			// aapt resource value: 0x7F070152
-			public const int notification_bg_low_pressed = 2131165522;
-			
-			// aapt resource value: 0x7F070153
-			public const int notification_bg_normal = 2131165523;
-			
-			// aapt resource value: 0x7F070154
-			public const int notification_bg_normal_pressed = 2131165524;
-			
-			// aapt resource value: 0x7F070155
-			public const int notification_icon_background = 2131165525;
-			
-			// aapt resource value: 0x7F070156
-			public const int notification_template_icon_bg = 2131165526;
-			
-			// aapt resource value: 0x7F070157
-			public const int notification_template_icon_low_bg = 2131165527;
-			
-			// aapt resource value: 0x7F070158
-			public const int notification_tile_bg = 2131165528;
-			
-			// aapt resource value: 0x7F070159
-			public const int notify_panel_notification_icon_bg = 2131165529;
-			
-			// aapt resource value: 0x7F07015A
-			public const int tooltip_frame_dark = 2131165530;
-			
-			// aapt resource value: 0x7F07015B
-			public const int tooltip_frame_light = 2131165531;
+			public const int tooltip_frame_light = 2131165498;
 			
 			static Drawable()
 			{
@@ -17139,6 +14937,22 @@ namespace SipItApp.Droid
 			}
 			
 			private Styleable()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7F100000
+			public const int xamarin_essentials_fileprovider_file_paths = 2131755008;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}

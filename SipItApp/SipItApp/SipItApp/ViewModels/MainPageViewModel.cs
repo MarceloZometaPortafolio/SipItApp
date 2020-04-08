@@ -3,35 +3,79 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
+using SipItApp.Views;
+using System.ComponentModel;
+using SipItApp.Services;
+using SipItApp.Model;
+using System.Collections.ObjectModel;
 
 namespace SipItApp.ViewModels
 {
-    public class MainPageViewModel : ViewModelBase
+    public class MainPageViewModel : ViewModelBase, INotifyPropertyChanged
     {
-        public MainPageViewModel(INavigationService navigationService) : base(navigationService)
+        private readonly ISipItService sipItService;
+
+        public MainPageViewModel(ISipItService sipItService) 
         {
+            Console.WriteLine("Created new MainPage");
+
             Title = "Sip It";
-            MyText = "Hi Mom!";
-            Images = new List<string>() {
-                "SipItApp/Images/chirs.jpg"
-            };
-        }
-        private String myText;
+            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
+            //BackgroundLogo
 
-        public String MyText
+
+            //Customers = sipItService.GetCustomers();
+
+        }
+        //public MainPageViewModel()
+        //{
+        //    defineTitle();
+        //    BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+        //}
+
+        //public IEnumerable<Customer> Customers { get; private set; }
+
+        //public string Title { get; set; }
+
+        public string MyText => "Hello World!";
+
+        //public ImageSource BackgroundImage => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");                
+
+        public ImageSource BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void defineBackgroundImage()
         {
-            get => myText;
-            set { SetProperty(ref myText, value);  }
+            BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
         }
 
-
-        private List<string> images;
-        public List<string> Images
+        private void defineTitle()
         {
-            get => images;
-            set { SetProperty(ref images, value); }
+            Title = "Sip It!";
         }
 
-        //public ImageSource Images => ImageSource.FromResource("SipItApp.Images.chirs.jpg");
+        private Command getUsual;
+        public Command GetUsual => getUsual ?? (getUsual = new Command(
+            () =>
+            {
+                //navigationService.NavigateAsync(nameof(SettingsPage));
+                Console.WriteLine("GetUsual command triggered");
+            }));
+
+        private Command orderItem;
+        public Command OrderItem => orderItem ?? (orderItem = new Command(
+            () =>
+            {
+                Console.WriteLine("OrderItem command triggered");
+            }));
+
+        private Command seeMenu;
+        public Command SeeMenu => seeMenu ?? (seeMenu = new Command(
+            () =>
+            {
+                Console.WriteLine("SeeMenu command triggered");
+            }));
     }
 }

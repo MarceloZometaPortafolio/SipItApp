@@ -9,7 +9,6 @@ namespace SipItApp.ViewModels
 {
     public class ViewModelBase : BindableBase, IInitialize, INavigationAware, IDestructible
     {
-        protected INavigationService NavigationService { get; private set; }
 
         private string _title;
         public string Title
@@ -18,9 +17,8 @@ namespace SipItApp.ViewModels
             set { SetProperty(ref _title, value); }
         }
 
-        public ViewModelBase(INavigationService navigationService)
+        public ViewModelBase()
         {
-            NavigationService = navigationService;
         }
 
         public virtual void Initialize(INavigationParameters parameters)

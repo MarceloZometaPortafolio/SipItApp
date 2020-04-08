@@ -22,9 +22,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <views:MainPage></views:MainPage>
-                <!--<views:AccountPage></views:AccountPage>-->
-                <!--<views:SettingsPage></views:SettingsPage>-->
+                <!--<views:MainPage></views:MainPage>-->
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>
