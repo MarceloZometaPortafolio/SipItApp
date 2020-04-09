@@ -14,6 +14,12 @@
     <Shell.ForegroundColor>#F25741</Shell.ForegroundColor>
     <Shell.BackgroundColor>#C9E9E8</Shell.BackgroundColor>
 
+    <!--<Shell.TitleView>
+        <Label Text="{Binding Title}"
+               HorizontalOptions="End"
+               VerticalOptions="Center" />
+    </Shell.TitleView>-->
+
     <!--Navigation control center-->
     <FlyoutItem Title="Home"
                 Icon="SipItLogo.png">
