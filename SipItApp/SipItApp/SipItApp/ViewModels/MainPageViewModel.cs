@@ -65,10 +65,11 @@ namespace SipItApp.ViewModels
             }));
 
         private Command orderItem;
-        public Command OrderItem => orderItem ?? (orderItem = new Command(
+        public Command OrderItem => orderItem ?? (orderItem = new Command(async
             () =>
             {
                 Console.WriteLine("OrderItem command triggered");
+                await Shell.Current.GoToAsync("//order");
             }));
 
         private Command seeMenu;

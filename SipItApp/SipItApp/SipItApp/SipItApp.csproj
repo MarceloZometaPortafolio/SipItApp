@@ -7,12 +7,14 @@
   <ItemGroup>
     <None Remove="appsettings.json" />
     <None Remove="Images\chirs.jpg" />
+    <None Remove="list-512.png" />
     <None Remove="SipItLogo.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="appsettings.json" />
     <EmbeddedResource Include="Images\SipItLogo.png" />
+    <EmbeddedResource Include="list-512.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +47,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\OrderPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SettingsPage.xaml">

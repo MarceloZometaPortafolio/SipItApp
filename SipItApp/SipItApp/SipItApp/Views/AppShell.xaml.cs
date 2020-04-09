@@ -25,6 +25,7 @@ namespace SipItApp.Views
         void RegisterRoutes()
         {
             routes.Add("itemdetails", typeof(ItemDetailPage));
+            ///routes.Add("order", typeof(OrderPage));
 
             foreach(var item in routes)
             {

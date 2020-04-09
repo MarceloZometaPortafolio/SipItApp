@@ -15,11 +15,14 @@
     <FlyoutItem Title="Home"
                 Icon="SipItLogo.png">
         <!--<views:MainPage />-->
-        <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
+        <ShellContent ContentTemplate="{DataTemplate views:MainPage}" Route="home"/>
     </FlyoutItem>
-    
     <FlyoutItem Title="Settings">
-        <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" />
+        <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" Route="settings"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Your order"
+                Icon="list-512.png">
+        <ShellContent ContentTemplate="{DataTemplate views:OrderPage}" Route="order"/>
     </FlyoutItem>
     
 
