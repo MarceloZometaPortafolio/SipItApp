@@ -49,12 +49,15 @@ namespace SipItApp
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            //containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
+            //containerRegistry.RegisterForNavigation<ItemDetailPage, ItemDetailViewModel>();
             containerRegistry.RegisterForNavigation<NavigationPage>();            
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
-            containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
             containerRegistry.RegisterForNavigation<SettingsPage, SettingsPageViewModel>();
             containerRegistry.RegisterForNavigation<AppShell, AppShellViewModel>();
-            containerRegistry.RegisterForNavigation<ItemDetailPage, ItemDetailViewModel>();
+            containerRegistry.RegisterForNavigation<OrderPage, OrderPageViewModel>();
+            containerRegistry.RegisterForNavigation<MenuPage, MenuPageViewModel>();
+            containerRegistry.RegisterForNavigation<AccountDetailPage, AccountDetailPageViewModel>();
 
            // var sipItService = RestService.For<ISipItService>("https:/localhost:32770");
            // containerRegistry.RegisterInstance(sipItService);

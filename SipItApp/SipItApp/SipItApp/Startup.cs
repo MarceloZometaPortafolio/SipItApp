@@ -63,6 +63,9 @@ namespace SipItApp
 
             // add the ViewModel, but as a Transient, which means it will create a new one each time.
             services.AddTransient<MainPageViewModel>();
+            services.AddTransient<OrderPageViewModel>();
+            services.AddTransient<MenuPageViewModel>();
+            services.AddTransient<AccountDetailPageViewModel>();
 
             var sipItService = RestService.For<ISipItService>("https://localhost:32770");
             services.AddSingleton<ISipItService>(sipItService);
