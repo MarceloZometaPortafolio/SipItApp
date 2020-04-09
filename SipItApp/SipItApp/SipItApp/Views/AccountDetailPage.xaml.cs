@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SipItApp.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,11 @@ namespace SipItApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AccountDetailPage : ContentPage
     {
+        private AccountDetailPageViewModel viewModel;
         public AccountDetailPage()
         {
             InitializeComponent();
+            BindingContext = Startup.ServiceProvider.GetService<AccountDetailPageViewModel>();
         }
     }
 }

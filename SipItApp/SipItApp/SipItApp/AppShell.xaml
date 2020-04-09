@@ -7,10 +7,12 @@
        x:Class="SipItApp.Views.AppShell"
        Title="{Binding Title}"
        Navigating="OnNavigating"
-       Navigated="OnNavigated"
-       BackgroundColor="{StaticResource SipItLightBlue}"
-       TitleColor="{StaticResource SipItRed}"
+       Navigated="OnNavigated"      
        NavBarHasShadow="True">
+
+    <Shell.TitleColor>#F25741</Shell.TitleColor>
+    <Shell.ForegroundColor>#F25741</Shell.ForegroundColor>
+    <Shell.BackgroundColor>#C9E9E8</Shell.BackgroundColor>
 
     <!--Navigation control center-->
     <FlyoutItem Title="Home"

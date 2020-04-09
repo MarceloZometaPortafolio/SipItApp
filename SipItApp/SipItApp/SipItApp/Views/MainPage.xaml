@@ -19,7 +19,7 @@
                FontSize="Large" />
     </Shell.TitleView>-->
 
-    <ContentPage.ToolbarItems>
+    <!--<ContentPage.ToolbarItems>
         <ToolbarItem x:Name="Title"
                      Order="Primary"
                      Text="Sip It"
@@ -30,7 +30,7 @@
                      Text="Login"
                      Priority="1">
         </ToolbarItem>
-    </ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems>-->
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Orientation="Vertical">
