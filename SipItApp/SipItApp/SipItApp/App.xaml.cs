@@ -33,7 +33,7 @@ namespace SipItApp
             //MainPage = masterPage;
 
             //Here, according to Xaminals it needs to go Startup.Init();
-            //Startup.Init();
+            Startup.Init();
             MainPage = new AppShell();
         }
 
@@ -41,7 +41,7 @@ namespace SipItApp
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            //await NavigationService.NavigateAsync("NavigationPage/OrderPage");
 
             //var navigationService = this.Container.Resolve<INavigationService>();
             //((NavigationPage)MainPage).RootPage.BindingContext = new MainPageViewModel(navigationService);            

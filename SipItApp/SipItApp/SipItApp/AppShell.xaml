@@ -21,29 +21,44 @@
     </Shell.TitleView>-->
 
     <!--Navigation control center-->
-    <FlyoutItem Title="Home"
-                Icon="SipItLogo.png">
-        <ShellContent ContentTemplate="{DataTemplate views:MainPage}" 
-                      Route="home"/>
-    </FlyoutItem>
-    <FlyoutItem Title="Account"
+    <TabBar Title="Sip It App"
+                Icon="SipItLogo.png"
+                FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent ContentTemplate="{DataTemplate views:MainPage}"
+                      Route="home"
+                      Title="Home"
+                      Icon=""/>
+        <ShellContent ContentTemplate="{DataTemplate views:AccountDetailPage}"
+                      Route="account_details"
+                      Title="Account"/>
+        <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"
+                      Route="menu"
+                      Title="Menu"/>
+        <ShellContent ContentTemplate="{DataTemplate views:OrderPage}"
+                      Route="order"
+                      Title="Order"/>
+        <!--<ShellContent ContentTemplate="{DataTemplate views:SettingsPage}"
+                      Route="settings" 
+                      Title="Settings"/>-->
+    </TabBar>
+    <!--<FlyoutItem Title="Account"
                 Icon="list-512.png">
         <ShellContent ContentTemplate="{DataTemplate views:AccountDetailPage}"
                       Route="account_details" />
-    </FlyoutItem>
-    <FlyoutItem Title="Menu">
+    </FlyoutItem>-->
+    <!--<FlyoutItem Title="Menu">
         <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"
                       Route="menu" />
-    </FlyoutItem>
-    <FlyoutItem Title="Your order"
+    </FlyoutItem>-->
+    <!--<FlyoutItem Title="Your order"
                 Icon="list-512.png">
         <ShellContent ContentTemplate="{DataTemplate views:OrderPage}" 
                       Route="order"/>
-    </FlyoutItem>
-    <FlyoutItem Title="Settings">
+    </FlyoutItem>-->
+    <!--<FlyoutItem Title="Settings">
         <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" 
                       Route="settings"/>
-    </FlyoutItem>
+    </FlyoutItem>-->
     
     <Shell.Resources>
         <ResourceDictionary>
@@ -51,21 +66,21 @@
             <Style x:Key="BaseStyle"
                    TargetType="Element">
                 <Setter Property="Shell.BackgroundColor"
-                        Value="Yellow" />
+                        Value="{StaticResource SipItLightBlue}" />
                 <Setter Property="Shell.ForegroundColor"
-                        Value="White" />
-                <Setter Property="Shell.TitleColor"
                         Value="Red" />
+                <Setter Property="Shell.TitleColor"
+                        Value="{StaticResource SipItRed}" />
                 <Setter Property="Shell.DisabledColor"
                         Value="#B4FFFFFF" />
                 <Setter Property="Shell.UnselectedColor"
                         Value="#95FFFFFF" />
                 <Setter Property="Shell.TabBarBackgroundColor"
-                        Value="#ffff00" />
+                        Value="{StaticResource SipItLightBlue}" />
                 <Setter Property="Shell.TabBarForegroundColor"
                         Value="White" />
                 <Setter Property="Shell.TabBarUnselectedColor"
-                        Value="#95FFFFFF" />
+                        Value="{StaticResource SipItGreen}" />
                 <Setter Property="Shell.TabBarTitleColor"
                         Value="{StaticResource SipItRed}" />
             </Style>

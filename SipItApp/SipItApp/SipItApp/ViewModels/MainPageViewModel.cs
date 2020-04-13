@@ -8,12 +8,14 @@ using System.ComponentModel;
 using SipItApp.Services;
 using SipItApp.Model;
 using System.Collections.ObjectModel;
+using Prism.Navigation.Xaml;
 
 namespace SipItApp.ViewModels
 {
     public class MainPageViewModel : ViewModelBase, INotifyPropertyChanged
     {
         private readonly ISipItService sipItService;
+        private NavigationPage navigationPage = new NavigationPage();
 
         public MainPageViewModel(ISipItService sipItService) 
         {
@@ -41,15 +43,15 @@ namespace SipItApp.ViewModels
 
         //public ImageSource BackgroundImage => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");                
 
-        public ImageSource BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+        public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
 
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private void defineBackgroundImage()
-        {
-            BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
-        }
+        //private void defineBackgroundImage()
+        //{
+        //    BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+        //}
 
         private void defineTitle()
         {
@@ -70,6 +72,9 @@ namespace SipItApp.ViewModels
             {
                 Console.WriteLine("OrderItem command triggered");
                 await Shell.Current.GoToAsync("//order");
+                
+                
+                //await navigationPage.PushAsync(new OrderPage());
             }));
 
         private Command seeMenu;
