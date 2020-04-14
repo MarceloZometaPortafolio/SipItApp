@@ -36,11 +36,11 @@ namespace SipItApp.ViewModels
         //}
 
         private Command backCommand;
-        public Command BackCommand => backCommand ?? (backCommand = new Command(
+        public Command BackCommand => backCommand ?? (backCommand = new Command(async
             () =>
             {
                 //backButton.Command.Execute(Console.WriteLine("I was called");
-                
+                await Shell.Current.GoToAsync("//home/");
             }));
 
         
