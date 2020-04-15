@@ -17,18 +17,54 @@ namespace SipItApp.ViewModels
         private readonly ISipItService sipItService;
         private NavigationPage navigationPage = new NavigationPage();
 
+        //private IList<ImageSource> carouselList;
+        //public IList<ImageSource> CarouselList 
+        //{
+        //    get { return carouselList; }
+        //    set
+        //    {
+        //        SetProperty(ref carouselList, CreateCollection() );
+        //    }
+        //};
+        public IList<CarouselItem> CarouselList;
+        public ObservableCollection<CarouselItem> mainCarousel { get; private set; }
+
         public MainPageViewModel(ISipItService sipItService) 
         {
             Console.WriteLine("Created new MainPage");
 
             Title = "Sip It";
             this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
-            //BackgroundLogo
-
-
+            CarouselList = new List<CarouselItem>();
+            CreateCollection();
             //Customers = sipItService.GetCustomers();
-
+           
         }
+        public ImageSource HomeImage => ImageSource.FromResource("SipItApp.Images.home.png");
+        public ImageSource HomeImage2 => ImageSource.FromResource("SipItApp.Images.user.png");
+        public ImageSource HomeImage3 => ImageSource.FromResource("SipItApp.Images.drink.png");
+
+        private void CreateCollection()
+        {
+            CarouselList.Add(new CarouselItem
+            {
+                ImageUrl = HomeImage
+                
+            });
+            CarouselList.Add(new CarouselItem
+            {
+                ImageUrl = HomeImage2
+
+            });
+            CarouselList.Add(new CarouselItem
+            {
+                ImageUrl = HomeImage3
+
+            });
+
+            mainCarousel = new ObservableCollection<CarouselItem>(CarouselList);
+        }
+
         //public MainPageViewModel()
         //{
         //    defineTitle();
@@ -39,24 +75,11 @@ namespace SipItApp.ViewModels
 
         //public string Title { get; set; }
 
-        public string MyText => "Hello World!";
-
-        //public ImageSource BackgroundImage => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");                
+        public string MyText => "Hello World!";              
 
         public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
 
-
         public event PropertyChangedEventHandler PropertyChanged;
-
-        //private void defineBackgroundImage()
-        //{
-        //    BackgroundLogo = ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
-        //}
-
-        private void defineTitle()
-        {
-            Title = "Sip It!";
-        }
 
         private Command getUsual;
         public Command GetUsual => getUsual ?? (getUsual = new Command(
@@ -85,5 +108,7 @@ namespace SipItApp.ViewModels
                 Console.WriteLine("SeeMenu command triggered");
                 await Shell.Current.GoToAsync("//menu");                
             }));
+
+        
     }
 }
