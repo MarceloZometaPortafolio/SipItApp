@@ -20,7 +20,12 @@ namespace SipItApp.Views
             InitializeComponent();
             RegisterRoutes();
             BindingContext = this;
+            Title = "Testing";
         }
+        public ImageSource HomeImage => ImageSource.FromResource("SipItApp.Images.home.png");
+        public ImageSource UserImage => ImageSource.FromResource("SipItApp.Images.user.png");
+        public ImageSource MenuImage => ImageSource.FromResource("SipItApp.Images.drink.png");
+        public ImageSource OrderImage => ImageSource.FromResource("SipItApp.Images.order.png");
 
         void RegisterRoutes()
         {

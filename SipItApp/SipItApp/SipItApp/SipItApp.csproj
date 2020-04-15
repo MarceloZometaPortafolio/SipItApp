@@ -16,14 +16,23 @@
 
   <ItemGroup>
     <None Remove="appsettings.json" />
+    <None Remove="Images\back.png" />
     <None Remove="Images\chirs.jpg" />
+    <None Remove="Images\drink.png" />
+    <None Remove="Images\home.png" />
+    <None Remove="Images\order.png" />
+    <None Remove="Images\user.png" />
     <None Remove="list-512.png" />
     <None Remove="SipItLogo.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="appsettings.json" />
+    <EmbeddedResource Include="Images\back.png" />
+    <EmbeddedResource Include="Images\drink.png" />
+    <EmbeddedResource Include="Images\order.png" />
     <EmbeddedResource Include="Images\SipItLogo.png" />
+    <EmbeddedResource Include="Images\user.png" />
     <EmbeddedResource Include="list-512.png" />
   </ItemGroup>
 
@@ -41,6 +50,10 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Images\chirs.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\home.png" />
   </ItemGroup>
 
   <ItemGroup>

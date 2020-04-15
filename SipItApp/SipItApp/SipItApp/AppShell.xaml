@@ -27,16 +27,19 @@
         <ShellContent ContentTemplate="{DataTemplate views:MainPage}"
                       Route="home"
                       Title="Home"
-                      Icon=""/>
+                      Icon="{Binding HomeImage}"/>
         <ShellContent ContentTemplate="{DataTemplate views:AccountDetailPage}"
                       Route="account_details"
-                      Title="Account"/>
+                      Title="Account"
+                      Icon="{Binding UserImage}" />
         <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"
                       Route="menu"
-                      Title="Menu"/>
+                      Title="Menu"
+                      Icon="{Binding MenuImage}" />
         <ShellContent ContentTemplate="{DataTemplate views:OrderPage}"
                       Route="order"
-                      Title="Order"/>
+                      Title="Order"
+                      Icon="{Binding OrderImage}" />
         <!--<ShellContent ContentTemplate="{DataTemplate views:SettingsPage}"
                       Route="settings" 
                       Title="Settings"/>-->
@@ -86,7 +89,6 @@
             </Style>
             <Style TargetType="TabBar"
                    BasedOn="{StaticResource BaseStyle}" />
-            
         </ResourceDictionary>
     </Shell.Resources>
 </Shell>

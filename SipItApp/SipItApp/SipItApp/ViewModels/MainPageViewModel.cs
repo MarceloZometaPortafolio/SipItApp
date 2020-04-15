@@ -71,7 +71,8 @@ namespace SipItApp.ViewModels
             () =>
             {
                 Console.WriteLine("OrderItem command triggered");
-                await Shell.Current.GoToAsync("//order");
+                String thisRoute = "home";
+                await Shell.Current.GoToAsync($"//order?route={thisRoute}");
                 
                 
                 //await navigationPage.PushAsync(new OrderPage());
