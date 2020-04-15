@@ -7,6 +7,10 @@
              x:Class="SipItApp.Views.MenuPage"
              Title="{Binding Title}"
              Shell.PresentationMode="NotAnimated">
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding BackCommand}"
+                            IconOverride="{Binding BackButton}" />
+    </Shell.BackButtonBehavior>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="This is going to be your menu page"

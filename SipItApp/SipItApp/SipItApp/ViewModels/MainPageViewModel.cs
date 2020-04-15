@@ -76,14 +76,14 @@ namespace SipItApp.ViewModels
                 
                 
                 //await navigationPage.PushAsync(new OrderPage());
-            }));
+            }));        
 
         private Command seeMenu;
         public Command SeeMenu => seeMenu ?? (seeMenu = new Command(async
             () =>
             {
                 Console.WriteLine("SeeMenu command triggered");
-                await Shell.Current.GoToAsync("//menu");
+                await Shell.Current.GoToAsync("//menu");                
             }));
     }
 }

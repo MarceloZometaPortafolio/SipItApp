@@ -5,6 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="SipItApp.Views.AccountPage">
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding BackCommand}"
+                            IconOverride="{Binding BackButton}" />
+    </Shell.BackButtonBehavior>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Account!"

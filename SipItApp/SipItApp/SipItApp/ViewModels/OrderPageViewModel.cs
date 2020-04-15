@@ -16,12 +16,9 @@ namespace SipItApp.ViewModels
         public OrderPageViewModel(ISipItService sipItService)
         {
             Console.WriteLine("Created new OrderPage");
-            Title = "Your order";
-            //Console.WriteLine(pastRoute);
-            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
-            //BackgroundLogo
-            backButton = new BackButtonBehavior();
-            //setBackButtonBehavior();
+            Title = "Your order";           
+            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));            
+            backButton = new BackButtonBehavior();            
 
             //Customers = sipItService.GetCustomers();
 
