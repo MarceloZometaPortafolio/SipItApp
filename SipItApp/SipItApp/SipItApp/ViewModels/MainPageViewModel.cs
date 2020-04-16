@@ -21,11 +21,16 @@ namespace SipItApp.ViewModels
 
             Title = "Sip It";
             this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
-            //BackgroundLogo
+            //try
+            //{
+            //    //Customers = sipItService.GetCustomers();
+            //    var customers = sipItService.GetCustomersAsync().Result;
+            //    Customers = customers;
+            //}
+            //catch (Exception e)
+            //{
 
-
-            //Customers = sipItService.GetCustomers();
-
+            //}
         }
         //public MainPageViewModel()
         //{

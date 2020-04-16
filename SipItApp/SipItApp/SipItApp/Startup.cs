@@ -64,7 +64,7 @@ namespace SipItApp
             // add the ViewModel, but as a Transient, which means it will create a new one each time.
             services.AddTransient<MainPageViewModel>();
 
-            var sipItService = RestService.For<ISipItService>("https://localhost:32770");
+            var sipItService = RestService.For<ISipItService>("http://sip-it-api.herokuapp.com/customer");
             services.AddSingleton<ISipItService>(sipItService);
 
             //Another thing we can do is access variables from that json file
