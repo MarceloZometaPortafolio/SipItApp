@@ -23,6 +23,12 @@ namespace SipItApp.ViewModels
 
             //Customers = sipItService.GetCustomers();
         }
+
+        //Images
+        public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+
+
+        //Property creation
         private String pastRoute;
         public String PastRoute
         {
@@ -36,6 +42,7 @@ namespace SipItApp.ViewModels
             }
         }
 
+        //Commands
         private Command backCommand;
         public Command BackCommand => backCommand ?? (backCommand = new Command(async
             () =>

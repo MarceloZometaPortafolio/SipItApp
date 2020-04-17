@@ -54,24 +54,31 @@
                    Opacity="0.7" />-->
 
             <!--Carousel-->
-            <CarouselView x:Name="mainCarousel"
-                          VerticalOptions="Start"
-                          HorizontalOptions="FillAndExpand"
-                          HeightRequest="350"
-                          Margin="10,10, 10, 0"
-                          BackgroundColor="{StaticResource SipItGreen}"
-                          Opacity="0.5"
-                              ItemsSource="{Binding mainCarousel}">
-                    <CarouselView.ItemTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding ImageUrl}"
-                                   Aspect="AspectFit"
-                                   HeightRequest="300"
-                                   HorizontalOptions="Center"
-                                   VerticalOptions="Center" />
-                        </DataTemplate>
-                    </CarouselView.ItemTemplate>
-            </CarouselView>
+                <StackLayout>
+                    <CarouselView x:Name="mainCarousel"
+                                  VerticalOptions="Start"
+                                  HorizontalOptions="FillAndExpand"
+                                  HeightRequest="350"
+                                  Margin="10,10, 10, 0"
+                                  BackgroundColor="White"
+                                  Opacity="0.5"
+                                  ItemsSource="{Binding mainCarousel}">
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding ImageUrl}"
+                                       Aspect="AspectFit"
+                                       HeightRequest="300"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" />
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                    <IndicatorView x:Name="indicatorView"
+                                   IndicatorColor="{StaticResource SipItGreen}"
+                                   SelectedIndicatorColor="{StaticResource SipItRed}"
+                                   HorizontalOptions="Center" />
+                </StackLayout>
+            
 
             <!--The Usual card-->
             <yummy:PancakeView BackgroundColor="White"

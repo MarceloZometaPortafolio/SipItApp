@@ -40,10 +40,14 @@ namespace SipItApp.ViewModels
             //Customers = sipItService.GetCustomers();
            
         }
-        public ImageSource HomeImage => ImageSource.FromResource("SipItApp.Images.home.png");
-        public ImageSource HomeImage2 => ImageSource.FromResource("SipItApp.Images.user.png");
-        public ImageSource HomeImage3 => ImageSource.FromResource("SipItApp.Images.drink.png");
 
+        //Images
+        public ImageSource HomeImage => ImageSource.FromResource("SipItApp.Images.happyeaster.jpg");
+        public ImageSource HomeImage2 => ImageSource.FromResource("SipItApp.Images.easterfun.jpg");
+        public ImageSource HomeImage3 => ImageSource.FromResource("SipItApp.Images.carona.jpg");
+        public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
+
+        //Populate CarouselView
         private void CreateCollection()
         {
             CarouselList.Add(new CarouselItem
@@ -77,10 +81,9 @@ namespace SipItApp.ViewModels
 
         public string MyText => "Hello World!";              
 
-        public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
-
         public event PropertyChangedEventHandler PropertyChanged;
 
+        //Commands
         private Command getUsual;
         public Command GetUsual => getUsual ?? (getUsual = new Command(
             () =>
