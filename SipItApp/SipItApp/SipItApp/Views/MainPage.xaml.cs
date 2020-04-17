@@ -33,6 +33,11 @@ namespace SipItApp.Views
             // await Shell.Current.GoToAsync($"//animals/monkeys/monkeydetails?name={monkeyName}");
         }
 
+        private void Recommended_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+
+        }
+
         //public ImageSource BackgroundImageSource { get; set; }
     }
 }

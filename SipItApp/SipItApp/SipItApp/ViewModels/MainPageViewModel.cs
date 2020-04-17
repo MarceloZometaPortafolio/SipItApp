@@ -45,7 +45,7 @@ namespace SipItApp.ViewModels
             CreateCarousel();
             CreateRecommendedList();
             //Customers = sipItService.GetCustomers();
-           
+                       
         }
 
         //Images
@@ -169,5 +169,12 @@ namespace SipItApp.ViewModels
             Console.WriteLine("RecommendedSelected command triggered");
             await Shell.Current.GoToAsync("//menu",true);
         }
+
+        public event EventHandler<ItemTappedEventArgs> ItemTapped;
+        void MyItemTapped(object sender, EventArgs args)
+        {
+            Console.WriteLine("Item was tapped");
+        }
+        
     }
 }

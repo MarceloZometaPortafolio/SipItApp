@@ -9,7 +9,7 @@
              x:Class="SipItApp.Views.MainPage"
              Title="{Binding Title}"
              BackgroundImageSource="{Binding BackgroundLogo}"
-             Shell.PresentationMode="ModalAnimated">
+             Shell.PresentationMode="Animated">
     <!--Title = {Binding Title}
         BackgroundImageSource="{StaticResource BackgroundImage}"-->
 
@@ -182,6 +182,7 @@
                                   IsVisible="True"
                                   HorizontalOptions="Center"
                                   Grid.ColumnSpan="2"
+                                  SelectionMode="Single"
                                   SelectedItem="{Binding objItemSelected, Mode=TwoWay}">
                             <ListView.ItemTemplate>
                                 <DataTemplate>

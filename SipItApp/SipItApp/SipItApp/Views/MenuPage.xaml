@@ -7,7 +7,7 @@
              mc:Ignorable="d"
              x:Class="SipItApp.Views.MenuPage"
              Title="{Binding Title}"
-             Shell.PresentationMode="ModalAnimated"
+             Shell.PresentationMode="NotAnimated"
              BackgroundImageSource="{Binding BackgroundLogo}">
     <!--<Shell.BackButtonBehavior>
         <BackButtonBehavior Command="{Binding BackCommand}"
