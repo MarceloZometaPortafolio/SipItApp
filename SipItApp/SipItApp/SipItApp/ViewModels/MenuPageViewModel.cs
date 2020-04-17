@@ -1,4 +1,5 @@
-﻿using SipItApp.Services;
+﻿using SipItApp.Model;
+using SipItApp.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +20,6 @@ namespace SipItApp.ViewModels
 
             Title = "Menu";
             this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
-            //BackgroundLogo
 
             //Customers = sipItService.GetCustomers();
         }

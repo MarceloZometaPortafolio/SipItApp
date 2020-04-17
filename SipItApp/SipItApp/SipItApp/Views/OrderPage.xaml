@@ -6,10 +6,10 @@
              mc:Ignorable="d"
              x:Class="SipItApp.Views.OrderPage"
              Title="{Binding Title}">
-    <Shell.BackButtonBehavior>
+    <!--<Shell.BackButtonBehavior>
         <BackButtonBehavior Command="{Binding BackCommand}"
                             IconOverride="{Binding BackButton}" />
-    </Shell.BackButtonBehavior>
+    </Shell.BackButtonBehavior>-->
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Here it is where you will order your order!"

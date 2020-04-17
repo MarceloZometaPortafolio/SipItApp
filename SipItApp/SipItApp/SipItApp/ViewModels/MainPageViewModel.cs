@@ -27,7 +27,10 @@ namespace SipItApp.ViewModels
         //    }
         //};
         public IList<CarouselItem> CarouselList;
+        public IList<Customer> RecommendedItems;    //Temporarily holds customers
         public ObservableCollection<CarouselItem> mainCarousel { get; private set; }
+        public ObservableCollection<Customer> recommendedList { get; private set; } //Temporarily holds customers
+
 
         public MainPageViewModel(ISipItService sipItService) 
         {
@@ -35,8 +38,12 @@ namespace SipItApp.ViewModels
 
             Title = "Sip It";
             this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
+
             CarouselList = new List<CarouselItem>();
-            CreateCollection();
+            RecommendedItems = new List<Customer>();
+
+            CreateCarousel();
+            CreateRecommendedList();
             //Customers = sipItService.GetCustomers();
            
         }
@@ -48,7 +55,7 @@ namespace SipItApp.ViewModels
         public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
 
         //Populate CarouselView
-        private void CreateCollection()
+        private void CreateCarousel()
         {
             CarouselList.Add(new CarouselItem
             {
@@ -69,6 +76,24 @@ namespace SipItApp.ViewModels
             mainCarousel = new ObservableCollection<CarouselItem>(CarouselList);
         }
 
+        //Populate Recommended Items box
+        private void CreateRecommendedList()
+        {
+            RecommendedItems.Add( new Customer 
+            {
+                FirstName = "Dirty Dr. Pepper"
+            });
+            RecommendedItems.Add(new Customer
+            {
+                FirstName = "Ironport"
+            });
+            RecommendedItems.Add(new Customer
+            {
+                FirstName = "Tiger's Blood"
+            });
+            recommendedList = new ObservableCollection<Customer>(RecommendedItems);
+        }
+
         //public MainPageViewModel()
         //{
         //    defineTitle();
@@ -82,6 +107,25 @@ namespace SipItApp.ViewModels
         public string MyText => "Hello World!";              
 
         public event PropertyChangedEventHandler PropertyChanged;
+
+        private Customer _ItemSelected;
+        public Customer objItemSelected
+        {
+            get
+            {
+                return _ItemSelected;
+            }
+            set
+            {
+                if(_ItemSelected != value)
+                {
+                    _ItemSelected = value;
+                    Console.WriteLine(value.FirstName + " was tapped");
+
+                    RecommendedSelected(value);
+                }
+            }
+        }
 
         //Commands
         private Command getUsual;
@@ -112,6 +156,18 @@ namespace SipItApp.ViewModels
                 await Shell.Current.GoToAsync("//menu");                
             }));
 
-        
+        //private Command recommendedSelected;
+        //public Command RecommendedSelected => recommendedSelected ?? (recommendedSelected = new Command(async
+        //    () =>
+        //    {
+        //        Console.WriteLine("RecommendedSelected command triggered");
+        //        await Shell.Current.GoToAsync("//menu");
+        //    }));
+
+        public async void RecommendedSelected(Customer value)
+        {
+            Console.WriteLine("RecommendedSelected command triggered");
+            await Shell.Current.GoToAsync("//menu",true);
+        }
     }
 }

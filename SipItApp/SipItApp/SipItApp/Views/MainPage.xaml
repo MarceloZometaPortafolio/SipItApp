@@ -8,7 +8,8 @@
              mc:Ignorable="d"
              x:Class="SipItApp.Views.MainPage"
              Title="{Binding Title}"
-             BackgroundImageSource="{Binding BackgroundLogo}">
+             BackgroundImageSource="{Binding BackgroundLogo}"
+             Shell.PresentationMode="ModalAnimated">
     <!--Title = {Binding Title}
         BackgroundImageSource="{StaticResource BackgroundImage}"-->
 
@@ -61,7 +62,7 @@
                                   HeightRequest="350"
                                   Margin="10,10, 10, 0"
                                   BackgroundColor="White"
-                                  Opacity="0.5"
+                                  Opacity="0.9"
                                   ItemsSource="{Binding mainCarousel}">
                         <CarouselView.ItemTemplate>
                             <DataTemplate>
@@ -174,10 +175,25 @@
                            Grid.ColumnSpan="2"
                            VerticalOptions="Center">
                     </Label>
-                    <Label Text="{Binding MyText, FallbackValue='fallback value'}"
+                        <ListView x:Name="Recommended"
+                                  Margin="5,0"
+                                  Grid.Row="1"
+                                  ItemsSource="{Binding recommendedList}"
+                                  IsVisible="True"
+                                  HorizontalOptions="Center"
+                                  Grid.ColumnSpan="2"
+                                  SelectedItem="{Binding objItemSelected, Mode=TwoWay}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <TextCell Text="{Binding FirstName}"
+                                              TextColor="Black" />
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    <!--<Label Text="{Binding MyText, FallbackValue='fallback value'}"
                            Margin="5,0"
                            Grid.Row="1">
-                    </Label>
+                    </Label>-->
                     <!--<CollectionView Margin="5, 0"
                                     Grid.Row="1"
                                     ItemsSource="{x:Static data:RecommendedData.Items}"
