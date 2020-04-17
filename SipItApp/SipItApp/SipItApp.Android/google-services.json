@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "352857649168",
+    "firebase_url": "https://sipitsodashack.firebaseio.com",
+    "project_id": "sipitsodashack",
+    "storage_bucket": "sipitsodashack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352857649168:android:2b4fdaea050c8da1c59a95",
+        "android_client_info": {
+          "package_name": "com.sipit.sipitsoda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352857649168-h2rjiiu3o818c7edsksjt6q28lcqc9a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfYJcXk2Mw5wHl80YChJHx-Bok2wQlOVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352857649168-h2rjiiu3o818c7edsksjt6q28lcqc9a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
