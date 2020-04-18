@@ -10,7 +10,7 @@ using Android.Gms.Common;
 
 namespace SipItApp.Droid
 {
-    [Activity(Label = "Sip It!", Icon = "@mipmap/SipItIcon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Sip It!", Icon = "@mipmap/MiniSipItIcon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         public const string TAG = "MainActivity";
