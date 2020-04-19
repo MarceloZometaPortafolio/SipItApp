@@ -19,7 +19,7 @@ namespace SipItApp.ViewModels
         public ImageSource MenuImage => ImageSource.FromResource("SipItApp.Images.drink.png");
         public ImageSource OrderImage => ImageSource.FromResource("SipItApp.Images.order.png");
 
-
+        
 
     }
 }

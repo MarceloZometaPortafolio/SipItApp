@@ -31,6 +31,7 @@ namespace SipItApp.ViewModels
         public ObservableCollection<CarouselItem> mainCarousel { get; private set; }
         public ObservableCollection<Customer> recommendedList { get; private set; } //Temporarily holds customers
 
+        public ImageSource UserImage => ImageSource.FromResource("SipItApp.Images.user.png");
 
         public MainPageViewModel(ISipItService sipItService) 
         {
@@ -175,6 +176,14 @@ namespace SipItApp.ViewModels
         {
             Console.WriteLine("Item was tapped");
         }
-        
+
+        private Command loginCommand;
+        public Command LoginCommand => loginCommand ?? (loginCommand = new Command(async
+            () =>
+            {
+                Console.WriteLine("LoginCommand was clicked");
+                await Shell.Current.GoToAsync("login", true);
+            }));
+
     }
 }

@@ -72,7 +72,7 @@
                 <Setter Property="Shell.BackgroundColor"
                         Value="{StaticResource SipItLightBlue}" />
                 <Setter Property="Shell.ForegroundColor"
-                        Value="Red" />
+                        Value="{StaticResource SipItRed}" />
                 <Setter Property="Shell.TitleColor"
                         Value="{StaticResource SipItRed}" />
                 <Setter Property="Shell.DisabledColor"

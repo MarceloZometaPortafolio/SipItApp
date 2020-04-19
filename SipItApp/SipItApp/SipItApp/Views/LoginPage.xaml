@@ -59,7 +59,9 @@
                        HorizontalOptions="Center"
                        FontSize="Subtitle"
                        TextColor="#f25741" 
-                        BackgroundColor="Transparent"/>
+                        BackgroundColor="Transparent"
+                        Command="{Binding Register}"/>
+                
                 <Button Text="Forgot Password?"
                        HorizontalOptions="Center"
                        FontSize="Subtitle"

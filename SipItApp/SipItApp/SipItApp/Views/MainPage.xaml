@@ -45,6 +45,13 @@
                      Priority="1">
         </ToolbarItem>
     </ContentPage.ToolbarItems>-->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Login"
+                     Order="Primary"
+                     Priority="0"
+                     Command="{Binding LoginCommand}"/>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Orientation="Vertical">
@@ -80,7 +87,6 @@
                                    HorizontalOptions="Center" />
                 </StackLayout>
             
-
             <!--The Usual card-->
             <yummy:PancakeView BackgroundColor="White"
                                BorderColor="{StaticResource SipItGreen}"

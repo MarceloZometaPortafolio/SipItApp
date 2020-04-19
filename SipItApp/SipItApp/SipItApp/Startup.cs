@@ -67,6 +67,9 @@ namespace SipItApp
             services.AddTransient<MenuPageViewModel>();
             services.AddTransient<AccountDetailPageViewModel>();
 
+            services.AddTransient<LoginPageViewModel>();
+            services.AddTransient<RegisterPageViewModel>();
+
             var sipItService = RestService.For<ISipItService>("http://sip-it-api.herokuapp.com/customer");
             services.AddSingleton<ISipItService>(sipItService);
 
