@@ -8,6 +8,7 @@ using Xamarin.Essentials;
 using Refit;
 using SipItApp.Services;
 using SipItApp.ViewModels;
+using Prism.Services;
 
 namespace SipItApp
 {
@@ -55,6 +56,8 @@ namespace SipItApp
             {
                 // add as a singleton so only one ever will be created.
                 //services.AddSingleton<IDataService, MockDataService>();
+                //PageDialogService pageDialogService;
+                //_ = services.AddSingleton<IPageDialogService>(pageDialogService);
             }
             else
             {

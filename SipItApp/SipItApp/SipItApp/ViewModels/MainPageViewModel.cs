@@ -9,6 +9,7 @@ using SipItApp.Services;
 using SipItApp.Model;
 using System.Collections.ObjectModel;
 using Prism.Navigation.Xaml;
+using System.Diagnostics;
 
 namespace SipItApp.ViewModels
 {
@@ -167,7 +168,7 @@ namespace SipItApp.ViewModels
 
         public async void RecommendedSelected(Customer value)
         {
-            Console.WriteLine("RecommendedSelected command triggered");
+            Debug.WriteLine("RecommendedSelected command triggered");
             await Shell.Current.GoToAsync("//menu",true);
         }
 
