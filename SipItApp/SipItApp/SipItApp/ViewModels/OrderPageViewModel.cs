@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Text;
 using Xamarin.Forms;
 
@@ -13,11 +14,14 @@ namespace SipItApp.ViewModels
         private BackButtonBehavior backButton;
         
         private readonly ISipItService sipItService;
-        public OrderPageViewModel(ISipItService sipItService)
+        private readonly ILoginService loginService;
+
+        public OrderPageViewModel(ISipItService sipItService, ILoginService loginService)
         {
             Console.WriteLine("Created new OrderPage");
             Title = "Your order";           
-            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));            
+            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
+            this.loginService = loginService;
             backButton = new BackButtonBehavior();            
 
             //Customers = sipItService.GetCustomers();
@@ -54,6 +58,22 @@ namespace SipItApp.ViewModels
                 await Shell.Current.GoToAsync($"//{pastRoute}/");
             }));
 
-        
+        private Command loginCommand;
+        public Command LoginCommand => loginCommand ?? (loginCommand = new Command(async
+            () =>
+        {
+            Console.WriteLine("LoginCommand was clicked");
+
+            if (loginService.getCurrentCustomer() == null)
+            {
+                Debug.WriteLine("User is empty. Login");
+                await Shell.Current.GoToAsync("login", true);
+            }
+            else
+            {
+                Debug.WriteLine("User is not empty. Account details");
+                await Shell.Current.GoToAsync("//account_details", true);
+            }
+        }));
     }
 }

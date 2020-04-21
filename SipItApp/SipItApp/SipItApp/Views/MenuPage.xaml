@@ -13,6 +13,13 @@
         <BackButtonBehavior Command="{Binding BackCommand}"
                             IconOverride="{Binding BackButton}" />
     </Shell.BackButtonBehavior>-->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Login"
+                     Order="Primary"
+                     Priority="0"
+                     Command="{Binding LoginCommand}" />
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
         <StackLayout>
             <Label Text="This is going to be your menu page"

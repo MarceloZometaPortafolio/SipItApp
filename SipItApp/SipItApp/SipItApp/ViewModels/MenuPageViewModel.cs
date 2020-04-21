@@ -3,6 +3,7 @@ using SipItApp.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Text;
 using Xamarin.Forms;
 
@@ -12,14 +13,16 @@ namespace SipItApp.ViewModels
     public class MenuPageViewModel:ViewModelBase, INotifyPropertyChanged
     {
         private readonly ISipItService sipItService;
+        private readonly ILoginService loginService;
         private List<String> mylist;
 
-        public MenuPageViewModel(ISipItService sipItService)
+        public MenuPageViewModel(ISipItService sipItService, ILoginService loginService)
         {
             Console.WriteLine("Created new MenuPage");
 
             Title = "Menu";
             this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
+            this.loginService = loginService;
 
             //Customers = sipItService.GetCustomers();
         }
@@ -51,5 +54,23 @@ namespace SipItApp.ViewModels
             await Shell.Current.GoToAsync($"//{pastRoute}/");
         }));
         public ImageSource BackButton => ImageSource.FromResource("SipItApp.Images.back.png");
+
+        private Command loginCommand;
+        public Command LoginCommand => loginCommand ?? (loginCommand = new Command(async
+            () =>
+        {
+            Console.WriteLine("LoginCommand was clicked");
+
+            if (loginService.getCurrentCustomer() == null)
+            {
+                Debug.WriteLine("User is empty. Login");
+                await Shell.Current.GoToAsync("login", true);
+            }
+            else
+            {
+                Debug.WriteLine("User is not empty. Account details");
+                await Shell.Current.GoToAsync("//account_details", true);
+            }
+        }));
     }
 }

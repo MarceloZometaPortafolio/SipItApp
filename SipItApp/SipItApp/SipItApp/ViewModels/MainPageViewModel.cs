@@ -188,13 +188,11 @@ namespace SipItApp.ViewModels
                 if(loginService.getCurrentCustomer() == null)
                 {
                     Debug.WriteLine("User is empty. Login");
-
                     await Shell.Current.GoToAsync("login", true);
                 }
                 else
                 {
                     Debug.WriteLine("User is not empty. Account details");
-
                     await Shell.Current.GoToAsync("//account_details", true);
                 }
             }));
