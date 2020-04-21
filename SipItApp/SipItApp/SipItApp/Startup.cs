@@ -76,6 +76,9 @@ namespace SipItApp
             var sipItService = RestService.For<ISipItService>("http://sip-it-api.herokuapp.com/customer");
             services.AddSingleton<ISipItService>(sipItService);
 
+            var loginService = new LoginService();
+            services.AddSingleton<ILoginService>(loginService);
+
             //Another thing we can do is access variables from that json file
             var world = ctx.Configuration["Hello"];
         }       

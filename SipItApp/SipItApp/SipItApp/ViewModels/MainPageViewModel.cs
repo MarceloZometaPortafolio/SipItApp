@@ -16,6 +16,7 @@ namespace SipItApp.ViewModels
     public class MainPageViewModel : ViewModelBase, INotifyPropertyChanged
     {
         private readonly ISipItService sipItService;
+        private readonly ILoginService loginService;
         private NavigationPage navigationPage = new NavigationPage();
 
         //private IList<ImageSource> carouselList;
@@ -34,20 +35,19 @@ namespace SipItApp.ViewModels
 
         public ImageSource UserImage => ImageSource.FromResource("SipItApp.Images.user.png");
 
-        public MainPageViewModel(ISipItService sipItService) 
+        public MainPageViewModel(ISipItService sipItService, ILoginService loginService)
         {
             Console.WriteLine("Created new MainPage");
 
             Title = "Sip It";
             this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
-
+            this.loginService = loginService;
             CarouselList = new List<CarouselItem>();
             RecommendedItems = new List<Customer>();
 
             CreateCarousel();
             CreateRecommendedList();
-            //Customers = sipItService.GetCustomers();
-                       
+            //Customers = sipItService.GetCustomers();                      
         }
 
         //Images
@@ -135,7 +135,8 @@ namespace SipItApp.ViewModels
             () =>
             {
                 //navigationService.NavigateAsync(nameof(SettingsPage));
-                Console.WriteLine("GetUsual command triggered");
+                Debug.WriteLine("GetUsual command triggered");
+                Debug.WriteLine(loginService.getCurrentCustomer().FirstName);
             }));
 
         private Command orderItem;
@@ -183,7 +184,19 @@ namespace SipItApp.ViewModels
             () =>
             {
                 Console.WriteLine("LoginCommand was clicked");
-                await Shell.Current.GoToAsync("login", true);
+                
+                if(loginService.getCurrentCustomer() == null)
+                {
+                    Debug.WriteLine("User is empty. Login");
+
+                    await Shell.Current.GoToAsync("login", true);
+                }
+                else
+                {
+                    Debug.WriteLine("User is not empty. Account details");
+
+                    await Shell.Current.GoToAsync("//account_details", true);
+                }
             }));
 
     }

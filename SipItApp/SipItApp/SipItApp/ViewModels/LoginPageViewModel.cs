@@ -1,5 +1,7 @@
 ﻿using Prism.Navigation;
 using Prism.Services;
+using SipItApp.Model;
+using SipItApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,9 +13,10 @@ namespace SipItApp.ViewModels
     public class LoginPageViewModel : ViewModelBase
     {
         PageDialogService pageDialogService;
-        public LoginPageViewModel() 
+        public LoginPageViewModel(ILoginService loginService) 
         {
             Console.WriteLine("LoginPage created");
+            this.loginService = loginService;
         }
 
         private string userLogin;
@@ -46,6 +49,8 @@ namespace SipItApp.ViewModels
             }));
 
         private Command login;
+        private readonly ILoginService loginService;
+
         public Command Login => login ?? (login = new Command(async
             () =>
             {
@@ -60,6 +65,14 @@ namespace SipItApp.ViewModels
                     }
                 }
                 Debug.WriteLine("User access granted.");
+
+                //This is just to emulate the function to set a customer to be used throughout 
+                //the app
+                loginService.setCurrentCustomer(new Customer()
+                {
+                    FirstName = userLogin                    
+                }); 
+
                 Shell.Current.SendBackButtonPressed();
             }));
     }
