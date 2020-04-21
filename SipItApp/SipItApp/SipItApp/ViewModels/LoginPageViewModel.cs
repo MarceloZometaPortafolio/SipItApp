@@ -59,6 +59,8 @@ namespace SipItApp.ViewModels
                         Debug.WriteLine("User forgot password. Execute something");
                     }
                 }
+                Debug.WriteLine("User access granted.");
+                Shell.Current.SendBackButtonPressed();
             }));
     }
 }
