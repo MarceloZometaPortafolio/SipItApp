@@ -82,7 +82,7 @@
                         <Label>🔒</Label>
                     </inputLayout:SfTextInputLayout.LeadingView>
 
-                    <Entry Text="{Binding UserEmail}"
+                    <Entry Text="{Binding Password}"
                            IsPassword="True"/>
                 </inputLayout:SfTextInputLayout>
 
