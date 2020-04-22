@@ -46,7 +46,7 @@
         </ToolbarItem>
     </ContentPage.ToolbarItems>-->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Login"
+        <ToolbarItem Text="{Binding LoginText}"
                      Order="Primary"
                      Priority="0"
                      Command="{Binding LoginCommand}"/>

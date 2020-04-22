@@ -107,8 +107,28 @@ namespace SipItApp.ViewModels
         //public string Title { get; set; }
 
         public string MyText => "Hello World!";              
-
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public String LoginText => "Login";
+        //public String LoginText {
+        //    set
+        //    {
+        //        if(loginService.getCurrentCustomer() == null)
+        //        {
+        //            loginText = "Login";
+
+        //            RaisePropertyChanged("LoginText");
+        //        }
+        //        else
+        //        {
+        //            loginText = $"Hi, {loginService.getCurrentCustomer().FirstName}";
+        //        }
+        //    }
+        //    get
+        //    {
+        //        return loginText;
+        //    }
+        //}
 
         private Customer _ItemSelected;
         public Customer objItemSelected
