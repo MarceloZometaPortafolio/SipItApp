@@ -67,7 +67,7 @@ namespace SipItApp
             services.AddTransient<MenuPageViewModel>();
             services.AddTransient<AccountDetailPageViewModel>();
 
-            var sipItService = RestService.For<ISipItService>("http://sip-it-api.herokuapp.com/customer");
+            var sipItService = RestService.For<ISipItService>("http://192.168.1.3:5005");
             services.AddSingleton<ISipItService>(sipItService);
 
             //Another thing we can do is access variables from that json file

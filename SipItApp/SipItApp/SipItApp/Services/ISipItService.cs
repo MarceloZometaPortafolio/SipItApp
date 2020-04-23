@@ -9,7 +9,7 @@ namespace SipItApp.Services
 {
     public interface ISipItService
     {
-        [Get("/customer")]
+        [Get("/gatewaycustomer")]
         Task<IEnumerable<Customer>> GetCustomersAsync();
     }
 }

@@ -9,6 +9,7 @@ using SipItApp.Services;
 using SipItApp.Model;
 using System.Collections.ObjectModel;
 using Prism.Navigation.Xaml;
+using System.Threading.Tasks;
 
 namespace SipItApp.ViewModels
 {
@@ -32,7 +33,7 @@ namespace SipItApp.ViewModels
         public ObservableCollection<Customer> recommendedList { get; private set; } //Temporarily holds customers
 
 
-        public MainPageViewModel(ISipItService sipItService) 
+        public MainPageViewModel(ISipItService sipItService)
         {
             Console.WriteLine("Created new MainPage");
 
@@ -44,9 +45,22 @@ namespace SipItApp.ViewModels
 
             CreateCarousel();
             CreateRecommendedList();
-            //Customers = sipItService.GetCustomers();
-                       
+            loadCustomersAsync(sipItService);
+
         }
+
+        private async Task loadCustomersAsync(ISipItService sipItService)
+        {
+            try
+            {
+                Customers = await sipItService.GetCustomersAsync();
+                RaisePropertyChanged(nameof(Customers));
+            }
+            catch (Exception e) 
+            { }
+        }
+
+        public IEnumerable<Customer> Customers { get; set; }
 
         //Images
         public ImageSource HomeImage => ImageSource.FromResource("SipItApp.Images.happyeaster.jpg");

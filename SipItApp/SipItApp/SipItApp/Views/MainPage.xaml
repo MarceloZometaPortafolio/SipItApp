@@ -175,7 +175,7 @@
                            Grid.ColumnSpan="2"
                            VerticalOptions="Center">
                     </Label>
-                        <ListView x:Name="Recommended"
+                        <!--<ListView x:Name="Recommended"
                                   Margin="5,0"
                                   Grid.Row="1"
                                   ItemsSource="{Binding recommendedList}"
@@ -190,8 +190,8 @@
                                               TextColor="Black" />
                                 </DataTemplate>
                             </ListView.ItemTemplate>
-                        </ListView>
-                    <!--<Label Text="{Binding MyText, FallbackValue='fallback value'}"
+                        </ListView>-->
+                        <!--<Label Text="{Binding MyText, FallbackValue='fallback value'}"
                            Margin="5,0"
                            Grid.Row="1">
                     </Label>-->
@@ -201,29 +201,30 @@
                                     SelectionMode="Single"
                                     SelectionChanged="OnCollectionViewSelectionChanged">
                     </CollectionView>-->
-                        <!--<CollectionView Margin="10">
-                            <CollectionView.ItemTemplate>
-                                <DataTemplate>
-                                    <Grid>
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="auto" />
-                                        </Grid.RowDefinitions>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="auto" />
-                                            <ColumnDefinition Width="auto" />
-                                            <ColumnDefinition Width="auto" />
-                                        </Grid.ColumnDefinitions>
+                    <CollectionView Margin="10"
+                                    ItemsSource="{Binding Customers}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                    </Grid.ColumnDefinitions>
 
-                                        <Label Text="{Binding FirstName}" />
-                                        <Label Text="{Binding LastName}"
-                                               Grid.Column="1" />
-                                        <Label Text="{Binding Email}"
-                                               Grid.Column="2" />
-                                    </Grid>
-                                </DataTemplate>
-                            </CollectionView.ItemTemplate>
-                        </CollectionView>-->
-                    </Grid>
+                                    <Label Text="{Binding FirstName}" />
+                                    <Label Text="{Binding LastName}"
+                                            Grid.Column="1" />
+                                    <Label Text="{Binding Email}"
+                                            Grid.Column="2" />
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
             </yummy:PancakeView>
             </StackLayout>            
         </ScrollView>
