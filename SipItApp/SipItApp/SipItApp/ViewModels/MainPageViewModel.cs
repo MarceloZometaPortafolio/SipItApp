@@ -60,6 +60,16 @@ namespace SipItApp.ViewModels
             { }
         }
 
+        private Customer makeSeedCustomer()
+        {
+            Customer customer = new Customer();
+            customer.Email = "hello@gmail.com";
+            customer.FirstName = "New";
+            customer.LastName = "Guy";
+            customer.Id = 4;
+            return customer;
+        }
+
         public IEnumerable<Customer> Customers { get; set; }
 
         //Images
@@ -168,6 +178,16 @@ namespace SipItApp.ViewModels
             {
                 Console.WriteLine("SeeMenu command triggered");
                 await Shell.Current.GoToAsync("//menu");                
+            }));
+
+        private Command addCustomer;
+        public Command AddCustomer => addCustomer ?? (addCustomer = new Command(async
+            () =>
+            {
+                var customer = makeSeedCustomer();
+                await sipItService.AddCustomerAsync(customer);
+                await loadCustomersAsync(sipItService);
+                
             }));
 
         //private Command recommendedSelected;

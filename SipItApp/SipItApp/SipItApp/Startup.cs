@@ -68,7 +68,7 @@ namespace SipItApp
             services.AddTransient<AccountDetailPageViewModel>();
 
             var sipItService = RestService.For<ISipItService>("http://192.168.1.3:5005");
-            services.AddSingleton<ISipItService>(sipItService);
+            services.AddSingleton(sipItService);
 
             //Another thing we can do is access variables from that json file
             var world = ctx.Configuration["Hello"];
