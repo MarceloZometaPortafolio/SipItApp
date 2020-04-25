@@ -29,7 +29,7 @@
                       Route="home"
                       Title="Home"
                       Icon="{Binding HomeImage}"/>
-        <Tab Title="Menu"
+        <!--<Tab Title="Menu"
              Icon="{Binding MenuImage}">
             <ShellContent ContentTemplate="{DataTemplate views:SanpeteFavoritesPage}"
                           Route="favorites"
@@ -39,18 +39,18 @@
                           Route="menu"
                           Title="Make Your Own!"
                           Icon="{Binding MenuImage}" />
-        </Tab>
-        <!--<ShellContent ContentTemplate="{DataTemplate views:SanpeteFavoritesPage}"
+        </Tab>-->
+        <ShellContent ContentTemplate="{DataTemplate views:SanpeteFavoritesPage}"
                       Route="favorites"                      
-                      Title ="Favorites"
+                      Title ="Local Favorites"
                       Icon="{Binding FavoritesImage}" />
         <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"
                       Route="menu"
-                      Title="Make Your Own"
-                      Icon="{Binding MenuImage}" />-->
+                      Title="Custom Drink"
+                      Icon="{Binding MenuImage}" />
         <ShellContent ContentTemplate="{DataTemplate views:OrderPage}"
                       Route="order"
-                      Title="Order"
+                      Title="Cart"
                       Icon="{Binding OrderImage}" />
         <!--<ShellContent ContentTemplate="{DataTemplate views:SettingsPage}"
                       Route="settings" 

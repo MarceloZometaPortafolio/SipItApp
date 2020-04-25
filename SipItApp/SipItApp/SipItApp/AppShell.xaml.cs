@@ -26,6 +26,8 @@ namespace SipItApp.Views
         public ImageSource UserImage => ImageSource.FromResource("SipItApp.Images.user.png");
         public ImageSource MenuImage => ImageSource.FromResource("SipItApp.Images.drink.png");
         public ImageSource OrderImage => ImageSource.FromResource("SipItApp.Images.order.png");
+        public ImageSource FavoritesImage => ImageSource.FromResource("SipItApp.Images.star.png");
+
 
         void RegisterRoutes()
         {
