@@ -29,14 +29,25 @@
                       Route="home"
                       Title="Home"
                       Icon="{Binding HomeImage}"/>
-        <ShellContent ContentTemplate="{DataTemplate views:AccountDetailPage}"
-                      Route="account_details"
-                      Title="Account"
-                      Icon="{Binding UserImage}" />
+        <Tab Title="Menu"
+             Icon="{Binding MenuImage}">
+            <ShellContent ContentTemplate="{DataTemplate views:SanpeteFavoritesPage}"
+                          Route="favorites"
+                          Title="Sanpete Favorites!"
+                          Icon="{Binding FavoritesImage}" />
+            <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"
+                          Route="menu"
+                          Title="Make Your Own!"
+                          Icon="{Binding MenuImage}" />
+        </Tab>
+        <!--<ShellContent ContentTemplate="{DataTemplate views:SanpeteFavoritesPage}"
+                      Route="favorites"                      
+                      Title ="Favorites"
+                      Icon="{Binding FavoritesImage}" />
         <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"
                       Route="menu"
-                      Title="Menu"
-                      Icon="{Binding MenuImage}" />
+                      Title="Make Your Own"
+                      Icon="{Binding MenuImage}" />-->
         <ShellContent ContentTemplate="{DataTemplate views:OrderPage}"
                       Route="order"
                       Title="Order"
@@ -78,7 +89,7 @@
                 <Setter Property="Shell.DisabledColor"
                         Value="#B4FFFFFF" />
                 <Setter Property="Shell.UnselectedColor"
-                        Value="#95FFFFFF" />
+                        Value="{StaticResource SipItGreen}" />
                 <Setter Property="Shell.TabBarBackgroundColor"
                         Value="{StaticResource SipItLightBlue}" />
                 <Setter Property="Shell.TabBarForegroundColor"
@@ -87,9 +98,14 @@
                         Value="{StaticResource SipItGreen}" />
                 <Setter Property="Shell.TabBarTitleColor"
                         Value="{StaticResource SipItRed}" />
+
+                <!--<Setter Property="Shell.TabBarDisabledColor"
+                        Value="{StaticResource SipItGreen}" />-->
             </Style>
             <Style TargetType="TabBar"
                    BasedOn="{StaticResource BaseStyle}" />
+            <!--<Style TargetType="TabbedPage"-->
+                   <!--BasedOn="{StaticResource BaseStyle}" />-->
         </ResourceDictionary>
     </Shell.Resources>
 </Shell>

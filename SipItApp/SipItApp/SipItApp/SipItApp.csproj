@@ -25,6 +25,7 @@
     <None Remove="Images\home.png" />
     <None Remove="Images\order.png" />
     <None Remove="Images\SipItIcon.png" />
+    <None Remove="Images\star.png" />
     <None Remove="Images\user.png" />
     <None Remove="list-512.png" />
     <None Remove="SipItLogo.png" />
@@ -40,6 +41,7 @@
     <EmbeddedResource Include="Images\order.png" />
     <EmbeddedResource Include="Images\SipItIcon.png" />
     <EmbeddedResource Include="Images\SipItLogo.png" />
+    <EmbeddedResource Include="Images\star.png" />
     <EmbeddedResource Include="Images\user.png" />
     <EmbeddedResource Include="list-512.png" />
   </ItemGroup>
@@ -90,6 +92,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\OrderPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\SanpeteFavoritesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SettingsPage.xaml">

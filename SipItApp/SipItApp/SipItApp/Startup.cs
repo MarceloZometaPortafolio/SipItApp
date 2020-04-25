@@ -69,6 +69,7 @@ namespace SipItApp
             services.AddTransient<OrderPageViewModel>();
             services.AddTransient<MenuPageViewModel>();
             services.AddTransient<AccountDetailPageViewModel>();
+            services.AddTransient<SanpeteFavoritesPageViewModel>();
 
             services.AddTransient<LoginPageViewModel>();
             services.AddTransient<RegisterPageViewModel>();
