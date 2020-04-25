@@ -101,6 +101,30 @@
                         TextColor="#f25741"
                         BackgroundColor="Transparent"
                         Command="{Binding GoToLoginPage}"/>
+                <CollectionView ItemsSource="{Binding Customers}"
+                                HorizontalOptions="Center"
+                                Margin="5,0">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto" />
+                                    <ColumnDefinition Width="auto" />
+                                    <ColumnDefinition Width="auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding FirstName}" />
+                                <Label Text="{Binding LastName}"
+                                       Grid.Column="1" />
+                                <Label Text="{Binding Email}"
+                                       Grid.Column="2" />
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

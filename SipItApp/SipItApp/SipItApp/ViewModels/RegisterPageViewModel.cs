@@ -1,9 +1,11 @@
 ﻿using Prism.Navigation;
 using SipItApp.Model;
+using SipItApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace SipItApp.ViewModels
@@ -11,27 +13,58 @@ namespace SipItApp.ViewModels
     public class RegisterPageViewModel : ViewModelBase
     {
         private Customer customer;
-        public RegisterPageViewModel()
+        private IEnumerable<Customer> Customers { get; set; }
+        public RegisterPageViewModel(ISipItService sipItService)
         {
             customer = new Customer();
+            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
+
+            loadCustomersAsync(sipItService);
+        }
+
+
+        private async Task loadCustomersAsync(ISipItService sipItService)
+        {
+            Customers = await sipItService.GetCustomersAsync();
+            RaisePropertyChanged(nameof(Customers));
         }
 
         //DebuggerDisplayAttribute
 
-        private String userFirstName;
-        public String UserFirstName {get; set;}
+        private string userFirstName;
+        public string UserFirstName
+        {
+            get { return userFirstName; }
+            set { SetProperty(ref userFirstName, value); }
+        }
 
-        private String userLastName;
-        public String UserLastName { get; set; }
+        private string userLastName;
+        public string UserLastName
+        {
+            get { return userLastName; }
+            set { SetProperty(ref userLastName, value); }
+        }
 
-        private String username;
-        public String Username { get; set; }
+        private string username;
+        public string Username
+        {
+            get { return username; }
+            set { SetProperty(ref username, value); }
+        }
 
-        private String userEmail;
-        public String UserEmail { get; set; }
+        private string userEmail;
+        public string UserEmail
+        {
+            get { return userEmail; }
+            set { SetProperty(ref userEmail, value); }
+        }
 
-        private String password;
-        public String Password { get; set; }
+        private string password;
+        public string Password
+        {
+            get { return password; }
+            set { SetProperty(ref password, value); }
+        }       
 
         private Command createAccount;
         public Command CreateAccount => createAccount ?? (createAccount = new Command(async
@@ -53,6 +86,8 @@ namespace SipItApp.ViewModels
             }));
 
         private Command goToLoginPage;
+        private readonly ISipItService sipItService;
+
         public Command GoToLoginPage => goToLoginPage ?? (goToLoginPage = new Command(async 
             () =>
             {

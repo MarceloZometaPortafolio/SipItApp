@@ -213,7 +213,7 @@ namespace SipItApp.ViewModels
                 else
                 {
                     Debug.WriteLine("User is not empty. Account details");
-                    await Shell.Current.GoToAsync("//account_details", true);
+                    await Shell.Current.GoToAsync("account_details", true);
                 }
             }));
 

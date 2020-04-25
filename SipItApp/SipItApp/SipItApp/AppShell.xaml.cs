@@ -34,6 +34,7 @@ namespace SipItApp.Views
             routes.Add("itemdetails", typeof(ItemDetailPage));
             routes.Add("login", typeof(LoginPage));
             routes.Add("register", typeof(RegisterPage));
+            routes.Add("account_details", typeof(AccountDetailPage));
 
             ///routes.Add("order", typeof(OrderPage));
 

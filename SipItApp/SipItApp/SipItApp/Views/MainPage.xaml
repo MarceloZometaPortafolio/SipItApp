@@ -207,32 +207,7 @@
                                         SelectionMode="Single"
                                         SelectionChanged="OnCollectionViewSelectionChanged">
                         </CollectionView>-->
-                        <CollectionView ItemsSource="{Binding Customers}"
-                                        Grid.Row="1"
-                                        Grid.ColumnSpan="2"
-                                        HorizontalOptions="Center"
-                                        Margin="5,0">
-                            <CollectionView.ItemTemplate>
-                                <DataTemplate>
-                                    <Grid>
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="auto" />
-                                        </Grid.RowDefinitions>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="auto" />
-                                            <ColumnDefinition Width="auto" />
-                                            <ColumnDefinition Width="auto" />
-                                        </Grid.ColumnDefinitions>
-
-                                        <Label Text="{Binding FirstName}" />
-                                        <Label Text="{Binding LastName}"
-                                                Grid.Column="1" />
-                                        <Label Text="{Binding Email}"
-                                                Grid.Column="2" />
-                                    </Grid>
-                                </DataTemplate>
-                            </CollectionView.ItemTemplate>
-                        </CollectionView>
+                        
                     </Grid>
                 </yummy:PancakeView>
                 <Button Text="Add customer"
