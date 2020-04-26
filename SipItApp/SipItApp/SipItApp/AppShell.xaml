@@ -40,10 +40,17 @@
                           Title="Make Your Own!"
                           Icon="{Binding MenuImage}" />
         </Tab>-->
-        <ShellContent ContentTemplate="{DataTemplate views:SanpeteFavoritesPage}"
-                      Route="favorites"                      
-                      Title ="Local Favorites"
-                      Icon="{Binding FavoritesImage}" />
+                 <!--Route="favorites"-->
+        <Tab Title ="Local Favorites"
+             Icon="{Binding FavoritesImage}">
+            <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}"
+                          Title="Mtn Dew"
+                          Route="mtn_dew" />
+            <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}"
+                          Title="Mtn Dew"
+                          Route="mtn_dew" />
+        </Tab>
+
         <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"
                       Route="menu"
                       Title="Custom Drink"
