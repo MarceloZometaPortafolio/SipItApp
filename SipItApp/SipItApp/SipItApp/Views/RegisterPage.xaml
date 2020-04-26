@@ -8,8 +8,21 @@
              x:Class="SipItApp.Views.RegisterPage">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+
                 <Label Text="Register"
+                       Grid.Row="0"
                        HeightRequest="110"
                        HorizontalOptions="FillAndExpand"
                        TextColor="#02777C"
@@ -17,22 +30,25 @@
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center"
                        VerticalTextAlignment="Center" />
+                
                 <inputLayout:SfTextInputLayout Hint="First Name"
+                                               Grid.Row="1"
                                                ContainerType="Outlined"
                                                Margin="20,0,20,10"
                                                HeightRequest="50"
                                                FocusedColor="#f25741"
                                                UnfocusedColor="#02777C"
                                                LeadingViewPosition="Inside">
-                    <inputLayout:SfTextInputLayout.LeadingView>
-                        <Label>👤</Label>
-                    </inputLayout:SfTextInputLayout.LeadingView>
+                        <inputLayout:SfTextInputLayout.LeadingView>
+                            <Label>👤</Label>
+                        </inputLayout:SfTextInputLayout.LeadingView>
 
-                    <Entry Text="{Binding UserFirstName}" />
+                        <Entry Text="{Binding UserFirstName}" />
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Last Name"
                                                ContainerType="Outlined"
+                                               Grid.Row="2"
                                                Margin="20,0,20,10"
                                                HeightRequest="50"
                                                FocusedColor="#f25741"
@@ -44,49 +60,53 @@
                     <Entry Text="{Binding UserLastName}" />
                 </inputLayout:SfTextInputLayout>
                 <inputLayout:SfTextInputLayout Hint="Username"
-                                                   ContainerType="Outlined"
-                                                   Margin="20,0,20,10"
-                                                   HeightRequest="50"
-                                                   FocusedColor="#f25741"
-                                                   UnfocusedColor="#02777C"
-                                                   LeadingViewPosition="Inside">
+                                               ContainerType="Outlined"
+                                               Grid.Row="3"
+                                               Margin="20,0,20,10"
+                                               HeightRequest="50"
+                                               FocusedColor="#f25741"
+                                               UnfocusedColor="#02777C"
+                                               LeadingViewPosition="Inside">
                         <inputLayout:SfTextInputLayout.LeadingView>
                             <Label>👤</Label>
                         </inputLayout:SfTextInputLayout.LeadingView>
 
                         <Entry Text="{Binding Username}" />
-                </inputLayout:SfTextInputLayout>
+                    </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Email"
+                                               Grid.Row="4"
                                                ContainerType="Outlined"
                                                Margin="20,0,20,10"
                                                HeightRequest="50"
                                                FocusedColor="#f25741"
                                                UnfocusedColor="#02777C"
                                                LeadingViewPosition="Inside">
-                    <inputLayout:SfTextInputLayout.LeadingView>
-                        <Label>✉</Label>
-                    </inputLayout:SfTextInputLayout.LeadingView>
+                        <inputLayout:SfTextInputLayout.LeadingView>
+                            <Label>✉</Label>
+                        </inputLayout:SfTextInputLayout.LeadingView>
 
-                    <Entry Text="{Binding UserEmail}" />
+                        <Entry Text="{Binding UserEmail}" />
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Password"
+                                               Grid.Row="5"
                                                ContainerType="Outlined"
                                                Margin="20,0,20,10"
                                                HeightRequest="50"
                                                FocusedColor="#f25741"
                                                UnfocusedColor="#02777C"
                                                LeadingViewPosition="Inside">
-                    <inputLayout:SfTextInputLayout.LeadingView>
-                        <Label>🔒</Label>
-                    </inputLayout:SfTextInputLayout.LeadingView>
+                        <inputLayout:SfTextInputLayout.LeadingView>
+                            <Label>🔒</Label>
+                        </inputLayout:SfTextInputLayout.LeadingView>
 
-                    <Entry Text="{Binding Password}"
-                           IsPassword="True"/>
+                        <Entry Text="{Binding Password}"
+                               IsPassword="True" />
                 </inputLayout:SfTextInputLayout>
 
                 <Button Text="Create Account"
+                        Grid.Row="6"
                         FontSize="Large"
                         FontAttributes="Bold"
                         Margin="30,20,30,0"
@@ -96,36 +116,41 @@
                         Command="{Binding CreateAccount}" />
 
                 <Button Text="Already have an account?"
+                        Grid.Row="7"
                         HorizontalOptions="Center"
                         FontSize="Subtitle"
                         TextColor="#f25741"
                         BackgroundColor="Transparent"
-                        Command="{Binding GoToLoginPage}"/>
-                <CollectionView ItemsSource="{Binding Customers}"
-                                HorizontalOptions="Center"
-                                Margin="5,0">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="auto" />
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="auto" />
-                                    <ColumnDefinition Width="auto" />
-                                    <ColumnDefinition Width="auto" />
-                                </Grid.ColumnDefinitions>
+                        Command="{Binding GoToLoginPage}" />
 
-                                <Label Text="{Binding FirstName}" />
-                                <Label Text="{Binding LastName}"
-                                       Grid.Column="1" />
-                                <Label Text="{Binding Email}"
-                                       Grid.Column="2" />
-                            </Grid>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
+                <CollectionView ItemsSource="{Binding Customers}"
+                                Grid.Row="8"
+                                Margin="30,50,30,0">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Text="{Binding FirstName}"
+                                           TextColor="Black" />
+                                    <Label Text="{Binding LastName}"
+                                           Grid.Column="1"
+                                           TextColor="Black" />
+                                    <Label Text="{Binding Email}"
+                                           Grid.Column="2"
+                                           TextColor="Black" />
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
                 </CollectionView>
-            </StackLayout>
+            </Grid>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

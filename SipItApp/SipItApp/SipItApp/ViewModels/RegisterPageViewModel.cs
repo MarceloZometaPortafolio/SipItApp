@@ -13,7 +13,6 @@ namespace SipItApp.ViewModels
     public class RegisterPageViewModel : ViewModelBase
     {
         private Customer customer;
-        private IEnumerable<Customer> Customers { get; set; }
         public RegisterPageViewModel(ISipItService sipItService)
         {
             customer = new Customer();
@@ -25,9 +24,19 @@ namespace SipItApp.ViewModels
 
         private async Task loadCustomersAsync(ISipItService sipItService)
         {
-            Customers = await sipItService.GetCustomersAsync();
-            RaisePropertyChanged(nameof(Customers));
+            try
+            {
+                Customers = await sipItService.GetCustomersAsync();
+                RaisePropertyChanged(nameof(Customers));
+            }
+            catch(Exception e)
+            {
+
+            }
         }
+
+        public IEnumerable<Customer> Customers { get; set; }
+
 
         //DebuggerDisplayAttribute
 
@@ -70,16 +79,24 @@ namespace SipItApp.ViewModels
         public Command CreateAccount => createAccount ?? (createAccount = new Command(async
             () =>
             {
+                Customer newCustomer = new Customer();
+                newCustomer.Email = UserEmail;
+                newCustomer.FirstName = UserFirstName;
+                newCustomer.LastName = UserLastName;
+                newCustomer.Password = Password;
+                newCustomer.Username = Username;
+                await sipItService.AddCustomerAsync(newCustomer);
+
                 Debug.WriteLine("CreateAccount command");             
 
-                Debug.WriteLine(UserFirstName);
-                customer.FirstName = UserFirstName;
+                //Debug.WriteLine(UserFirstName);
+                //customer.FirstName = UserFirstName;
 
-                Debug.WriteLine(UserLastName);
-                customer.LastName = UserLastName;
+                //Debug.WriteLine(UserLastName);
+                //customer.LastName = UserLastName;
 
-                Debug.WriteLine(UserEmail);
-                customer.Email = UserEmail;
+                //Debug.WriteLine(UserEmail);
+                //customer.Email = UserEmail;
 
                 Shell.Current.SendBackButtonPressed();
                 Shell.Current.SendBackButtonPressed();
