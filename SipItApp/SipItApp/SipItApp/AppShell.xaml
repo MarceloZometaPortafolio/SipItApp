@@ -49,6 +49,9 @@
             <ShellContent ContentTemplate="{DataTemplate views:DrPepperPage}"
                           Title="Dr. Pepper"
                           Route="dr_pepper" />
+            <ShellContent ContentTemplate="{DataTemplate views:SpritePage}"
+                          Title="Sprite"
+                          Route="sprite" />
         </Tab>
 
         <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"

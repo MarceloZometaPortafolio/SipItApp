@@ -75,6 +75,7 @@ namespace SipItApp
             services.AddTransient<RegisterPageViewModel>();
 
             services.AddTransient<DrPepperPageViewModel>();
+            services.AddTransient<SpritePageViewModel>();
 
             var sipItService = RestService.For<ISipItService>("http://localhost:32769");
             services.AddSingleton(sipItService);
