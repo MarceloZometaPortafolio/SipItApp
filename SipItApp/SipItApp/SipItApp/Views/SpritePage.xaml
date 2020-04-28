@@ -44,10 +44,10 @@
                                Grid.ColumnSpan="2"
                                VerticalOptions="Center">
                         </Label>
-                        <!--<ListView x:Name="Recommended"
+                        <ListView x:Name="Drinks"
                                       Margin="5,0"
                                       Grid.Row="1"
-                                      ItemsSource="{Binding recommendedList}"
+                                      ItemsSource="{Binding DrinksList}"
                                       IsVisible="True"
                                       HorizontalOptions="Center"
                                       Grid.ColumnSpan="2"
@@ -55,11 +55,12 @@
                                       SelectedItem="{Binding objItemSelected, Mode=TwoWay}">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
-                                        <TextCell Text="{Binding FirstName}"
+                                        <TextCell Text="{Binding Name}"
+                                                  
                                                   TextColor="Black" />
                                     </DataTemplate>
                                 </ListView.ItemTemplate>
-                            </ListView>-->
+                            </ListView>
                         <!--<Label Text="{Binding MyText, FallbackValue='fallback value'}"
                                Margin="5,0"
                                Grid.Row="1">
