@@ -16,7 +16,7 @@ namespace SipItApp.Views
         public MtnDewPage()
         {
             InitializeComponent();
-            BindingContext = Startup.ServiceProvider.GetService<MtnDewPageViewModel>();
+            BindingContext = Startup.ServiceProvider.GetService<LocalFavoritesPageViewModel>();
 
         }
     }

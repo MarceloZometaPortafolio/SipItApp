@@ -73,11 +73,7 @@ namespace SipItApp
 
             services.AddTransient<LoginPageViewModel>();
             services.AddTransient<RegisterPageViewModel>();
-            services.AddTransient<MtnDewPageViewModel>();
-            services.AddTransient<DrPepperPageViewModel>();
-            services.AddTransient<SpritePageViewModel>();
-            services.AddTransient<PepsiPageViewModel>();
-            services.AddTransient<MonsterPageViewModel>();
+            services.AddTransient<LocalFavoritesPageViewModel>();
 
             var sipItService = RestService.For<ISipItService>("http://192.168.1.3:5005");
             services.AddSingleton(sipItService);

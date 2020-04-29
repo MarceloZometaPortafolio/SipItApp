@@ -58,8 +58,8 @@
                                         <RowDefinition Height="auto" />
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="auto" />
-                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="7*" />
+                                        <ColumnDefinition Width="3*" />
                                     </Grid.ColumnDefinitions>
 
                                     <Label Text="{Binding Name}"
@@ -69,13 +69,24 @@
                                     <CollectionView ItemsSource="{Binding Additions}" 
                                                     Grid.Row="1"
                                                     Margin="0"
-                                                    HeightRequest="40">
+                                                    HeightRequest="50">
                                         <CollectionView.ItemsLayout>
                                             <GridItemsLayout Orientation="Horizontal"
                                                              HorizontalItemSpacing="0"
                                                              VerticalItemSpacing="0" />
                                         </CollectionView.ItemsLayout>
                                     </CollectionView>
+                                    <Button Text="ADD"
+                                            TextColor="White"
+                                            BackgroundColor="{StaticResource SipItGreen}"
+                                            Grid.RowSpan="2"
+                                            Grid.Column="1"
+                                            CornerRadius="20"
+                                            Margin="0,0,20,0"
+                                            HorizontalOptions="End"
+                                            VerticalOptions="Start"
+                                            HeightRequest="40"
+                                            WidthRequest="50"/>
                                 </Grid>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
