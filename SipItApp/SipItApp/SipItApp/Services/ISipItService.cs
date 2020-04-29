@@ -12,6 +12,9 @@ namespace SipItApp.Services
         [Get("/gatewaycustomer")]
         Task<IEnumerable<Customer>> GetCustomersAsync();
 
+        [Get("/gatewaymenu")]
+        Task<IEnumerable<Drink>> GetDrinksAsync();
+
         [Post("/gatewaycustomer")]
         Task AddCustomerAsync(Customer customer);
     }

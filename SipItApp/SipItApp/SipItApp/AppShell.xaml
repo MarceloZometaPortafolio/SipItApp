@@ -43,12 +43,24 @@
                  <!--Route="favorites"-->
         <Tab Title ="Local Favorites"
              Icon="{Binding FavoritesImage}">
-            <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}"
+            <ShellContent ContentTemplate="{DataTemplate views:MtnDewPage}"
                           Title="Mtn Dew"
                           Route="mtn_dew" />
-            <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}"
-                          Title="Mtn Dew"
-                          Route="mtn_dew" />
+            <ShellContent ContentTemplate="{DataTemplate views:DrPepperPage}"
+                          Title="Dr.Pepper"
+                          Route="drPepper" />
+            <ShellContent ContentTemplate="{DataTemplate views:SpritePage}"
+                          Title="Sprite"
+                          Route="sprite" />
+            <ShellContent ContentTemplate="{DataTemplate views:PepsiPage}"
+                          Title="Pepsi"
+                          Route="pepsi" />
+            <ShellContent ContentTemplate="{DataTemplate views:CocaColaPage}"
+                          Title="Coca-Cola"
+                          Route="coke" />
+            <ShellContent ContentTemplate="{DataTemplate views:MonsterPage}"
+                          Title="Monster"
+                          Route="monster" />
         </Tab>
 
         <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"
