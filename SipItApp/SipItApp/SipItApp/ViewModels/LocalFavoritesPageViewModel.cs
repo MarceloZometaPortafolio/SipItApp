@@ -17,7 +17,7 @@ namespace SipItApp.ViewModels
         public LocalFavoritesPageViewModel(ISipItService sipItService)
         {
             this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
-
+            Title = "Local Favorites";
             loadDrinksAsync(sipItService);
         }
 

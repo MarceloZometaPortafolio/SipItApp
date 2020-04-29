@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              mc:Ignorable="d"
-             x:Class="SipItApp.Views.CocaColaPage">
+             x:Class="SipItApp.Views.CocaColaPage"
+             Title="{Binding Title}">
     <ContentPage.Content>
             <ScrollView>
                 <yummy:PancakeView BackgroundColor="White"
