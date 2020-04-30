@@ -7,6 +7,13 @@
              mc:Ignorable="d"
              x:Class="SipItApp.Views.MtnDewPage"
              Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Login"
+                     Order="Primary"
+                     Priority="0"
+                     Command="{Binding LoginCommand}" />
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <ScrollView>
             <yummy:PancakeView BackgroundColor="White"

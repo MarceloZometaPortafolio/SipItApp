@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq;
 using Xamarin.Forms;
+using System.Diagnostics;
 
 namespace SipItApp.ViewModels
 {
@@ -13,10 +14,12 @@ namespace SipItApp.ViewModels
     public class LocalFavoritesPageViewModel : ViewModelBase
     {
         private readonly ISipItService sipItService;
+        private readonly ILoginService loginService;
 
-        public LocalFavoritesPageViewModel(ISipItService sipItService)
+        public LocalFavoritesPageViewModel(ISipItService sipItService, ILoginService loginService)
         {
             this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
+            this.loginService = loginService ?? throw new ArgumentNullException(nameof(loginService));
             Title = "Local Favorites";
             loadDrinksAsync(sipItService);
         }
@@ -59,8 +62,6 @@ namespace SipItApp.ViewModels
             RaisePropertyChanged(nameof(MonsterDrinks));
         }
 
-        
-
         public IEnumerable<Drink> AllDrinks { get; set; }
         public IEnumerable<Drink> MtnDewDrinks { get; set; }
         public IEnumerable<Drink> DrPepperDrinks { get; set; }
@@ -69,5 +70,22 @@ namespace SipItApp.ViewModels
         public IEnumerable<Drink> CokeDrinks { get; set; }
         public IEnumerable<Drink> MonsterDrinks { get; set; }
 
+        private Command loginCommand;
+        public Command LoginCommand => loginCommand ?? (loginCommand = new Command(async
+            () =>
+        {
+            Console.WriteLine("LoginCommand was clicked");
+
+            if (loginService.getCurrentCustomer() == null)
+            {
+                Debug.WriteLine("User is empty. Login");
+                await Shell.Current.GoToAsync("login", true);
+            }
+            else
+            {
+                Debug.WriteLine("User is not empty. Account details");
+                await Shell.Current.GoToAsync("account_details", true);
+            }
+        }));
     }
 }
