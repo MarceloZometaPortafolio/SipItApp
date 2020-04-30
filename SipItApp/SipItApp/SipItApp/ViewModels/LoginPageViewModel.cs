@@ -16,10 +16,11 @@ namespace SipItApp.ViewModels
         PageDialogService pageDialogService;
         public IEnumerable<Customer> Customers { get; set; }
 
-        public LoginPageViewModel(ILoginService loginService) 
+        public LoginPageViewModel(ISipItService sipItService, ILoginService loginService) 
         {
             Console.WriteLine("LoginPage created");
             this.loginService = loginService ?? throw new ArgumentNullException(nameof(loginService));
+            loadCustomersAsync(sipItService);
         }
 
         private async Task loadCustomersAsync(ISipItService sipItService)

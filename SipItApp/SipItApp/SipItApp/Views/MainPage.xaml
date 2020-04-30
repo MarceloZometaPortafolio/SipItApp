@@ -181,38 +181,58 @@
                                Grid.ColumnSpan="2"
                                VerticalOptions="Center">
                         </Label>
-                            <!--<ListView x:Name="Recommended"
-                                      Margin="5,0"
-                                      Grid.Row="1"
-                                      ItemsSource="{Binding recommendedList}"
-                                      IsVisible="True"
-                                      HorizontalOptions="Center"
-                                      Grid.ColumnSpan="2"
-                                      SelectionMode="Single"
-                                      SelectedItem="{Binding objItemSelected, Mode=TwoWay}">
-                                <ListView.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextCell Text="{Binding FirstName}"
-                                                  TextColor="Black" />
-                                    </DataTemplate>
-                                </ListView.ItemTemplate>
-                            </ListView>-->
-                            <!--<Label Text="{Binding MyText, FallbackValue='fallback value'}"
-                               Margin="5,0"
-                               Grid.Row="1">
-                        </Label>-->
-                        <!--<CollectionView Margin="5, 0"
+                        <CollectionView ItemsSource="{Binding Recommended}"
                                         Grid.Row="1"
-                                        ItemsSource="{x:Static data:RecommendedData.Items}"
-                                        SelectionMode="Single"
-                                        SelectionChanged="OnCollectionViewSelectionChanged">
-                        </CollectionView>-->
-                        
+                                        Margin="20,5,0,0"
+                                        Grid.ColumnSpan="2">
+                            <CollectionView.ItemsLayout>
+                                <GridItemsLayout Orientation="Vertical"
+                                                 HorizontalItemSpacing="0"
+                                                 VerticalItemSpacing="0" />
+                            </CollectionView.ItemsLayout>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="auto" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="7*" />
+                                            <ColumnDefinition Width="3*" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Text="{Binding Name}"
+                                               VerticalOptions="Start"
+                                               FontAttributes="Bold"
+                                               FontSize="Medium" />
+                                        <CollectionView ItemsSource="{Binding Additions}"
+                                                        Grid.Row="1"
+                                                        Margin="0"
+                                                        HeightRequest="50">
+                                            <CollectionView.ItemsLayout>
+                                                <GridItemsLayout Orientation="Horizontal"
+                                                                 HorizontalItemSpacing="0"
+                                                                 VerticalItemSpacing="0" />
+                                            </CollectionView.ItemsLayout>
+                                        </CollectionView>
+                                        <Button Text="ADD"
+                                                TextColor="White"
+                                                BackgroundColor="{StaticResource SipItGreen}"
+                                                Grid.RowSpan="2"
+                                                Grid.Column="1"
+                                                CornerRadius="20"
+                                                Margin="0,0,20,0"
+                                                HorizontalOptions="End"
+                                                VerticalOptions="Start"
+                                                HeightRequest="40"
+                                                WidthRequest="50" />
+                                    </Grid>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
                     </Grid>
-                </yummy:PancakeView>
-                <Button Text="Add customer"
-                        Command="{Binding AddCustomer}"
-                        HorizontalOptions="CenterAndExpand" />
+                </yummy:PancakeView>                
             </StackLayout>            
         </ScrollView>
     </ContentPage.Content>
