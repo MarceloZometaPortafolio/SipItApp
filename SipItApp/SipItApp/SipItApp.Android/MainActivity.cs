@@ -7,7 +7,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 using Android.Util;
 using Android.Gms.Common;
-
+using Syncfusion.XForms;
 namespace SipItApp.Droid
 {
     [Activity(Label = "Sip It!", Icon = "@mipmap/MiniSipItIcon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -44,6 +44,7 @@ namespace SipItApp.Droid
             CreateNotificationChannel();
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            //Android.PopupLayout.SfPopupLayoutRenderer.Init();
             LoadApplication(new App(new AndroidInitializer()));
         }
 

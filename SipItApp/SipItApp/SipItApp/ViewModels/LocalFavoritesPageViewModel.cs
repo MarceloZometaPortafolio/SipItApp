@@ -25,7 +25,7 @@ namespace SipItApp.ViewModels
         }
 
         private async Task loadDrinksAsync(ISipItService sipItService)
-        {            
+        {
             AllDrinks = await sipItService.GetDrinksAsync();
 
             MtnDewDrinks = from drink in AllDrinks
@@ -58,7 +58,7 @@ namespace SipItApp.ViewModels
             RaisePropertyChanged(nameof(DrPepperDrinks));
             RaisePropertyChanged(nameof(SpriteDrinks));
             RaisePropertyChanged(nameof(PepsiDrinks));
-            RaisePropertyChanged(nameof(CokeDrinks));           
+            RaisePropertyChanged(nameof(CokeDrinks));
             RaisePropertyChanged(nameof(MonsterDrinks));
         }
 
@@ -87,5 +87,13 @@ namespace SipItApp.ViewModels
                 await Shell.Current.GoToAsync("account_details", true);
             }
         }));
+
+        private Command addToOrder;
+        public Command AddToOrder => addToOrder ?? (addToOrder = new Command(
+            () =>
+            {
+                Debug.WriteLine("AddToOrder command triggered");
+
+            }));
     }
 }
