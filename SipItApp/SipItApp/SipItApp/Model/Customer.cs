@@ -4,6 +4,7 @@ using System.Text;
 
 namespace SipItApp.Model
 {
+    //NOTE: be subject to change as the app progresses
     public class Customer
     {
         public int Id { get; set; }

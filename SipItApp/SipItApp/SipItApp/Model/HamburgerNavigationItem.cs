@@ -4,6 +4,8 @@ using System.Text;
 
 namespace SipItApp.Model
 {
+    //FATAL: Class is not utilized. 
+    //      Delete it after ViewModel deems it useless
     public class HamburgerNavigationItem
     {
         public String Name { get; set; }
