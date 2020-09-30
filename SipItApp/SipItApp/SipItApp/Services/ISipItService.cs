@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SipItApp.Services
 {
+    //JUST WHAT IS THIIIISSSS. DELETE IT!
     public interface ISipItService
     {
         [Get("/customer")]
