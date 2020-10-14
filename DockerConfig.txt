@@ -1,1 +1,1 @@
-docker run -d -p 5430:5432 --name sipit_db --restart always -v C:\Users\engr\Desktop\SipItDB -e POSTGRES_PASSWORD=password -e POSTGRES_DB=sipit postgres
+docker run -d -p 5430:5432 --name sipit_db --restart always -v C:\Users\engr\Desktop\SipItDB:/var/lib/postgresql/data -e POSTGRES_PASSWORD=password -e POSTGRES_DB=sipit postgres
