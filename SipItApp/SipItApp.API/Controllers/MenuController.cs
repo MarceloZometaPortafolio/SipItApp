@@ -35,6 +35,7 @@ namespace SipItApp.API.Controllers
         {
             var flavors = await service.Flavors.ToListAsync();
             return flavors;
+
         }
 
         [HttpGet("[action]")]
