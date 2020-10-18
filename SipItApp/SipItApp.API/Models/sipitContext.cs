@@ -15,18 +15,18 @@ namespace SipItApp.API.Models
         {
         }
 
-        public virtual DbSet<Base> Base { get; set; }
-        public virtual DbSet<Flavor> Flavor { get; set; }
+        public virtual DbSet<Base> Bases { get; set; }
+        public virtual DbSet<Flavor> Flavors { get; set; }
         public virtual DbSet<Sanpetefavorites> Sanpetefavorites { get; set; }
-        public virtual DbSet<SanpetefavoritesFlavor> SanpetefavoritesFlavor { get; set; }
-        public virtual DbSet<Size> Size { get; set; }
+        public virtual DbSet<SanpetefavoritesFlavor> SanpetefavoritesFlavors { get; set; }
+        public virtual DbSet<Size> Sizes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseNpgsql("Host=localhost;Port=5430;Database=sipit;Username=postgres;Password=password;");
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+//                optionsBuilder.UseNpgsql();
             }
         }
 
