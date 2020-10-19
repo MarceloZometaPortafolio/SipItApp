@@ -31,30 +31,24 @@ namespace SipItApp.API
             var dbConnection = Configuration["DATABASE_URL"];
             services.AddControllers();
 
-            services.AddDbContext<sipitContext>(options => options.UseNpgsql(ConvertUrlConnectionString(dbConnection)));
+            services.AddDbContext<sipitContext>(options => options.UseNpgsql(convertUrlConnectionString(dbConnection)));
 
             services.AddTransient<IDataService, DataService>();
         }
 
-        private string ConvertUrlConnectionString(string dbConnection)
+        private static string convertUrlConnectionString(string url)
         {
-            if(dbConnection is null)
-            {
-                throw new ArgumentNullException(nameof(dbConnection));
-            }
-
-            if (!dbConnection.Contains("//"))
-            {
-                return dbConnection;
-            }
-
-            var uri = new Uri(dbConnection);
+            if (url is null)
+                throw new ArgumentNullException("It appears you're missing the DATABASE_URL configuration value...");
+            if (!url.Contains("//"))
+                return url;
+            var uri = new Uri(url);
             var host = uri.Host;
             var port = uri.Port;
             var database = uri.Segments.Last();
             var parts = uri.AbsoluteUri.Split(':', '/', '@');
-            var user = parts[4];
-            var password = parts[5];
+            var user = parts[3];
+            var password = parts[4];
 
             return $"host={host}; port={port}; database={database}; username={user}; password={password}; SSL Mode=Prefer; Trust Server Certificate=true";
         }
