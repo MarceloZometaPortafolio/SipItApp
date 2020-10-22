@@ -31,12 +31,12 @@ namespace SipItApp.API
             var dbConnection = Configuration["DATABASE_URL"];
             services.AddControllers();
 
-            services.AddDbContext<sipitContext>(options => options.UseNpgsql(convertUrlConnectionString(dbConnection)));
+            services.AddDbContext<SipitContext>(options => options.UseNpgsql(ConvertUrlConnectionString(dbConnection)));
 
             services.AddTransient<IDataService, DataService>();
         }
 
-        private static string convertUrlConnectionString(string url)
+        private static string ConvertUrlConnectionString(string url)
         {
             if (url is null)
                 throw new ArgumentNullException("It appears you're missing the DATABASE_URL configuration value...");

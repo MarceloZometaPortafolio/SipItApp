@@ -15,7 +15,6 @@ namespace SipItApp.ViewModels
 {
     public class MainPageViewModel : ViewModelBase, INotifyPropertyChanged
     {
-        private readonly ISipItService sipItService;
         private NavigationPage navigationPage = new NavigationPage();
 
         //private IList<ImageSource> carouselList;
@@ -34,12 +33,11 @@ namespace SipItApp.ViewModels
 
         public ImageSource UserImage => ImageSource.FromResource("SipItApp.Images.user.png");
 
-        public MainPageViewModel(ISipItService sipItService) 
+        public MainPageViewModel() 
         {
             Console.WriteLine("Created new MainPage");
 
             Title = "Sip It";
-            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
 
             CarouselList = new List<CarouselItem>();
             RecommendedItems = new List<Customer>();

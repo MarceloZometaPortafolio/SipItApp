@@ -8,7 +8,7 @@ using SipItApp.API.Models;
 
 namespace SipItApp.API.Migrations
 {
-    [DbContext(typeof(sipitContext))]
+    [DbContext(typeof(SipitContext))]
     partial class sipitContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

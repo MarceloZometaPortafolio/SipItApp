@@ -12,12 +12,10 @@ namespace SipItApp.ViewModels
     {
         private BackButtonBehavior backButton;
         
-        private readonly ISipItService sipItService;
-        public OrderPageViewModel(ISipItService sipItService)
+        public OrderPageViewModel()
         {
             Console.WriteLine("Created new OrderPage");
             Title = "Your order";           
-            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));            
             backButton = new BackButtonBehavior();            
 
             //Customers = sipItService.GetCustomers();

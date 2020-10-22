@@ -9,7 +9,7 @@ using SipItApp.API.Models;
 
 namespace SipItApp.API.Migrations
 {
-    [DbContext(typeof(sipitContext))]
+    [DbContext(typeof(SipitContext))]
     [Migration("20201018230330_Prebuiltdatabase")]
     partial class Prebuiltdatabase
     {

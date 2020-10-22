@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SipItApp.API.Models
+namespace SipItApp.Shared
 {
     public partial class Flavor
     {

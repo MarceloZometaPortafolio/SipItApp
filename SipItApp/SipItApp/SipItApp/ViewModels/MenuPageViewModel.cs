@@ -1,9 +1,12 @@
-﻿using SipItApp.Model;
+﻿using SipItApp.Data;
+using SipItApp.Model;
 using SipItApp.Services;
+using SipItApp.Shared;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace SipItApp.ViewModels
@@ -11,23 +14,32 @@ namespace SipItApp.ViewModels
     [QueryProperty("PastRoute", "route")]
     public class MenuPageViewModel:ViewModelBase, INotifyPropertyChanged
     {
-        private readonly ISipItService sipItService;
-        private List<String> mylist;
+        private readonly IAPIService service;        
+        //private List<String> mylist;
+        //public IObservable<Sanpetefavorites> MenuItems { get; set; }
 
-        public MenuPageViewModel(ISipItService sipItService)
+        public MenuPageViewModel()
         {
             Console.WriteLine("Created new MenuPage");
 
-            Title = "Menu";
-            this.sipItService = sipItService ?? throw new ArgumentNullException(nameof(sipItService));
+            try
+            {
+                Title = "Menu";
+            //this.service = service ?? throw new ArgumentNullException(nameof(service));            
+            //MenuItems = (IObservable<Sanpetefavorites>)service.GetSanpeteFavorites();
 
-            //Customers = sipItService.GetCustomers();
+            }
+            catch(Exception e)
+            {
+                Console.Write(e.ToString());
+            }
         }
 
         //Images
         public ImageSource BackgroundLogo => ImageSource.FromResource("SipItApp.Images.SipItLogo.png");
-
-
+        public ImageSource BackButton => ImageSource.FromResource("SipItApp.Images.back.png");
+        
+        
         //Property creation
         private String pastRoute;
         public String PastRoute
@@ -44,12 +56,12 @@ namespace SipItApp.ViewModels
 
         //Commands
         private Command backCommand;
+
         public Command BackCommand => backCommand ?? (backCommand = new Command(async
             () =>
         {
             //backButton.Command.Execute(Console.WriteLine("I was called");
             await Shell.Current.GoToAsync($"//{pastRoute}/");
         }));
-        public ImageSource BackButton => ImageSource.FromResource("SipItApp.Images.back.png");
     }
 }

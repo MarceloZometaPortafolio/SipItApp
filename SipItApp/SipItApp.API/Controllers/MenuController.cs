@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SipItApp.API.Data;
-using SipItApp.API.Models;
+using SipItApp.Shared;
 
 namespace SipItApp.API.Controllers
 {
@@ -35,7 +35,6 @@ namespace SipItApp.API.Controllers
         {
             var flavors = await service.Flavors.ToListAsync();
             return flavors;
-
         }
 
         [HttpGet("[action]")]
@@ -53,7 +52,7 @@ namespace SipItApp.API.Controllers
         }
 
         [HttpGet("[action]")]
-        public async Task<List<SipItApp.API.Models.Size>> GetSizes()
+        public async Task<List<SipItApp.Shared.Size>> GetSizes()
         {
             var sizes= await service.Sizes.ToListAsync();
             return sizes;

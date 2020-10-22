@@ -1,16 +1,17 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using SipItApp.Shared;
 
 namespace SipItApp.API.Models
 {
-    public partial class sipitContext : DbContext
+    public partial class SipitContext : DbContext
     {
-        public sipitContext()
+        public SipitContext()
         {
         }
 
-        public sipitContext(DbContextOptions<sipitContext> options)
+        public SipitContext(DbContextOptions<SipitContext> options)
             : base(options)
         {
         }

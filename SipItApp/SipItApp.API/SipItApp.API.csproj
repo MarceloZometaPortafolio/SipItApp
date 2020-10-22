@@ -16,5 +16,9 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SipItApp.Shared\SipItApp.Shared.csproj" />
+  </ItemGroup>
+
 
 </Project>

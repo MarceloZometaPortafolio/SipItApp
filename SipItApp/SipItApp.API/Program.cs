@@ -19,7 +19,7 @@ namespace SipItApp.API
             var host = CreateHostBuilder(args).Build();
             using(var scope = host.Services.CreateScope())
             {
-                var db = scope.ServiceProvider.GetRequiredService<sipitContext>();
+                var db = scope.ServiceProvider.GetRequiredService<SipitContext>();
                 db.Database.Migrate();
             }
 

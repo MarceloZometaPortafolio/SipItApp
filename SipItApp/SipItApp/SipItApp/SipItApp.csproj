@@ -65,6 +65,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\SipItApp.Shared\SipItApp.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="AppShell.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>

@@ -9,6 +9,7 @@ using Refit;
 using SipItApp.Services;
 using SipItApp.ViewModels;
 using Prism.Services;
+using SipItApp.Data;
 
 namespace SipItApp
 {
@@ -69,12 +70,10 @@ namespace SipItApp
             services.AddTransient<OrderPageViewModel>();
             services.AddTransient<MenuPageViewModel>();
             services.AddTransient<AccountDetailPageViewModel>();
-
             services.AddTransient<LoginPageViewModel>();
             services.AddTransient<RegisterPageViewModel>();
 
-            var sipItService = RestService.For<ISipItService>("http://sip-it-api.herokuapp.com/customer");
-            services.AddSingleton<ISipItService>(sipItService);
+            var sipItService = RestService.For<IAPIService>("https://sipitapi.herokuapp.com");            
 
             //Another thing we can do is access variables from that json file
             var world = ctx.Configuration["Hello"];

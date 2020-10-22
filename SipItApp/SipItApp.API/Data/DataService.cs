@@ -8,7 +8,7 @@ namespace SipItApp.API.Data
 {
     public class DataService : IDataService
     {
-        private readonly sipitContext sipit;
+        private readonly SipitContext sipit;
 
         public IQueryable<Base> Bases => sipit.Bases;
 
@@ -20,7 +20,7 @@ namespace SipItApp.API.Data
 
         public IQueryable<Size> Sizes => sipit.Sizes;
 
-        public DataService(sipitContext sipit)
+        public DataService(SipitContext sipit)
         {
             this.sipit = sipit ?? throw new ArgumentNullException(nameof(sipit));
         }
