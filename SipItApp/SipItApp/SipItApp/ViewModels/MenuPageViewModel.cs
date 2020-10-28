@@ -17,8 +17,7 @@ namespace SipItApp.ViewModels
     [QueryProperty("PastRoute", "route")]
     public class MenuPageViewModel:ViewModelBase, INotifyPropertyChanged
     {
-        private readonly IAPIService service;        
-        //private List<String> mylist;
+        private readonly IAPIService service;
         public IEnumerable<Sanpetefavorites> MenuItems { get; set; }
 
         public MenuPageViewModel()
@@ -28,9 +27,11 @@ namespace SipItApp.ViewModels
             try
             {
                 Title = "Menu";
-                service = RestService.For<IAPIService>("https://sipitapi.herokuapp.com");                    
+                service = RestService.For<IAPIService>("https://sipitapi.herokuapp.com");
+                //GetData.Execute(GetData);
+
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.Write(e.ToString());
             }

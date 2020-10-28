@@ -20,7 +20,8 @@
                 HorizontalOptions="CenterAndExpand" />
             <Button Text="Push me"
                     Command="{Binding GetData}"/>
-            <ListView ItemsSource="{Binding MenuItems}">
+            <ListView ItemsSource="{Binding MenuItems}"
+                      SelectionMode="None">
                 <ListView.Header>
                     Menu
                 </ListView.Header>
