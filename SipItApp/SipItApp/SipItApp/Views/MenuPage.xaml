@@ -20,7 +20,7 @@
                 HorizontalOptions="CenterAndExpand" />
             <Button Text="Push me"
                     Command="{Binding GetData}"/>
-            <!--<ListView ItemsSource="{Binding MenuItems}">
+            <ListView ItemsSource="{Binding MenuItems}">
                 <ListView.Header>
                     Menu
                 </ListView.Header>
@@ -29,7 +29,7 @@
                         <TextCell Text="{Binding Name}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
-            </ListView>-->
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

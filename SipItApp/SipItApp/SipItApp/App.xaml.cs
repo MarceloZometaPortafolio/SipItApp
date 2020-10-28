@@ -1,4 +1,5 @@
-﻿using Prism;
+﻿using GalaSoft.MvvmLight.Ioc;
+using Prism;
 using Prism.Ioc;
 using Prism.Navigation;
 using Refit;
@@ -23,29 +24,14 @@ namespace SipItApp
 
         public App(IPlatformInitializer initializer) : base(initializer) 
         {
-            //var menuPage = new HamburgerMenu();
-            //NavigationPage navigation = new NavigationPage(new MainPage());
-            //var masterPage = new HomePage();
-            //masterPage.Master = menuPage;
-            //masterPage.Detail = navigation;
-
-            //var settingsPage = new SettingsPage();
-
-            //MainPage = masterPage;
-
             //Here, according to Xaminals it needs to go Startup.Init();
             Startup.Init();
             MainPage = new AppShell();
         }
 
-        protected override async void OnInitialized()
+        protected override void OnInitialized()
         {
-            InitializeComponent();
-
-            //await NavigationService.NavigateAsync("NavigationPage/OrderPage");
-
-            //var navigationService = this.Container.Resolve<INavigationService>();
-            //((NavigationPage)MainPage).RootPage.BindingContext = new MainPageViewModel(navigationService);            
+            InitializeComponent();           
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -62,10 +48,6 @@ namespace SipItApp
 
             var sipItService = RestService.For<IAPIService>("https://sipitapi.herokuapp.com");
             containerRegistry.RegisterInstance(sipItService);
-
-            // var sipItService = RestService.For<ISipItService>("https:/localhost:32770");
-            // containerRegistry.RegisterInstance(sipItService);
-
         }
     }
 }

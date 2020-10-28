@@ -17,7 +17,7 @@ namespace SipItApp.Views
         public MenuPage()
         {
             InitializeComponent();
-            //BindingContext = Startup.ServiceProvider.GetService<MenuPageViewModel>();
+            BindingContext = Startup.ServiceProvider.GetService<MenuPageViewModel>();
         }
     }
 }

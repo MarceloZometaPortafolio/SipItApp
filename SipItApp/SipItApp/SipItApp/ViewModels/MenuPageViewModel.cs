@@ -1,4 +1,6 @@
-﻿using Refit;
+﻿using Prism.DryIoc;
+using Prism.Ioc;
+using Refit;
 using SipItApp.Data;
 using SipItApp.Model;
 using SipItApp.Services;
@@ -19,15 +21,14 @@ namespace SipItApp.ViewModels
         //private List<String> mylist;
         public IEnumerable<Sanpetefavorites> MenuItems { get; set; }
 
-        public MenuPageViewModel(IAPIService service)
+        public MenuPageViewModel()
         {
             Console.WriteLine("Created new MenuPage");
 
             try
             {
                 Title = "Menu";
-                this.service = service ?? throw new ArgumentNullException(nameof(service));               
-
+                service = RestService.For<IAPIService>("https://sipitapi.herokuapp.com");                    
             }
             catch(Exception e)
             {
