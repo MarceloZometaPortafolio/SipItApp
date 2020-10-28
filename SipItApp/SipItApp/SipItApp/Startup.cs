@@ -73,8 +73,6 @@ namespace SipItApp
             services.AddTransient<LoginPageViewModel>();
             services.AddTransient<RegisterPageViewModel>();
 
-            var sipItService = RestService.For<IAPIService>("https://sipitapi.herokuapp.com");            
-
             //Another thing we can do is access variables from that json file
             var world = ctx.Configuration["Hello"];
         }       

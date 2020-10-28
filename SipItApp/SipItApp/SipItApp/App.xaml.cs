@@ -2,6 +2,7 @@
 using Prism.Ioc;
 using Prism.Navigation;
 using Refit;
+using SipItApp.Data;
 using SipItApp.Services;
 using SipItApp.ViewModels;
 using SipItApp.Views;
@@ -59,8 +60,11 @@ namespace SipItApp
             containerRegistry.RegisterForNavigation<MenuPage, MenuPageViewModel>();
             containerRegistry.RegisterForNavigation<AccountDetailPage, AccountDetailPageViewModel>();
 
-           // var sipItService = RestService.For<ISipItService>("https:/localhost:32770");
-           // containerRegistry.RegisterInstance(sipItService);
+            var sipItService = RestService.For<IAPIService>("https://sipitapi.herokuapp.com");
+            containerRegistry.RegisterInstance(sipItService);
+
+            // var sipItService = RestService.For<ISipItService>("https:/localhost:32770");
+            // containerRegistry.RegisterInstance(sipItService);
 
         }
     }

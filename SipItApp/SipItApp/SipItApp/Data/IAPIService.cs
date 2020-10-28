@@ -16,7 +16,7 @@ namespace SipItApp.Data
         Task<Base> GetFlavors();
 
         [Get("/menu/getsanpetefavorites")]
-        Task<Base> GetSanpeteFavorites();
+        Task<IEnumerable<Sanpetefavorites>> GetSanpeteFavorites();
 
         [Get("/menu/getsanpetefavoritesflavors")]
         Task<Base> GetSanpetefavoritesFlavors();

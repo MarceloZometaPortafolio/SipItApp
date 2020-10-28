@@ -18,6 +18,8 @@
             <Label Text="This is going to be your menu page"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Push me"
+                    Command="{Binding GetData}"/>
             <!--<ListView ItemsSource="{Binding MenuItems}">
                 <ListView.Header>
                     Menu

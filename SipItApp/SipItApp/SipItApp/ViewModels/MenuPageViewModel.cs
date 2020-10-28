@@ -1,4 +1,5 @@
-﻿using SipItApp.Data;
+﻿using Refit;
+using SipItApp.Data;
 using SipItApp.Model;
 using SipItApp.Services;
 using SipItApp.Shared;
@@ -16,17 +17,16 @@ namespace SipItApp.ViewModels
     {
         private readonly IAPIService service;        
         //private List<String> mylist;
-        //public IObservable<Sanpetefavorites> MenuItems { get; set; }
+        public IEnumerable<Sanpetefavorites> MenuItems { get; set; }
 
-        public MenuPageViewModel()
+        public MenuPageViewModel(IAPIService service)
         {
             Console.WriteLine("Created new MenuPage");
 
             try
             {
                 Title = "Menu";
-            //this.service = service ?? throw new ArgumentNullException(nameof(service));            
-            //MenuItems = (IObservable<Sanpetefavorites>)service.GetSanpeteFavorites();
+                this.service = service ?? throw new ArgumentNullException(nameof(service));               
 
             }
             catch(Exception e)
@@ -62,6 +62,15 @@ namespace SipItApp.ViewModels
         {
             //backButton.Command.Execute(Console.WriteLine("I was called");
             await Shell.Current.GoToAsync($"//{pastRoute}/");
+        }));
+
+        private Command getData;
+
+        public Command GetData=> getData ?? (getData = new Command(async
+            () =>
+        {
+            //backButton.Command.Execute(Console.WriteLine("I was called");
+            MenuItems = await service.GetSanpeteFavorites();
         }));
     }
 }
